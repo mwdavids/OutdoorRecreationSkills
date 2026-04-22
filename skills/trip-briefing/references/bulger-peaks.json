@@ -940,22 +940,6 @@
     "prom_ft": 1261
   },
   {
-    "name": "Mount Lago",
-    "lat": 48.6736,
-    "lon": -120.4203,
-    "elevation_ft": 8745,
-    "nwac_zone_slug": "cascade-east-north",
-    "nearest_snotel": "515:WA:SNTL",
-    "bulger_rank": 31,
-    "ski_mountaineering": {
-      "viable": false,
-      "quality": "not viable",
-      "notes": "Dry east-side scramble; mostly talus, snow melts early on this Pasayten peak"
-    },
-    "climbed": true,
-    "prom_ft": 3268
-  },
-  {
     "name": "Oval Peak",
     "lat": 48.287086,
     "lon": -120.425138,
