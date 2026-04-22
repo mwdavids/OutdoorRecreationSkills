@@ -14,7 +14,7 @@
 
 ## Late-April access cheat-sheet (PNW)
 - SR 20 (N Cascades Hwy) **closed** Silver Star → Ross Dam until ~late May
-- Cascade River Rd: **open to gate ~1 mi short of Cascade Pass TH** in shoulder season (past Eldorado TH). Eldorado/Boston Basin/Sahale-arm approaches in play. Adds ~1 mi walk to Cascade Pass.
+- Cascade River Rd: gate location varies by season — check [NPS road conditions](https://www.nps.gov/noca/planyourvisit/road-conditions.htm) for current status. Eldorado TH typically accessible before Cascade Pass TH.
 - Mountain Loop Hwy through-road **closed** — Sloan/Three Fingers approaches limited
 - Phelps Creek (Maude/7FJ/Fernow) — gate often closed, adds ~3 mi
 - **Open year-round / early-season friendly:**
