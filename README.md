@@ -16,10 +16,9 @@ Generates peak-specific mountain trip briefings by gathering trip details and fe
 
 ## Reference Data
 
-> **Note:** These files are personalized to the repo owner's climbing history and objectives. If you're using these skills for yourself, update them with your own peak list, completion status, and home location.
+> **Note:** These files are personalized to the repo owner's climbing history and objectives. If you're using these skills for yourself, update them with your own peak list, completion status, and home location (North Bend, WA is the default).
 
-- **[climbing-profile.md](climbing-profile.md)** — Bulger list completion status (49/100 climbed), preferences, and seasonal access notes
-- **[bulger-peaks.json](skills/trip-briefing/references/bulger-peaks.json)** — Single source of truth for Bulger peaks: coordinates, elevation, NWAC zone, nearest SNOTEL, climbed status, ski notes, and larch scenery
+- **[bulger-peaks.json](skills/trip-briefing/references/bulger-peaks.json)** — Single source of truth for all 100 Bulger peaks: coordinates, elevation, NWAC zone, nearest SNOTEL, climbed status (49/100), ski mountaineering notes, prominence, and larch scenery
 
 ## Installation
 
