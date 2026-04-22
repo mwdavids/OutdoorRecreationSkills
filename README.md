@@ -19,8 +19,7 @@ Generates peak-specific mountain trip briefings by gathering trip details and fe
 > **Note:** These files are personalized to the repo owner's climbing history and objectives. If you're using these skills for yourself, update them with your own peak list, completion status, and home location.
 
 - **[climbing-profile.md](climbing-profile.md)** — Bulger list completion status (49/100 climbed), preferences, and seasonal access notes
-- **[bulger-peaks.json](skills/trip-briefing/references/bulger-peaks.json)** — Coordinates, elevation, NWAC zone, and nearest SNOTEL for ~100 Bulger peaks
-- **[my-bulger-queue.json](skills/cascade-mountain-weather/references/my-bulger-queue.json)** — Personal peak queue with climbed/unclimbed status
+- **[bulger-peaks.json](skills/trip-briefing/references/bulger-peaks.json)** — Single source of truth for Bulger peaks: coordinates, elevation, NWAC zone, nearest SNOTEL, climbed status, ski notes, and larch scenery
 
 ## Installation
 

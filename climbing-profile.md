@@ -9,7 +9,7 @@
 
 ## Bulger list status
 - **49 of 100 climbed** (as of 2026-04-20)
-- Full peak-by-peak status, best season, and ski mountaineering candidacy: see [`my-bulger-queue.json`](skills/cascade-mountain-weather/references/my-bulger-queue.json)
+- Full peak-by-peak status, best season, and ski mountaineering candidacy: see [`bulger-peaks.json`](skills/trip-briefing/references/bulger-peaks.json)
 - **Pattern:** Strong in Methow (mostly done), Wenatchee, eastern Pasayten. Weak in Skagit Range deep peaks, Central N Cascades alpine, Stehekin-access peaks.
 
 ## Late-April access cheat-sheet (PNW)
