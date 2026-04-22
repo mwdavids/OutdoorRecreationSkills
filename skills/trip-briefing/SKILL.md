@@ -108,17 +108,18 @@ Useful Cascade SNOTEL anchor stations by elevation band. **All triplets below ar
 
 | Station | Triplet | Elev (ft) | Useful for |
 |---------|---------|-----------|------------|
-| Sasse Ridge | 734:WA:SNTL | 4,340 | I-90 corridor, Snoqualmie zone |
-| Harts Pass | 515:WA:SNTL | 6,490 | Pasayten / Methow / Okanogan high country |
-| Paradise | 679:WA:SNTL | 5,150 | Mt Rainier south side |
-| Stevens Pass | 791:WA:SNTL | 3,940 | US 2 corridor, Stuart Range approaches |
 | Rex River | 911:WA:SNTL | 3,810 | Central west-side low approaches |
+| Stevens Pass | 791:WA:SNTL | 3,940 | US 2 corridor, Stuart Range approaches |
 | Wells Creek | 909:WA:SNTL | 4,040 | Baker / Shuksan |
 | Surprise Lakes | 804:WA:SNTL | 4,280 | South Cascades / Adams |
+| Sasse Ridge | 734:WA:SNTL | 4,340 | I-90 corridor, Snoqualmie zone |
+| Paradise | 679:WA:SNTL | 5,150 | Mt Rainier south side |
 | Mt Hood Test Site | 651:OR:SNTL | 5,380 | Mt Hood |
+| Lyman Lake | 606:WA:SNTL | 5,990 | Glacier Peak, Bonanza, Holden, Entiat/Chiwawa peaks |
+| Harts Pass | 515:WA:SNTL | 6,490 | Pasayten / Methow / Okanogan high country |
 
 **Stations that do NOT exist (do not use these triplets):**
-`540:WA:SNTL` (Lyman Lake — this is actually a CA station), `698:WA:SNTL` (Rainy Pass), `680:WA:SNTL` (Paradise #2), `737:WA:SNTL` (Stampede Pass), `717:WA:SNTL` (Salmon Meadows), `794:WA:SNTL` (Trinity), `1008:WA:SNTL` (Olympics). These were hallucinated in earlier versions of this skill. If a peak's `nearest_snotel` field references one of these, fall back to the nearest verified station from the table above.
+`540:WA:SNTL` (not Lyman Lake — 540 is a CA station; real Lyman Lake is `606:WA:SNTL`), `698:WA:SNTL` (Rainy Pass), `680:WA:SNTL` (Paradise #2), `737:WA:SNTL` (Stampede Pass), `717:WA:SNTL` (Salmon Meadows), `794:WA:SNTL` (Trinity), `1008:WA:SNTL` (Olympics). These were hallucinated in earlier versions of this skill. If a peak's `nearest_snotel` field references one of these, fall back to the nearest verified station from the table above.
 
 For approaches where no station sits at the right elevation, pick the closest pair that brackets it and **interpolate**.
 
