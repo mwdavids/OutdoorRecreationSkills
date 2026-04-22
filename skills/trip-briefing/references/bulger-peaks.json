@@ -29,8 +29,8 @@
   },
   {
     "name": "Little Tahoma",
-    "lat": 46.8486,
-    "lon": -121.7275,
+    "lat": 46.849553,
+    "lon": -121.712317,
     "elevation_ft": 11138,
     "nwac_zone_slug": "cascade-west-south",
     "nearest_snotel": "679:WA:SNTL",
@@ -71,8 +71,8 @@
   },
   {
     "name": "Bonanza Peak",
-    "lat": 48.1572,
-    "lon": -120.6535,
+    "lat": 48.238222,
+    "lon": -120.866384,
     "elevation_ft": 9511,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -93,7 +93,7 @@
     "lon": -120.9024,
     "elevation_ft": 9415,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 7,
     "ski_mountaineering": {
       "viable": true,
@@ -107,8 +107,8 @@
   },
   {
     "name": "Mount Fernow",
-    "lat": 48.0645,
-    "lon": -120.8001,
+    "lat": 48.162532,
+    "lon": -120.807554,
     "elevation_ft": 9249,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -130,8 +130,8 @@
   },
   {
     "name": "Mount Shuksan",
-    "lat": 48.8308,
-    "lon": -121.5925,
+    "lat": 48.831261,
+    "lon": -121.602831,
     "elevation_ft": 9131,
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "909:WA:SNTL",
@@ -144,8 +144,8 @@
   },
   {
     "name": "Mount Buckner",
-    "lat": 48.5285,
-    "lon": -121.0627,
+    "lat": 48.494261,
+    "lon": -120.999885,
     "elevation_ft": 9114,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -162,8 +162,8 @@
   },
   {
     "name": "Jack Mountain",
-    "lat": 48.7284,
-    "lon": -121.0402,
+    "lat": 48.772816,
+    "lon": -120.95638,
     "elevation_ft": 9066,
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "515:WA:SNTL",
@@ -180,8 +180,8 @@
   },
   {
     "name": "Mount Logan",
-    "lat": 48.4943,
-    "lon": -121,
+    "lat": 48.536727,
+    "lon": -120.95256,
     "elevation_ft": 9087,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -198,11 +198,11 @@
   },
   {
     "name": "Mount Goode",
-    "lat": 48.4389,
-    "lon": -120.8694,
+    "lat": 48.483051,
+    "lon": -120.911522,
     "elevation_ft": 9200,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 9,
     "ski_mountaineering": {
       "viable": true,
@@ -212,8 +212,8 @@
   },
   {
     "name": "North Gardner Mountain",
-    "lat": 48.4756,
-    "lon": -120.4519,
+    "lat": 48.515206,
+    "lon": -120.501679,
     "elevation_ft": 8956,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
@@ -232,8 +232,8 @@
   },
   {
     "name": "Copper Peak",
-    "lat": 48.0567,
-    "lon": -120.7356,
+    "lat": 48.174919,
+    "lon": -120.803479,
     "elevation_ft": 8966,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -255,8 +255,8 @@
   },
   {
     "name": "Mount Spickard",
-    "lat": 48.9564,
-    "lon": -121.2081,
+    "lat": 48.969574,
+    "lon": -121.24041,
     "elevation_ft": 8979,
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "909:WA:SNTL",
@@ -274,8 +274,8 @@
   },
   {
     "name": "Seven Fingered Jack",
-    "lat": 48.14,
-    "lon": -120.7519,
+    "lat": 48.150684,
+    "lon": -120.813988,
     "elevation_ft": 9100,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -296,11 +296,11 @@
   },
   {
     "name": "Black Peak",
-    "lat": 48.5375,
-    "lon": -120.8444,
+    "lat": 48.523595,
+    "lon": -120.816157,
     "elevation_ft": 8970,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 17,
     "ski_mountaineering": {
       "viable": true,
@@ -314,8 +314,8 @@
   },
   {
     "name": "Mount Maude",
-    "lat": 48.1203,
-    "lon": -120.7425,
+    "lat": 48.137351,
+    "lon": -120.803988,
     "elevation_ft": 9082,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -336,8 +336,8 @@
   },
   {
     "name": "Mount Redoubt",
-    "lat": 48.9494,
-    "lon": -121.29,
+    "lat": 48.95782,
+    "lon": -121.300744,
     "elevation_ft": 8969,
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "909:WA:SNTL",
@@ -355,11 +355,11 @@
   },
   {
     "name": "Dome Peak",
-    "lat": 48.2936,
-    "lon": -121.0458,
+    "lat": 48.303636,
+    "lon": -121.02913,
     "elevation_ft": 8920,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "817:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 21,
     "best_seasons": [
       "summer"
@@ -373,8 +373,8 @@
   },
   {
     "name": "Eldorado Peak",
-    "lat": 48.5672,
-    "lon": -121.1469,
+    "lat": 48.537625,
+    "lon": -121.134283,
     "elevation_ft": 8868,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -387,8 +387,8 @@
   },
   {
     "name": "Forbidden Peak",
-    "lat": 48.5106,
-    "lon": -121.0656,
+    "lat": 48.511516,
+    "lon": -121.057892,
     "elevation_ft": 8815,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -405,11 +405,11 @@
   },
   {
     "name": "Dragontail Peak",
-    "lat": 47.476,
-    "lon": -120.834,
+    "lat": 47.47888,
+    "lon": -120.83319,
     "elevation_ft": 8840,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 26,
     "best_seasons": [
       "summer",
@@ -441,11 +441,11 @@
   },
   {
     "name": "Colchuck Peak",
-    "lat": 47.4881,
-    "lon": -120.8319,
+    "lat": 47.478319,
+    "lon": -120.846326,
     "elevation_ft": 8705,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 33,
     "ski_mountaineering": {
       "viable": true,
@@ -459,8 +459,8 @@
   },
   {
     "name": "Clark Mountain",
-    "lat": 48.2558,
-    "lon": -120.8806,
+    "lat": 48.050005,
+    "lon": -120.968577,
     "elevation_ft": 8602,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -482,11 +482,11 @@
   },
   {
     "name": "Cannon Mountain",
-    "lat": 48.3236,
-    "lon": -120.5417,
+    "lat": 47.5028,
+    "lon": -120.80247,
     "elevation_ft": 8638,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 38,
     "ski_mountaineering": {
       "viable": false,
@@ -500,7 +500,7 @@
     "lon": -121.1231,
     "elevation_ft": 8288,
     "nwac_zone_slug": "cascade-west-north-baker",
-    "nearest_snotel": "909:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -532,7 +532,7 @@
     "lon": -121.5064,
     "elevation_ft": 6135,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -545,7 +545,7 @@
     "lon": -123.7106,
     "elevation_ft": 7980,
     "nwac_zone_slug": "olympics",
-    "nearest_snotel": "679:WA:SNTL",
+    "nearest_snotel": "911:WA:SNTL",
     "nearest_snotel_note": "No verified Olympics SNOTEL; using Paradise (5150') as rough proxy — interpret with caution for this west-side peak",
     "ski_mountaineering": {
       "viable": true,
@@ -555,8 +555,8 @@
   },
   {
     "name": "Silver Star Mountain",
-    "lat": 48.53,
-    "lon": -120.5589,
+    "lat": 48.547945,
+    "lon": -120.585127,
     "elevation_ft": 8876,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
@@ -591,7 +591,7 @@
     "lon": -121.2394,
     "elevation_ft": 7270,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -600,8 +600,8 @@
   },
   {
     "name": "Mount Formidable",
-    "lat": 48.3322,
-    "lon": -121.0417,
+    "lat": 48.416236,
+    "lon": -121.067333,
     "elevation_ft": 8325,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -619,8 +619,8 @@
   },
   {
     "name": "Snowfield Peak",
-    "lat": 48.5853,
-    "lon": -121.1233,
+    "lat": 48.635304,
+    "lon": -121.138703,
     "elevation_ft": 8347,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -650,7 +650,7 @@
     "lon": -121.0625,
     "elevation_ft": 8440,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "817:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 68,
     "best_seasons": [
       "summer"
@@ -687,11 +687,11 @@
   },
   {
     "name": "Argonaut Peak",
-    "lat": 47.5072,
-    "lon": -120.9333,
+    "lat": 47.470119,
+    "lon": -120.861477,
     "elevation_ft": 8453,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 66,
     "ski_mountaineering": {
       "viable": true,
@@ -701,11 +701,11 @@
   },
   {
     "name": "Sherpa Peak",
-    "lat": 47.4822,
-    "lon": -120.8881,
+    "lat": 47.47182,
+    "lon": -120.88874,
     "elevation_ft": 8605,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 41,
     "best_seasons": [
       "summer",
@@ -724,8 +724,8 @@
   },
   {
     "name": "Star Peak",
-    "lat": 48.2761,
-    "lon": -120.7944,
+    "lat": 48.250748,
+    "lon": -120.428514,
     "elevation_ft": 8520,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -746,7 +746,7 @@
     "lon": -120.8117,
     "elevation_ft": 8520,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 51,
     "ski_mountaineering": {
       "viable": false,
@@ -760,11 +760,11 @@
   },
   {
     "name": "McClellan Peak",
-    "lat": 47.5,
-    "lon": -120.8044,
+    "lat": 47.47015,
+    "lon": -120.78581,
     "elevation_ft": 8364,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 87,
     "ski_mountaineering": {
       "viable": false,
@@ -801,8 +801,8 @@
   },
   {
     "name": "Fortress Mountain",
-    "lat": 48.0489,
-    "lon": -120.7289,
+    "lat": 48.159764,
+    "lon": -120.933182,
     "elevation_ft": 8674,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -819,8 +819,8 @@
   },
   {
     "name": "Chiwawa Mountain",
-    "lat": 48.0606,
-    "lon": -120.7653,
+    "lat": 48.163445,
+    "lon": -120.907559,
     "elevation_ft": 8459,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -837,8 +837,8 @@
   },
   {
     "name": "Dumbell Mountain",
-    "lat": 48.0422,
-    "lon": -120.6753,
+    "lat": 48.18012,
+    "lon": -120.85858,
     "elevation_ft": 8421,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -869,11 +869,11 @@
   },
   {
     "name": "Oval Peak",
-    "lat": 48.4056,
-    "lon": -120.5444,
+    "lat": 48.287086,
+    "lon": -120.425138,
     "elevation_ft": 8795,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 28,
     "ski_mountaineering": {
       "viable": false,
@@ -883,8 +883,8 @@
   },
   {
     "name": "Cardinal Peak",
-    "lat": 48.2889,
-    "lon": -120.575,
+    "lat": 48.101958,
+    "lon": -120.613167,
     "elevation_ft": 8590,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -906,8 +906,8 @@
   },
   {
     "name": "Klawatti Peak",
-    "lat": 48.5489,
-    "lon": -121.0958,
+    "lat": 48.554512,
+    "lon": -121.104563,
     "elevation_ft": 8485,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -920,11 +920,11 @@
   },
   {
     "name": "Reynolds Peak",
-    "lat": 48.4417,
-    "lon": -120.5417,
+    "lat": 48.372291,
+    "lon": -120.562985,
     "elevation_ft": 8512,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 53,
     "ski_mountaineering": {
       "viable": false,
@@ -934,8 +934,8 @@
   },
   {
     "name": "Devore Peak",
-    "lat": 48.0756,
-    "lon": -120.6639,
+    "lat": 48.2768,
+    "lon": -120.7651,
     "elevation_ft": 8360,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -956,8 +956,8 @@
   },
   {
     "name": "Martin Peak",
-    "lat": 48.1194,
-    "lon": -120.7961,
+    "lat": 48.241679,
+    "lon": -120.815844,
     "elevation_ft": 8511,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -978,8 +978,8 @@
   },
   {
     "name": "Emerald Peak",
-    "lat": 48.14,
-    "lon": -120.8158,
+    "lat": 48.115151,
+    "lon": -120.628968,
     "elevation_ft": 8422,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -1018,8 +1018,8 @@
   },
   {
     "name": "Mount Lago",
-    "lat": 48.6736,
-    "lon": -120.4203,
+    "lat": 48.82932,
+    "lon": -120.537451,
     "elevation_ft": 8745,
     "nwac_zone_slug": "cascade-east-north",
     "nearest_snotel": "515:WA:SNTL",
@@ -1076,7 +1076,7 @@
     "lon": -121.3347,
     "elevation_ft": 7835,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
@@ -1089,7 +1089,7 @@
     "lon": -121.6072,
     "elevation_ft": 6852,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1102,7 +1102,7 @@
     "lon": -121.4964,
     "elevation_ft": 6854,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1150,8 +1150,8 @@
   },
   {
     "name": "Austera Peak",
-    "lat": 48.5561,
-    "lon": -121.0992,
+    "lat": 48.568588,
+    "lon": -121.101423,
     "elevation_ft": 8334,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -1173,7 +1173,7 @@
     "lon": -121.1269,
     "elevation_ft": 7931,
     "nwac_zone_slug": "cascade-west-north-baker",
-    "nearest_snotel": "909:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1186,7 +1186,7 @@
     "lon": -121.035,
     "elevation_ft": 8066,
     "nwac_zone_slug": "cascade-west-north-baker",
-    "nearest_snotel": "909:WA:SNTL",
+    "nearest_snotel": "515:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1221,8 +1221,8 @@
   },
   {
     "name": "Custer Peak",
-    "lat": 48.9481,
-    "lon": -121.2531,
+    "lat": 48.988938,
+    "lon": -121.249776,
     "elevation_ft": 8630,
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "909:WA:SNTL",
@@ -1261,7 +1261,7 @@
     "lon": -121.0917,
     "elevation_ft": 7430,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
@@ -1270,8 +1270,8 @@
   },
   {
     "name": "Kimtah Peak",
-    "lat": 48.4217,
-    "lon": -120.9361,
+    "lat": 48.585121,
+    "lon": -120.910853,
     "elevation_ft": 8600,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -1293,7 +1293,7 @@
     "lon": -121.0361,
     "elevation_ft": 7440,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1306,7 +1306,7 @@
     "lon": -121.0836,
     "elevation_ft": 7598,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
@@ -1328,11 +1328,11 @@
   },
   {
     "name": "Raven Ridge",
-    "lat": 48.9592,
-    "lon": -121.3592,
+    "lat": 48.23788,
+    "lon": -120.33185,
     "elevation_ft": 7990,
     "nwac_zone_slug": "cascade-west-north-baker",
-    "nearest_snotel": "909:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 49,
     "best_seasons": [
       "summer",
@@ -1373,8 +1373,8 @@
   },
   {
     "name": "Ptarmigan Peak",
-    "lat": 48.2792,
-    "lon": -121.1333,
+    "lat": 48.866313,
+    "lon": -120.53255,
     "elevation_ft": 7452,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "515:WA:SNTL",
@@ -1391,7 +1391,7 @@
     "lon": -121.0756,
     "elevation_ft": 8128,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
@@ -1422,11 +1422,11 @@
   },
   {
     "name": "Horseshoe Peak",
-    "lat": 48.0578,
-    "lon": -120.8136,
+    "lat": 48.494064,
+    "lon": -121.008092,
     "elevation_ft": 8480,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 60,
     "best_seasons": [
       "spring",
@@ -1449,7 +1449,7 @@
     "lon": -121.2286,
     "elevation_ft": 7292,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1462,7 +1462,7 @@
     "lon": -121.1994,
     "elevation_ft": 8504,
     "nwac_zone_slug": "cascade-west-north-baker",
-    "nearest_snotel": "909:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 56,
     "best_seasons": [
       "summer"
@@ -1480,7 +1480,7 @@
     "lon": -121.1119,
     "elevation_ft": 8151,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1489,8 +1489,8 @@
   },
   {
     "name": "Katsuk Peak",
-    "lat": 48.4764,
-    "lon": -120.9319,
+    "lat": 48.4911,
+    "lon": -121.03853,
     "elevation_ft": 8680,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -1508,8 +1508,8 @@
   },
   {
     "name": "Remmel Mountain",
-    "lat": 48.8792,
-    "lon": -120.1758,
+    "lat": 48.923203,
+    "lon": -120.196762,
     "elevation_ft": 8685,
     "nwac_zone_slug": "cascade-east-north",
     "nearest_snotel": "515:WA:SNTL",
@@ -1527,11 +1527,11 @@
   },
   {
     "name": "Lake Mountain",
-    "lat": 48.07,
-    "lon": -120.6086,
+    "lat": 48.78186,
+    "lon": -120.51176,
     "elevation_ft": 8340,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "515:WA:SNTL",
     "bulger_rank": 84,
     "best_seasons": [
       "summer",
@@ -1550,11 +1550,11 @@
   },
   {
     "name": "Pinnacle Mountain",
-    "lat": 48.4822,
-    "lon": -120.6853,
+    "lat": 48.060669,
+    "lon": -120.984974,
     "elevation_ft": 8402,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 77,
     "best_seasons": [
       "summer",
@@ -1572,11 +1572,11 @@
   },
   {
     "name": "Mount Carru",
-    "lat": 48.3267,
-    "lon": -120.8733,
+    "lat": 48.831994,
+    "lon": -120.554332,
     "elevation_ft": 8595,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "515:WA:SNTL",
     "bulger_rank": 45,
     "ski_mountaineering": {
       "viable": true,
@@ -1594,7 +1594,7 @@
     "lon": -120.5483,
     "elevation_ft": 7960,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1624,7 +1624,7 @@
     "lon": -120.7219,
     "elevation_ft": 8122,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
@@ -1650,7 +1650,7 @@
     "lon": -120.8081,
     "elevation_ft": 8321,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 99,
     "best_seasons": [
       "summer"
@@ -1672,7 +1672,7 @@
     "lon": -120.8442,
     "elevation_ft": 8520,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1694,8 +1694,8 @@
   },
   {
     "name": "Gardner Mountain",
-    "lat": 48.45,
-    "lon": -120.4331,
+    "lat": 48.506947,
+    "lon": -120.488139,
     "elevation_ft": 8897,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
@@ -1714,8 +1714,8 @@
   },
   {
     "name": "Boston Peak",
-    "lat": 48.5147,
-    "lon": -121.0478,
+    "lat": 48.49547,
+    "lon": -121.03607,
     "elevation_ft": 8894,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -1733,8 +1733,8 @@
   },
   {
     "name": "Robinson Mountain",
-    "lat": 48.4647,
-    "lon": -120.3508,
+    "lat": 48.726725,
+    "lon": -120.574955,
     "elevation_ft": 8726,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
@@ -1747,8 +1747,8 @@
   },
   {
     "name": "Cathedral Peak",
-    "lat": 48.5703,
-    "lon": -120.2778,
+    "lat": 48.98926,
+    "lon": -120.188954,
     "elevation_ft": 8601,
     "nwac_zone_slug": "cascade-east-north",
     "nearest_snotel": "515:WA:SNTL",
@@ -1766,8 +1766,8 @@
   },
   {
     "name": "Monument Peak",
-    "lat": 48.1083,
-    "lon": -120.475,
+    "lat": 48.7943,
+    "lon": -120.54227,
     "elevation_ft": 8592,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
@@ -1785,8 +1785,8 @@
   },
   {
     "name": "Mount Osceola",
-    "lat": 48.3186,
-    "lon": -120.4794,
+    "lat": 48.830934,
+    "lon": -120.576645,
     "elevation_ft": 8587,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
@@ -1799,11 +1799,11 @@
   },
   {
     "name": "Buck Mountain",
-    "lat": 48.3028,
-    "lon": -120.5278,
+    "lat": 48.093705,
+    "lon": -120.912231,
     "elevation_ft": 8528,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 50,
     "ski_mountaineering": {
       "viable": false,
@@ -1813,11 +1813,11 @@
   },
   {
     "name": "Storm King Mountain",
-    "lat": 48.6792,
-    "lon": -120.4028,
+    "lat": 47.48918,
+    "lon": -120.8027,
     "elevation_ft": 8520,
     "nwac_zone_slug": "cascade-east-north",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 51,
     "best_seasons": [
       "summer"
@@ -1831,8 +1831,8 @@
   },
   {
     "name": "Dark Peak",
-    "lat": 48.2611,
-    "lon": -120.9139,
+    "lat": 48.254762,
+    "lon": -120.881823,
     "elevation_ft": 8504,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -1853,8 +1853,8 @@
   },
   {
     "name": "Cashmere Mountain",
-    "lat": 47.5017,
-    "lon": -120.7306,
+    "lat": 47.558729,
+    "lon": -120.847035,
     "elevation_ft": 8501,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "791:WA:SNTL",
@@ -1871,8 +1871,8 @@
   },
   {
     "name": "Mox Peak NW",
-    "lat": 48.8292,
-    "lon": -121.2083,
+    "lat": 48.948747,
+    "lon": -121.262656,
     "elevation_ft": 8480,
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "909:WA:SNTL",
@@ -1889,8 +1889,8 @@
   },
   {
     "name": "Big Craggy Peak",
-    "lat": 48.6458,
-    "lon": -120.3611,
+    "lat": 48.763019,
+    "lon": -120.327961,
     "elevation_ft": 8470,
     "nwac_zone_slug": "cascade-east-north",
     "nearest_snotel": "515:WA:SNTL",
@@ -1921,11 +1921,11 @@
   },
   {
     "name": "Hoodoo Peak",
-    "lat": 48.2167,
-    "lon": -120.8861,
+    "lat": 48.81287,
+    "lon": -120.458255,
     "elevation_ft": 8464,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "515:WA:SNTL",
     "bulger_rank": 63,
     "best_seasons": [
       "summer",
@@ -1944,8 +1944,8 @@
   },
   {
     "name": "Tower Mountain",
-    "lat": 48.6417,
-    "lon": -120.4333,
+    "lat": 48.58847,
+    "lon": -120.704216,
     "elevation_ft": 8444,
     "nwac_zone_slug": "cascade-east-north",
     "nearest_snotel": "515:WA:SNTL",
@@ -1990,7 +1990,7 @@
     "lon": -120.8042,
     "elevation_ft": 8440,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 68,
     "ski_mountaineering": {
       "viable": false,
@@ -2004,11 +2004,11 @@
   },
   {
     "name": "Dorado Needle",
-    "lat": 48.5642,
-    "lon": -121.1111,
+    "lat": 47.46817,
+    "lon": -120.81453,
     "elevation_ft": 8440,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 68,
     "ski_mountaineering": {
       "viable": false,
@@ -2018,11 +2018,11 @@
   },
   {
     "name": "Greenwood Mountain",
-    "lat": 47.4917,
-    "lon": -120.9117,
+    "lat": 48.185376,
+    "lon": -120.85079,
     "elevation_ft": 8415,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 74,
     "ski_mountaineering": {
       "viable": false,
@@ -2032,8 +2032,8 @@
   },
   {
     "name": "Saska Peak",
-    "lat": 48.0222,
-    "lon": -120.7778,
+    "lat": 48.112242,
+    "lon": -120.64246,
     "elevation_ft": 8404,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -2054,8 +2054,8 @@
   },
   {
     "name": "Blackcap Mountain",
-    "lat": 48.1972,
-    "lon": -120.5833,
+    "lat": 48.8037,
+    "lon": -120.54293,
     "elevation_ft": 8397,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
@@ -2096,8 +2096,8 @@
   },
   {
     "name": "West Craggy Peak",
-    "lat": 48.6264,
-    "lon": -120.3722,
+    "lat": 48.762425,
+    "lon": -120.346174,
     "elevation_ft": 8366,
     "nwac_zone_slug": "cascade-east-north",
     "nearest_snotel": "515:WA:SNTL",
@@ -2110,8 +2110,8 @@
   },
   {
     "name": "Amphitheater Mountain",
-    "lat": 48.5792,
-    "lon": -120.2194,
+    "lat": 48.97566,
+    "lon": -120.192342,
     "elevation_ft": 8358,
     "nwac_zone_slug": "cascade-east-north",
     "nearest_snotel": "515:WA:SNTL",
@@ -2128,11 +2128,11 @@
   },
   {
     "name": "Windy Peak",
-    "lat": 48.6028,
-    "lon": -120.2833,
+    "lat": 46.191401,
+    "lon": -122.195551,
     "elevation_ft": 8334,
     "nwac_zone_slug": "cascade-east-north",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "804:WA:SNTL",
     "bulger_rank": 92,
     "best_seasons": [
       "summer",
@@ -2147,8 +2147,8 @@
   },
   {
     "name": "Cosho Peak",
-    "lat": 48.4972,
-    "lon": -121.0083,
+    "lat": 48.588914,
+    "lon": -120.927825,
     "elevation_ft": 8332,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -2166,11 +2166,11 @@
   },
   {
     "name": "Big Snagtooth",
-    "lat": 48.4639,
-    "lon": -120.8917,
+    "lat": 48.534701,
+    "lon": -120.589549,
     "elevation_ft": 8330,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "515:WA:SNTL",
     "bulger_rank": 95,
     "best_seasons": [
       "spring",
@@ -2189,7 +2189,7 @@
     "lon": -120.9333,
     "elevation_ft": 8321,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "791:WA:SNTL",
+    "nearest_snotel": "734:WA:SNTL",
     "bulger_rank": 97,
     "ski_mountaineering": {
       "viable": false,
@@ -2199,8 +2199,8 @@
   },
   {
     "name": "Abernathy Peak",
-    "lat": 48.1083,
-    "lon": -120.6778,
+    "lat": 48.17576,
+    "lon": -120.35806,
     "elevation_ft": 8321,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -2217,8 +2217,8 @@
   },
   {
     "name": "Flora Mountain",
-    "lat": 48.3917,
-    "lon": -120.7778,
+    "lat": 48.29701,
+    "lon": -120.750681,
     "elevation_ft": 8320,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -2239,11 +2239,11 @@
   },
   {
     "name": "Courtney Peak",
-    "lat": 48.1972,
-    "lon": -120.4528,
+    "lat": 48.12663,
+    "lon": -120.75995,
     "elevation_ft": 8392,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 81,
     "ski_mountaineering": {
       "viable": false,
@@ -2253,11 +2253,11 @@
   },
   {
     "name": "Martin Peak (Methow)",
-    "lat": 48.4375,
-    "lon": -120.3694,
+    "lat": 48.18861,
+    "lon": -120.35101,
     "elevation_ft": 8375,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 83,
     "ski_mountaineering": {
       "viable": false,
