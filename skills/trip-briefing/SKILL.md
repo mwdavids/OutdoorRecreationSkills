@@ -100,35 +100,46 @@ Precise times matter for departure planning, so calculate when possible.
 
 The single nearest SNOTEL is rarely enough — for any approach, you need to know **where on the elevation profile the snow actually starts and how fast it's melting**. Fetch SNOTEL as a panel of 3 stations bracketing the trip's elevation range, with the last 14 days of data.
 
-**Step 1 — Build the station panel.** Start from the peak's `nearest_snotel`, then add at least one station materially **lower** and one materially **higher** than the trip elevation range when available. Use the NRCS station map for selection: `https://www.nrcs.usda.gov/wps/portal/wcc/home/quicklinks/imap/`.
+**Step 1 — Build the station panel.** Start from the peak's `nearest_snotel`, then add at least one station materially **lower** and one materially **higher** than the trip elevation range when available. Use the NRCS station map for selection: `https://nwcc-apps.sc.egov.usda.gov/imap/`.
 
-Useful Cascade SNOTEL anchor stations by elevation band (memorize these — they cover the most common Bulger approaches):
+**⚠️ Many peaks in `bulger-peaks.json` default to `515:WA:SNTL` (Harts Pass, 6,490')** because it was used as a catch-all. Harts Pass is excellent for Methow/Pasayten peaks but is a poor proxy for peaks on the west side of the crest (Dome, Glacier Peak west approaches, Eldorado, etc.) or peaks far south. When building the station panel, always sanity-check: is the `nearest_snotel` actually geographically close to the approach? If not, pick a better station from the anchor table based on the approach drainage and elevation.
+
+Useful Cascade SNOTEL anchor stations by elevation band. **All triplets below are verified working as of April 2026.** Do NOT invent station triplets — if you need a station not listed here, use the NRCS Interactive Map (`https://nwcc-apps.sc.egov.usda.gov/imap/`) to look up the correct triplet and verify it returns data before citing it.
 
 | Station | Triplet | Elev (ft) | Useful for |
 |---------|---------|-----------|------------|
-| Stevens Creek | 734:WA:SNTL | 3,400 | West-side low approaches |
-| Lyman Lake | 540:WA:SNTL | 5,900 | Glacier Peak, Holden, Bonanza approaches |
-| Rainy Pass | 698:WA:SNTL | 4,800 | SR 20 corridor, Black Pk, Cutthroat |
+| Sasse Ridge | 734:WA:SNTL | 4,340 | I-90 corridor, Snoqualmie zone |
 | Harts Pass | 515:WA:SNTL | 6,490 | Pasayten / Methow / Okanogan high country |
-| Park Creek Ridge | 679:WA:SNTL | 4,650 | Mt Rainier south side approaches |
-| Paradise | 680:WA:SNTL | 5,120 | Rainier south side high |
-| Stampede Pass | 737:WA:SNTL | 3,860 | I-90 corridor, Snoqualmie zone |
-| Stevens Pass | 791:WA:SNTL | 4,070 | US 2 corridor, Stuart Range east approaches |
-| Fish Lake | 911:WA:SNTL | 3,400 | Wenatchee Mtns / Icicle |
-| Trinity | 794:WA:SNTL | 3,520 | Glacier Peak / Suiattle approaches (W) |
-| Wells Creek | 909:WA:SNTL | 4,150 | Baker / Shuksan |
-| Salmon Meadows | 717:WA:SNTL | 4,500 | Pasayten / N Okanogan low |
-| Tunnel Avalanche | 791:WA:SNTL | 3,800 | Stevens Pass corridor |
+| Paradise | 679:WA:SNTL | 5,150 | Mt Rainier south side |
+| Stevens Pass | 791:WA:SNTL | 3,940 | US 2 corridor, Stuart Range approaches |
+| Rex River | 911:WA:SNTL | 3,810 | Central west-side low approaches |
+| Wells Creek | 909:WA:SNTL | 4,040 | Baker / Shuksan |
+| Surprise Lakes | 804:WA:SNTL | 4,280 | South Cascades / Adams |
+| Mt Hood Test Site | 651:OR:SNTL | 5,380 | Mt Hood |
+
+**Stations that do NOT exist (do not use these triplets):**
+`540:WA:SNTL` (Lyman Lake — this is actually a CA station), `698:WA:SNTL` (Rainy Pass), `680:WA:SNTL` (Paradise #2), `737:WA:SNTL` (Stampede Pass), `717:WA:SNTL` (Salmon Meadows), `794:WA:SNTL` (Trinity), `1008:WA:SNTL` (Olympics). These were hallucinated in earlier versions of this skill. If a peak's `nearest_snotel` field references one of these, fall back to the nearest verified station from the table above.
 
 For approaches where no station sits at the right elevation, pick the closest pair that brackets it and **interpolate**.
 
-**Step 2 — Fetch 14 days of data per station.** Use the multi-element CSV endpoint with a date range:
+**Step 2 — Fetch 14 days of data per station.** Use the **CSV** endpoint (note: `view_csv`, NOT `view`):
 
 ```
-https://wcc.sc.egov.usda.gov/reportGenerator/view/customSingleStationReport/daily/start_of_period/{STATION_TRIPLET}|id=%22%22|name/-14,0/WTEQ::value,WTEQ::pctOfMedian_1991,SNWD::value,TAVG::value?fitToScreen=false
+https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/{STATION_TRIPLET}%7Cid=%22%22%7Cname/-14,0/WTEQ::value,WTEQ::pctOfMedian_1991,SNWD::value,TAVG::value?fitToScreen=false
 ```
+
+**URL construction rules:**
+- Use `view_csv` (not `view`) — the `view` variant returns an HTML page that is hard to parse
+- The pipe characters `|` in the triplet must be URL-encoded as `%7C`
+- The triplet colon `:` must be URL-encoded as `%3A` in some contexts, but the report generator accepts both
+- Example for Harts Pass: `https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/515:WA:SNTL%7Cid=%22%22%7Cname/-14,0/WTEQ::value,WTEQ::pctOfMedian_1991,SNWD::value,TAVG::value?fitToScreen=false`
 
 This returns the last 14 days of: SWE (in), SWE % median, Snow Depth (in), Avg Air Temp (°F).
+
+**Error handling:** If the response contains `Stations do not exist`, the triplet is invalid. Do NOT present made-up data. Instead:
+1. Tell the user which station failed
+2. Fall back to the nearest verified station from the anchor table above
+3. Note the elevation difference so the user can mentally adjust
 
 **Step 3 — Compute and report per station:**
 - **Today's values:** SWE, snow depth, % of 1991–2020 median
@@ -150,18 +161,38 @@ The pattern of the panel is what matters more than any single number — it tell
 
 ### 2e. NWAC Avalanche Forecast
 
-If the peak has an `nwac_zone_slug`, fetch the avalanche forecast:
+**⚠️ The NWAC v2 JSON API is frozen at March 2020 and returns stale data. Do NOT use it.** The old endpoint `nwac.us/api/v2/avalanche-region-forecast/` always returns a 2020-03-24 forecast regardless of query parameters. The v3 API requires authentication. Until NWAC publishes a new public API, use the following approach:
 
+**Primary method — scrape the forecast page:**
+
+Fetch the NWAC forecast zone page directly:
 ```
-https://nwac.us/api/v2/avalanche-region-forecast/?format=json&limit=1&zones__slug={ZONE_SLUG}
+https://nwac.us/avalanche-forecast/#{ZONE_SLUG}
 ```
 
-Extract from the response (`objects[0]`):
-- `day1_danger_elev_high`, `day1_danger_elev_middle`, `day1_danger_elev_low` — danger ratings by elevation band
-- `day2_danger_elev_high/mid/low` — next day
-- `bottom_line_summary` — forecaster's summary (strip HTML tags)
-- `problems[]` — each has `problem_type.name`, `likelihood`, `minimum_size`, `maximum_size`, `problem_description`
-- `snowpack_discussion` — deeper analysis
+The zone slugs used in `bulger-peaks.json` map to these NWAC zones:
+- `cascade-west-south` → West Slopes South
+- `cascade-west-central` → West Slopes Central
+- `cascade-west-north-baker` → West Slopes North
+- `cascade-east-central` → East Slopes Central
+- `cascade-east-north` → East Slopes North
+- `cascade-east-south` → East Slopes South
+- `olympics` → Olympics
+- `mt-hood` → Mt Hood
+- `stevens-pass` → Stevens Pass
+- `snoqualmie-pass` → Snoqualmie Pass
+
+From the page, extract:
+- **Danger rating** (Low / Moderate / Considerable / High / Extreme) by elevation band
+- **Issue date and author** — check this is recent (within 1-2 days). NWAC forecasts are typically issued daily during winter/spring, but may go to "General Avalanche Information" in late spring when the forecast season ends.
+- **Avalanche problems** and bottom-line summary
+
+**Staleness check:** If the forecast issue date is more than 3 days old, warn the user explicitly: "The NWAC forecast was last issued on [date] — it may not reflect current conditions. Check nwac.us directly." In late April through October, NWAC often stops issuing zone-specific forecasts and switches to general advisories.
+
+**Fallback — direct link:** If scraping fails or returns no useful data, provide the direct link and ask the user to check manually:
+```
+https://nwac.us/avalanche-forecast/
+```
 
 **Safety boundary:** If the avalanche danger is **High** or **Extreme** at the relevant elevation band for the trip style, flag this prominently in the briefing. For ski mountaineering and backcountry skiing, this is a hard constraint — recommend postponing.
 
@@ -195,7 +226,7 @@ If this data is missing for the chosen peak, *ask the user* for trailhead + appr
 
 **Signals to combine:**
 
-1. **Multi-station SNOTEL panel (from 2d).** The station(s) whose elevation is closest to each breakpoint on the approach profile. If Rainy Pass (4,800') shows 41" depth and Salmon Mdws (4,500') shows 0", the snow line is somewhere between and weather pattern determines which side of 4,500' it falls.
+1. **Multi-station SNOTEL panel (from 2d).** The station(s) whose elevation is closest to each breakpoint on the approach profile. If Harts Pass (6,490') shows 95" depth and Stevens Pass (3,940') shows 35", the snow line is somewhere in between and weather pattern determines where it falls on the approach.
 
 2. **Estimated melt-line from recent observed freezing levels.** Fetch `https://www.weather.gov/sew/` "Observed Freezing Levels" and the NWS AFD. The snow line on the ground lags the freezing level by ~1,000–2,000 ft because old snowpack persists below the melt zone during transitions. Rule of thumb: *ground snow line ≈ average freezing level over the last 7 days − 1,500 ft on sunny aspects, − 500 ft on shaded/north aspects.*
 
@@ -211,8 +242,8 @@ If this data is missing for the chosen peak, *ask the user* for trailhead + appr
 ```
 | Elevation band       | Condition                         | Confidence | Source |
 |----------------------|-----------------------------------|------------|--------|
-| TH to 3,500'         | Dry / bare                        | High       | WTA 4/15, Salmon Mdws SNOTEL 0" |
-| 3,500' – 5,000'      | Patchy, melted out on S aspects   | Medium     | Rainy Pass SNOTEL + lapse-rate est. |
+| TH to 3,500'         | Dry / bare                        | High       | WTA 4/15, Stevens Pass SNOTEL bare |
+| 3,500' – 5,000'      | Patchy, melted out on S aspects   | Medium     | Stevens Pass SNOTEL + lapse-rate est. |
 | 5,000' – 6,500'      | Intermittent 50–70% coverage      | Medium     | Recent NWAC obs, Harts Pass trend |
 | Above 6,500'         | Continuous snow, soft afternoons  | High       | Harts Pass SNOTEL 88" depth |
 ```

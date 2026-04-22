@@ -5,7 +5,7 @@ Custom GitHub Copilot / Claude skills for Pacific Northwest outdoor recreation p
 ## Skills
 
 ### [cascade-mountain-weather](skills/cascade-mountain-weather/SKILL.md)
-Analyzes mountain weather forecasts for the Washington Cascade Mountains and recommends outdoor activities based on conditions. Fetches live data from NWS, NWAC, WSDOT, UW WRF, and USGS to produce opinionated weekend briefings ranked by activity (peak bagging, ski mountaineering, backcountry skiing, trail running, rock climbing, whitewater rafting).
+Analyzes mountain weather forecasts for the Washington Cascade Mountains and recommends outdoor activities based on conditions. Fetches live data from NWS, NWAC, WSDOT, UW WRF, and USGS to *produce opinionated weekend briefings ranked by activity* (peak bagging, ski mountaineering, backcountry skiing, trail running, rock climbing, whitewater rafting).
 
 **Triggers:** mountain weather, weekend plans, what to do outdoors, trip planning for the Cascades, NWAC, avalanche forecast, "what should I do this weekend"
 
