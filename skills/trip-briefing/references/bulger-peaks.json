@@ -148,7 +148,7 @@
     "lon": -121.0627,
     "elevation_ft": 9114,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 11,
     "best_seasons": [
       "spring"
@@ -184,7 +184,7 @@
     "lon": -121,
     "elevation_ft": 9087,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 13,
     "best_seasons": [
       "spring"
@@ -359,7 +359,7 @@
     "lon": -121.0458,
     "elevation_ft": 8920,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 21,
     "best_seasons": [
       "summer"
@@ -377,7 +377,7 @@
     "lon": -121.1469,
     "elevation_ft": 8868,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 25,
     "ski_mountaineering": {
       "viable": true,
@@ -391,7 +391,7 @@
     "lon": -121.0656,
     "elevation_ft": 8815,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 27,
     "best_seasons": [
       "summer"
@@ -513,7 +513,7 @@
     "lon": -120.9222,
     "elevation_ft": 8795,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 28,
     "best_seasons": [
       "spring",
@@ -577,7 +577,7 @@
     "lon": -121.0431,
     "elevation_ft": 8680,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 36,
     "ski_mountaineering": {
       "viable": true,
@@ -604,7 +604,7 @@
     "lon": -121.0417,
     "elevation_ft": 8325,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 96,
     "best_seasons": [
       "spring",
@@ -623,7 +623,7 @@
     "lon": -121.1233,
     "elevation_ft": 8347,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 90,
     "ski_mountaineering": {
       "viable": true,
@@ -650,7 +650,7 @@
     "lon": -121.0625,
     "elevation_ft": 8440,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 68,
     "best_seasons": [
       "summer"
@@ -668,7 +668,7 @@
     "lon": -120.9239,
     "elevation_ft": 8508,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 55,
     "best_seasons": [
       "spring",
@@ -910,7 +910,7 @@
     "lon": -121.0958,
     "elevation_ft": 8485,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 59,
     "ski_mountaineering": {
       "viable": true,
@@ -1141,7 +1141,7 @@
     "lon": -121.0739,
     "elevation_ft": 8200,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
@@ -1154,7 +1154,7 @@
     "lon": -121.0992,
     "elevation_ft": 8334,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 91,
     "best_seasons": [
       "spring",
@@ -1199,7 +1199,7 @@
     "lon": -121.1875,
     "elevation_ft": 7771,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": true,
       "quality": "good",
@@ -1212,7 +1212,7 @@
     "lon": -121.0647,
     "elevation_ft": 8348,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
@@ -1274,7 +1274,7 @@
     "lon": -120.9361,
     "elevation_ft": 8600,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 44,
     "best_seasons": [
       "spring",
@@ -1493,7 +1493,7 @@
     "lon": -120.9319,
     "elevation_ft": 8680,
     "nwac_zone_slug": "cascade-east-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 36,
     "best_seasons": [
       "spring",
@@ -1637,7 +1637,7 @@
     "lon": -121.0806,
     "elevation_ft": 8120,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "515:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
@@ -1685,7 +1685,7 @@
     "lon": -121.0231,
     "elevation_ft": 8280,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
@@ -1718,7 +1718,7 @@
     "lon": -121.0478,
     "elevation_ft": 8894,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 23,
     "best_seasons": [
       "spring",
@@ -2151,7 +2151,7 @@
     "lon": -121.0083,
     "elevation_ft": 8332,
     "nwac_zone_slug": "cascade-west-central",
-    "nearest_snotel": "606:WA:SNTL",
+    "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 94,
     "best_seasons": [
       "spring",

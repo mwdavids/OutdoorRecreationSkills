@@ -112,6 +112,7 @@ Useful Cascade SNOTEL anchor stations by elevation band. **All triplets below ar
 | Stevens Pass | 791:WA:SNTL | 3,940 | US 2 corridor, Stuart Range approaches |
 | Wells Creek | 909:WA:SNTL | 4,040 | Baker / Shuksan |
 | Surprise Lakes | 804:WA:SNTL | 4,280 | South Cascades / Adams |
+| Thunder Basin | 817:WA:SNTL | 4,310 | SR 20 / Cascade Pass / N Cascades west-side (Eldorado, Forbidden, Buckner, Sahale) |
 | Sasse Ridge | 734:WA:SNTL | 4,340 | I-90 corridor, Snoqualmie zone |
 | Paradise | 679:WA:SNTL | 5,150 | Mt Rainier south side |
 | Mt Hood Test Site | 651:OR:SNTL | 5,380 | Mt Hood |
