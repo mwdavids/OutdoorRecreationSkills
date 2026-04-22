@@ -11,7 +11,9 @@
       "viable": true,
       "quality": "classic",
       "notes": "Muir Snowfield, Emmons Glacier, Fuhrer Finger — premier PNW ski mountaineering with 9,000+ ft descents"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 13246
   },
   {
     "name": "Mount Adams",
@@ -25,7 +27,9 @@
       "viable": true,
       "quality": "classic",
       "notes": "South Climb / SW Chutes are among the best ski descents in WA; mellow angle, huge vertical"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 8116
   },
   {
     "name": "Little Tahoma",
@@ -39,7 +43,9 @@
       "viable": true,
       "quality": "classic",
       "notes": "Fryingpan Glacier and east face offer big ski lines on WA's third highest peak; steep and committing"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 818
   },
   {
     "name": "Mount Baker",
@@ -53,7 +59,9 @@
       "viable": true,
       "quality": "classic",
       "notes": "Easton Glacier, Coleman-Deming, Roman Wall — deep snowpack, long season, accessible for spring ski tours"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 8812
   },
   {
     "name": "Glacier Peak",
@@ -67,7 +75,9 @@
       "viable": true,
       "quality": "good",
       "notes": "Sitkum, Chocolate, Cool glaciers all ski well; long approach (20+ mi) limits popularity"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 7498
   },
   {
     "name": "Bonanza Peak",
@@ -85,7 +95,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Mary Green Glacier offers moderate ski terrain; long approach via Holden Village or Railroad Creek"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 3711
   },
   {
     "name": "Mount Stuart",
@@ -103,7 +115,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Ingalls Lake approach has scattered larch groves; Ingalls Creek drainage has larch at higher elevations"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 5354
   },
   {
     "name": "Mount Fernow",
@@ -126,7 +140,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Phelps Creek approach through Spider Meadow larch; fall colors along the entire valley"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 2811
   },
   {
     "name": "Mount Shuksan",
@@ -140,7 +156,9 @@
       "viable": true,
       "quality": "classic",
       "notes": "Sulphide Glacier and White Salmon Glacier are premier spring ski tours; summit pyramid requires boot/crampon"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 4411
   },
   {
     "name": "Mount Buckner",
@@ -158,7 +176,9 @@
       "viable": true,
       "quality": "good",
       "notes": "North face has excellent steep skiing; approach via Cascade Pass / Boston Basin or Horseshoe Basin"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 3034
   },
   {
     "name": "Jack Mountain",
@@ -176,7 +196,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Nohokomeen Glacier offers moderate ski terrain; very remote, requires SR 20 to be open"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 4211
   },
   {
     "name": "Mount Logan",
@@ -194,7 +216,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Douglas Glacier and Banded Glacier have skiable terrain; extremely remote, multi-day approach"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1487
   },
   {
     "name": "Mount Goode",
@@ -208,7 +232,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "NE couloir holds steep snow into summer; remote approach via Lake Chelan and Company Creek"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 3808
   },
   {
     "name": "North Gardner Mountain",
@@ -228,7 +254,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side scramble peak; snow melts early, terrain is mostly talus and heather"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 3996
   },
   {
     "name": "Copper Peak",
@@ -251,7 +279,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Phelps Creek drainage has larch on approach; often combined with Fernow/Maude larch circuit"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 484
   },
   {
     "name": "Mount Spickard",
@@ -270,7 +300,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Silver Glacier has skiable terrain; extremely remote multi-day trip via Depot Creek or Chilliwack River"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 4779
   },
   {
     "name": "Seven Fingered Jack",
@@ -292,7 +324,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Phelps Creek / Spider Meadow larch corridor on approach; combines alpine climbing with peak fall color"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 380
   },
   {
     "name": "Black Peak",
@@ -310,7 +344,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Blue Lake / Heather-Maple Pass larch are legendary; approach from Wing Lake or Rainy Pass through prime larch"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 3450
   },
   {
     "name": "Mount Maude",
@@ -332,7 +368,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Phelps Creek / Spider Meadow approach passes prime larch groves; Ice Cliff Glacier framed by golden larch"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 882
   },
   {
     "name": "Mount Redoubt",
@@ -351,7 +389,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Redoubt Glacier offers moderate terrain; extremely remote — typically combined with Spickard as a multi-day"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1649
   },
   {
     "name": "Dome Peak",
@@ -369,7 +409,9 @@
       "viable": true,
       "quality": "good",
       "notes": "Dome Glacier has excellent moderate-angle skiing; very long approach via Downey Creek or Bachelor Creek"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 3040
   },
   {
     "name": "Eldorado Peak",
@@ -383,7 +425,9 @@
       "viable": true,
       "quality": "classic",
       "notes": "Eldorado Glacier is an early-season classic — accessible from Cascade River Rd, moderate angle, great corn skiing"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 2188
   },
   {
     "name": "Forbidden Peak",
@@ -401,7 +445,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock summit; approach couloirs can be skied but the peak itself is a rock climb"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1055
   },
   {
     "name": "Dragontail Peak",
@@ -424,7 +470,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Colchuck Lake / Aasgard Pass larch groves visible on approach; classic fall photo destination"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1760
   },
   {
     "name": "Mount Challenger",
@@ -455,7 +503,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Aasgard Pass and lower Enchantments larch on approach; Colchuck Lake + golden larch backdrop"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 665
   },
   {
     "name": "Clark Mountain",
@@ -478,7 +528,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Phelps Creek / Larch Lakes area; extensive larch groves on approach from multiple directions"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1522
   },
   {
     "name": "Cannon Mountain",
@@ -492,7 +544,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side scramble; mostly talus and heather slopes, snow melts early"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 838
   },
   {
     "name": "Mount Fury",
@@ -524,7 +578,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Small glaciers and couloirs on north side hold snow; remote approach requires SR 20"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 2731
   },
   {
     "name": "Big Four Mountain",
@@ -569,7 +625,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Washington Pass / Blue Lake area larch visible on approaches; Cedar Creek has scattered larch"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 2436
   },
   {
     "name": "Sahale Peak",
@@ -583,7 +641,9 @@
       "viable": true,
       "quality": "good",
       "notes": "Sahale Glacier and Who-Me Couloir are popular ski lines; accessible via Cascade Pass when road opens"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 80
   },
   {
     "name": "Mount Triumph",
@@ -615,7 +675,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Middle Cascade Glacier approach offers moderate skiing; remote — accessed from Cascade Pass or Downey Creek"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1885
   },
   {
     "name": "Snowfield Peak",
@@ -629,7 +691,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Colonial/Neve Glacier system provides ski access; approach via Colonial Creek when Diablo Dam road open"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 2907
   },
   {
     "name": "Lincoln Peak",
@@ -660,7 +724,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Dana Glacier approach has moderate ski terrain; very remote, usually combined with Dome Peak trips"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 840
   },
   {
     "name": "Primus Peak",
@@ -683,7 +749,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat River drainage; scattered larch at treeline elevations"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 828
   },
   {
     "name": "Argonaut Peak",
@@ -697,7 +765,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "South-face couloirs hold snow in spring; steep and committing, approach via Mountaineer Creek"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 733
   },
   {
     "name": "Sherpa Peak",
@@ -720,7 +790,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Enchantments / Stuart Range; larch visible from Sherpa Glacier approach in fall"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 405
   },
   {
     "name": "Star Peak",
@@ -738,7 +810,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat drainage approach has larch at higher elevations"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1170
   },
   {
     "name": "Enchantment Peak",
@@ -756,7 +830,9 @@
     "larch_scenery": {
       "quality": "iconic",
       "notes": "Upper Enchantments — world-famous golden larch groves in Oct, one of the best larch displays in WA"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 480
   },
   {
     "name": "McClellan Peak",
@@ -774,7 +850,9 @@
     "larch_scenery": {
       "quality": "iconic",
       "notes": "Upper Enchantments larch basins; peak-larch views from all angles in early-mid Oct"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1244
   },
   {
     "name": "Luahna Peak",
@@ -797,7 +875,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Phelps Creek approach passes through larch; often combined with 7FJ/Maude larch trips"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1880
   },
   {
     "name": "Fortress Mountain",
@@ -815,7 +895,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Spider Meadow / Phelps Creek approach through dense larch groves; golden valley views"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1680
   },
   {
     "name": "Chiwawa Mountain",
@@ -833,7 +915,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Larch Lakes and Spider Meadow approaches pass through extensive larch groves"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1219
   },
   {
     "name": "Dumbell Mountain",
@@ -851,7 +935,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat River / Phelps Creek approaches pass through larch groves at treeline"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1261
   },
   {
     "name": "Mount Lago",
@@ -865,7 +951,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side scramble; mostly talus, snow melts early on this Pasayten peak"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 3268
   },
   {
     "name": "Oval Peak",
@@ -879,7 +967,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "East-side scramble; mostly heather, talus, and dry ridge walking"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 2731
   },
   {
     "name": "Cardinal Peak",
@@ -902,7 +992,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Lake Chelan-Sawtooth area has scattered larch; fall color on approach from Entiat side"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 2070
   },
   {
     "name": "Klawatti Peak",
@@ -916,7 +1008,9 @@
       "viable": true,
       "quality": "good",
       "notes": "Klawatti Glacier is a well-known ski descent; pair with Austera for a glacier traverse"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 685
   },
   {
     "name": "Reynolds Peak",
@@ -930,7 +1024,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "East-side scramble peak; mostly dry talus and heather, not a ski objective"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 2032
   },
   {
     "name": "Devore Peak",
@@ -952,7 +1048,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat River drainage has larch at treeline; combined with other Entiat peaks in fall"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1722
   },
   {
     "name": "Martin Peak",
@@ -974,7 +1072,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Phelps Creek / Chiwawa River approach passes through larch zones at higher elevations"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 2111
   },
   {
     "name": "Emerald Peak",
@@ -996,7 +1096,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Phelps Creek approach has larch; glacier cirque between Emerald and 7FJ with scattered larch below"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 742
   },
   {
     "name": "Spectacle Buttes",
@@ -1014,7 +1116,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat / Phelps Creek approach with larch at higher elevations"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1072
   },
   {
     "name": "Mount Lago",
@@ -1028,7 +1132,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side scramble; mostly talus, snow melts early on this Pasayten peak"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 3268
   },
   {
     "name": "Pinnacle Peak",
@@ -1055,7 +1161,9 @@
       "viable": true,
       "quality": "classic",
       "notes": "Monitor Ridge and Worm Flows are PNW spring ski classics; permits required May 15 - Oct 31, smooth volcanic terrain"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 4573
   },
   {
     "name": "Mount Hood",
@@ -1165,7 +1273,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "McAllister Glacier approach; often paired with Klawatti for a glacier ski traverse"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 414
   },
   {
     "name": "Bear Mountain",
@@ -1235,7 +1345,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "North-side glaciers hold snow; extremely remote, multi-day trip — often combined with Spickard/Redoubt"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1230
   },
   {
     "name": "Rahm Peak",
@@ -1253,7 +1365,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Adjacent to Custer; glacial terrain on approach, same remote multi-day access"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 280
   },
   {
     "name": "Tenpeak Mountain",
@@ -1285,7 +1399,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Kimtah and surrounding glaciers offer moderate terrain; accessed via SR 20 corridor"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1040
   },
   {
     "name": "Mixup Peak",
@@ -1343,7 +1459,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Remote ridge traverse; technical terrain, not suited for skiing"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1092
   },
   {
     "name": "South Gardner Mountain",
@@ -1383,7 +1501,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Glaciated approach on Ptarmigan Traverse; south-side snowfields offer moderate skiing"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 894
   },
   {
     "name": "Crater Mountain",
@@ -1418,7 +1538,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Harts Pass area has scattered larch; accessible in fall when road is open"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1880
   },
   {
     "name": "Horseshoe Peak",
@@ -1441,7 +1563,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Phelps Creek / Chiwawa approach with larch; Horseshoe basin has scattered alpine larch"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 280
   },
   {
     "name": "Mount Despair",
@@ -1472,7 +1596,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Remote technical rock spires; extremely committing approach, not a ski objective"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 904
   },
   {
     "name": "Mount Terror",
@@ -1504,7 +1630,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Katsuk Glacier has moderate terrain; remote access via Fisher Creek when SR 20 is open"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 80
   },
   {
     "name": "Remmel Mountain",
@@ -1523,7 +1651,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry Pasayten Wilderness peak; gentle heather slopes, snow melts very early"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 4365
   },
   {
     "name": "Lake Mountain",
@@ -1546,7 +1676,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat River drainage; larch groves at treeline on approach"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 811
   },
   {
     "name": "Pinnacle Mountain",
@@ -1568,7 +1700,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "SR 20 corridor; scattered larch in the area accessible when highway is open in fall"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1880
   },
   {
     "name": "Mount Carru",
@@ -1586,7 +1720,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat River approach has larch at upper elevations"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 955
   },
   {
     "name": "Painted Mountain",
@@ -1664,7 +1800,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Company Creek / Lake Chelan approach has scattered larch at treeline"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1800
   },
   {
     "name": "Witches Tower",
@@ -1710,7 +1848,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side scramble; mostly talus and heather, snow melts early similar to N Gardner"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 698
   },
   {
     "name": "Boston Peak",
@@ -1729,7 +1869,9 @@
       "viable": true,
       "quality": "good",
       "notes": "Boston Glacier and NE couloir offer excellent skiing; accessed via Boston Basin from Cascade River Rd"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 854
   },
   {
     "name": "Robinson Mountain",
@@ -1743,7 +1885,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Gentle east-side scramble; mostly heather and talus, snow melts early"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1686
   },
   {
     "name": "Cathedral Peak",
@@ -1762,7 +1906,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry Pasayten Wilderness scramble; mostly talus and heather, minimal snow retention"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 989
   },
   {
     "name": "Monument Peak",
@@ -1781,7 +1927,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side scramble peak; exposed terrain, snow melts early"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1072
   },
   {
     "name": "Mount Osceola",
@@ -1795,7 +1943,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "East-side scramble; talus and heather terrain, snow melts early"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1147
   },
   {
     "name": "Buck Mountain",
@@ -1809,7 +1959,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "East-side scramble; mostly dry ridge walking and talus"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1888
   },
   {
     "name": "Storm King Mountain",
@@ -1827,7 +1979,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "East-side Pasayten scramble; dry terrain, minimal snow"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 480
   },
   {
     "name": "Dark Peak",
@@ -1849,7 +2003,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat drainage with larch at treeline; remote fall color"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 904
   },
   {
     "name": "Cashmere Mountain",
@@ -1867,7 +2023,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Enchantments / Icicle Creek area; some larch visible at higher elevations"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1581
   },
   {
     "name": "Mox Peak NW",
@@ -1885,7 +2043,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Remote technical rock spire; extremely committing approach, not a ski objective"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 527
   },
   {
     "name": "Big Craggy Peak",
@@ -1899,7 +2059,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "East-side Pasayten scramble; mostly talus and dry slopes"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 3070
   },
   {
     "name": "Lost Peak",
@@ -1917,7 +2079,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat / Chiwawa area has larch at higher elevations on approach"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1624
   },
   {
     "name": "Hoodoo Peak",
@@ -1940,7 +2104,9 @@
     "larch_scenery": {
       "quality": "iconic",
       "notes": "Larch Lakes basin is one of WA's premier larch destinations; golden alpine larch surround the approach"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1624
   },
   {
     "name": "Tower Mountain",
@@ -1959,7 +2125,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side Pasayten peak; scramble terrain, minimal snow retention"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 2884
   },
   {
     "name": "Mount Bigelow",
@@ -1982,7 +2150,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Chiwawa / Phelps Creek drainage larch on approach; treeline larch groves"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 840
   },
   {
     "name": "Little Annapurna",
@@ -2000,7 +2170,9 @@
     "larch_scenery": {
       "quality": "iconic",
       "notes": "Enchantments basin larches surround the approach; stunning golden alpine scenery in Oct"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 840
   },
   {
     "name": "Dorado Needle",
@@ -2014,7 +2186,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock spire near Eldorado; glaciated approach but summit is rock climbing"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 840
   },
   {
     "name": "Greenwood Mountain",
@@ -2028,7 +2202,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Rocky scramble peak near Stuart Range; no significant ski terrain"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 655
   },
   {
     "name": "Saska Peak",
@@ -2050,7 +2226,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Chiwawa drainage larch groves on approach; combines with Entiat peak trips in larch season"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 644
   },
   {
     "name": "Blackcap Mountain",
@@ -2069,7 +2247,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "East-side scramble; dry terrain, snow melts early"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 397
   },
   {
     "name": "Golden Horn",
@@ -2092,7 +2272,9 @@
     "larch_scenery": {
       "quality": "excellent",
       "notes": "Cutthroat Pass and Swamp Creek have stunning larch; one of the best SR 20 corridor larch hikes"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1126
   },
   {
     "name": "West Craggy Peak",
@@ -2106,7 +2288,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "East-side Pasayten scramble; mostly dry talus"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1126
   },
   {
     "name": "Amphitheater Mountain",
@@ -2124,7 +2308,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry Pasayten Wilderness peak; gentle slopes, snow melts very early"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 758
   },
   {
     "name": "Windy Peak",
@@ -2143,7 +2329,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry Pasayten scramble; gentle terrain, minimal snow"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 4573
   },
   {
     "name": "Cosho Peak",
@@ -2162,7 +2350,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "Glaciated north side; remote approach near Forbidden/Boston Basin area"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 492
   },
   {
     "name": "Big Snagtooth",
@@ -2181,7 +2371,9 @@
       "viable": true,
       "quality": "fair",
       "notes": "North-side glacier terrain near Mesahchie; remote, requires SR 20 access"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 570
   },
   {
     "name": "Switchback Peak",
@@ -2195,7 +2387,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Rocky scramble in Stuart Range; no sustained ski terrain"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 801
   },
   {
     "name": "Abernathy Peak",
@@ -2213,7 +2407,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Entiat area with larch at upper elevations on approach"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 801
   },
   {
     "name": "Flora Mountain",
@@ -2235,7 +2431,9 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Stehekin / Lake Chelan approach has larch at upper elevations"
-    }
+    },
+    "climbed": false,
+    "prom_ft": 1800
   },
   {
     "name": "Courtney Peak",
@@ -2249,7 +2447,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side scramble; mostly talus and heather"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 1072
   },
   {
     "name": "Martin Peak (Methow)",
@@ -2263,6 +2463,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side Methow scramble; mostly talus and heather"
-    }
+    },
+    "climbed": true,
+    "prom_ft": 855
   }
 ]
