@@ -37,7 +37,7 @@ North Bend, WA — all drive times and weather defaults are calibrated from here
 
 ### Trip Briefings
 - *"Create a trip briefing for a ski tour of Mt Daniels for this upcoming Sunday. Highlight the two different routes we might take depending on the snow line elevation."*
-- *"What are conditions like on Bonanza Peak right now? I'm thinking about a July attempt via Holden."*
+- *"Plan a trip briefing for Bonanza Peak via Holden Village for the last weekend in July. How's the approach looking?"*
 - *"Generate a go/no-go for Forbidden Peak this Saturday. We're planning the West Ridge."*
 - *"I want to ski Mount Adams this weekend. Give me the full briefing — corn cycle, weather window, and departure time from North Bend."*
 
