@@ -579,7 +579,7 @@
       "quality": "fair",
       "notes": "Small glaciers and couloirs on north side hold snow; remote approach requires SR 20"
     },
-    "climbed": true,
+    "climbed": false,
     "prom_ft": 2731
   },
   {
@@ -1631,7 +1631,7 @@
       "quality": "fair",
       "notes": "Katsuk Glacier has moderate terrain; remote access via Fisher Creek when SR 20 is open"
     },
-    "climbed": true,
+    "climbed": false,
     "prom_ft": 80
   },
   {
@@ -1980,7 +1980,7 @@
       "quality": "not viable",
       "notes": "East-side Pasayten scramble; dry terrain, minimal snow"
     },
-    "climbed": true,
+    "climbed": false,
     "prom_ft": 480
   },
   {
@@ -2105,7 +2105,7 @@
       "quality": "iconic",
       "notes": "Larch Lakes basin is one of WA's premier larch destinations; golden alpine larch surround the approach"
     },
-    "climbed": true,
+    "climbed": false,
     "prom_ft": 1624
   },
   {
@@ -2171,7 +2171,7 @@
       "quality": "iconic",
       "notes": "Enchantments basin larches surround the approach; stunning golden alpine scenery in Oct"
     },
-    "climbed": false,
+    "climbed": true,
     "prom_ft": 840
   },
   {
@@ -2187,7 +2187,7 @@
       "quality": "not viable",
       "notes": "Technical rock spire near Eldorado; glaciated approach but summit is rock climbing"
     },
-    "climbed": false,
+    "climbed": true,
     "prom_ft": 840
   },
   {
@@ -2314,11 +2314,11 @@
   },
   {
     "name": "Windy Peak",
-    "lat": 46.191401,
-    "lon": -122.195551,
+    "lat": 48.928311,
+    "lon": -119.97057,
     "elevation_ft": 8334,
     "nwac_zone_slug": "cascade-east-north",
-    "nearest_snotel": "804:WA:SNTL",
+    "nearest_snotel": "515:WA:SNTL",
     "bulger_rank": 92,
     "best_seasons": [
       "summer",
@@ -2330,7 +2330,7 @@
       "quality": "not viable",
       "notes": "Dry Pasayten scramble; gentle terrain, minimal snow"
     },
-    "climbed": true,
+    "climbed": false,
     "prom_ft": 4573
   },
   {
