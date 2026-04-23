@@ -307,6 +307,7 @@ Generate these planning links:
 - **CalTopo**: `https://caltopo.com/#ll={lat},{lon}&z=14&b=mbt&a=sf`
 - **SpotWX**: `https://spotwx.com/products/grib_index.php?model={model}&lat={lat}&lon={lon}` (use `gem_lam_continental` for ≤2 days out, `gem_glb` for longer range)
 - **NWAC**: `https://nwac.us/avalanche-forecast/#{zone_slug}` (or the general page if no zone)
+- **Sentinel-2**: `https://browser.dataspace.copernicus.eu/?zoom=14&lat={lat}&lng={lon}&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18ftVO8f6f9LJMLfluBauVKtcvW3y0XGEgB02zt6affLDM9UsNFZTXSlIttUzHQyNkd%2B4ESwEaaFJgCxRD8rP9ZVEJIQWDJSQroEODqoN043JAx39ZRnKP0&datasetId=S2_L2A_CDAS&fromTime={recent_clear_date}T00%3A00%3A00.000Z&toTime={recent_clear_date}T23%3A59%3A59.999Z&layerId=2_FALSE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE` — False-color IR imagery for visually confirming snow line, road melt-out, and coverage on approach. Set `{recent_clear_date}` to the most recent clear day (check the NOAA forecast history) in `YYYY-MM-DD` format. Imagery updates every ~5 days; if nothing recent is cloud-free, widen `cloudCoverage` or try a date a few days earlier.
 
 ## Step 3: Synthesize the Briefing
 
@@ -354,7 +355,7 @@ If they're marginal, say what the specific concern is. If it's a no-go, be clear
 - Don't list a full gear list — just what to emphasize or add given the specific conditions
 
 ### Resource Links
-- [PeakBagger](url) | [CalTopo](url) | [SpotWX](url) | [NWAC](url)
+- [PeakBagger](url) | [CalTopo](url) | [SpotWX](url) | [NWAC](url) | [Sentinel-2](url)
 ```
 
 ## Interpretation Guidelines
@@ -365,7 +366,7 @@ The trip style isn't just a label — it determines which data matters most and 
 
 - **Peak bag / scramble**: Weather window and visibility are paramount. Wind at ridgeline matters more than snow conditions. Focus on precipitation timing, cloud cover, and summit temps. In shoulder seasons, note whether the route is snow-free or requires ice axe/crampons based on SNOTEL snow depth and recent trip reports.
 
-- **Ski mountaineering**: Corn cycle assessment is the centerpiece. Evaluate overnight refreeze (freezing level must drop below skiing elevation + clear skies) and daytime softening. NWAC avalanche forecast is critical — especially wet slab and wet loose problems. Note which aspects will corn and when. Departure timing is driven by corn timing, not just sunrise.
+- **Ski mountaineering**: Corn cycle assessment is the centerpiece. Evaluate overnight refreeze (freezing level must drop below skiing elevation + clear skies) and daytime softening. NWAC avalanche forecast is critical — especially wet slab and wet loose problems. Note which aspects will corn and when. Departure timing is driven by corn timing, not just sunrise. For tours/traverses, plan the route to follow the sun: descend east aspects early, south mid-morning, west/north afternoon. When in doubt, be early — you can wait at the top for corn, but if you're late it could be unsafe. Recommend the CalTopo sun exposure layer for timing specific aspects. **Approach tactics:** steep trails that gain elevation quickly minimize patchy-snow hassle; north-facing basins hold snow longest and make the best exit routes (skiable lower, less mushy late in day). **Creek hole hazard:** warn about crossing snow-covered drainages later in the day when the surface has softened — collapsing into a raging creek is a real killer.
 
 - **Backcountry skiing (powder)**: Recent snowfall amounts and snow preservation are key. Check if temps stayed below freezing between the storm and the trip date — if not, the powder is gone. NWAC danger rating is the first thing to check; High/Extreme is a hard no. Wind loading patterns affect where the good snow is.
 
@@ -378,7 +379,7 @@ The trip style isn't just a label — it determines which data matters most and 
 Time of year fundamentally changes what matters:
 
 - **Winter (Dec–Feb)**: Short days, cold temps, avalanche season in full swing. NWAC is the primary data source. Most Bulger peaks are full-on mountaineering objectives. Powder skiing is the most likely trip style.
-- **Spring (Mar–May)**: Corn season on volcanoes. Freeze-thaw cycle is king. Snow is consolidating but avalanche problems shift to wet slab/wet loose. Access roads may still be closed (SR 20, Chinook Pass).
+- **Spring (Mar–May)**: Corn season on volcanoes. Freeze-thaw cycle is king. Snow is consolidating but avalanche problems shift to wet slab/wet loose. Access roads may still be closed (SR 20, Chinook Pass). **Consolidation progression:** south/east Cascades (Teanaway, Stuart Range, eastside) consolidate first; plan corn trips there early in spring, then move gradually north and west as the season progresses. NW Cascades and high volcanoes consolidate last but melt out last. South/west aspects consolidate faster than north. **Spring road access is a gamble:** unplowed forest roads can add miles of patchy walking. Scout the evening before if uncertain — firm morning snow on roads can become impassable mush by afternoon. **Gear note:** skin wax (or hot-wax skins the night before) is essential for glopping from dry/wet snow transitions; carry a scraper for pollen on bases.
 - **Summer (Jun–Aug)**: Peak bagging season. Snow is melting off most routes. Weather windows matter but are more frequent. Wildfire smoke can be a factor late summer. Creek crossings can be tricky during peak snowmelt.
 - **Fall (Sep–Oct)**: Late-season scrambling window. Early storms can blanket peaks unexpectedly. Short weather windows between systems. Larch season in the Enchantments (permits!).
 
@@ -389,9 +390,13 @@ Standard atmospheric lapse rate: **~3.5°F per 1,000 ft**. The NOAA forecast gri
 For ski mountaineering trips, evaluate the corn cycle:
 - Need overnight freezing level **below** skiing elevation (or clear skies + temps near freezing)
 - Need daytime temps **above** freezing at skiing elevation
-- Clear overnight skies are essential for radiative cooling
+- **Cloud cover is the #1 refreeze predictor** — more important than freezing level. Clear overnight skies allow radiative cooling that refreezes the surface even when air temps are above freezing. Cloudy skies trap heat and can prevent refreeze entirely.
 - The cycle takes 2-3 clear days after a storm to establish
-- East aspects corn first (morning sun), south mid-morning, west afternoon
+- **Fresh snow resets the corn cycle.** A foot of new snow takes days to a week to burn down into consolidated melt grains (mushy breakable crust in the meantime). A dusting to a few inches will corn up in 1-2 days. When fresh snow disrupts the cycle, look for wind-stripped areas or aspects that received less accumulation.
+- East aspects corn first (morning sun), south mid-morning, west afternoon. Plan descents to follow the sun — ski east aspects early, south mid-morning, west/north in the afternoon. Couloirs and deeply inset features corn later than open faces on the same aspect.
+- **Spring shed warning:** When the forecast calls for a new season-high temperature, be wary — especially in early spring. Big warmups stress the snowpack and can trigger large wet avalanches. Start early and limit exposure to avalanche slopes and cornices during peak heating.
+- A mature, consolidated snowpack has a longer daily corn window. Early in spring the window between breakable crust and mashed potatoes can be very short; by late April/May it stretches to hours.
+- **Shorter runs = better snow.** Unlikely to get great corn top-to-bottom on a 4,000' descent. Better to ski multiple 1,500-2,500' lines, changing aspects with the sun. Exception: large concave slopes like Adams SW Chutes.
 
 ### Wind at Elevation  
 NOAA forecasts wind at the grid point, which is sheltered compared to ridgelines and summits. Expect ridgeline winds 2-3x the forecast wind speed. Winds above 35-40 mph at ridgeline make alpine travel very unpleasant and potentially dangerous.
