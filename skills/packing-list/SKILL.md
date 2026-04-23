@@ -78,13 +78,15 @@ If they say "what should I bring for Rainier?" — you know the peak. Ask about 
 
 ### Gear Library Context
 
-If the user mentions their past lists, gear preferences, or specific items they own, incorporate that knowledge:
-- Reflect what they typically bring (don't suggest a tent if they always bivy)
-- Flag gaps in their usual kit for this specific trip
-- Note upgrades worth considering ("you usually bring X, but for this trip Y might be better because...")
-- Respect their brand/model preferences when known
+This skill includes a personal gear library at `references/gear-library.json` — 41 past packing lists covering alpine climbing, backpacking, rafting/paddling, and more. **Read this file** when generating a packing list to personalize recommendations:
 
-If no gear library context is available, generate a generic expert list — but mention that the list can be personalized if they share past lists or gear preferences.
+- Match the trip type to similar past lists (e.g., for a ski mountaineering trip, look at alpine climbing lists for layering and glacier gear patterns)
+- Reflect what the user typically brings — use their actual gear names and brands when you see consistent patterns
+- Flag gaps: if their past lists for this trip type never include an item you'd recommend, call it out ("your previous alpine lists don't include a rescue sled — worth considering for this objective")
+- Note upgrades worth considering ("you usually bring X, but for this trip Y might be better because...")
+- The library is weighted toward rafting/paddling (24 lists) and has alpine climbing (2) and backpacking (4) coverage
+
+If the gear library file is missing or empty, generate a generic expert list.
 
 ## Step 2: Generate the Packing List
 
@@ -137,20 +139,46 @@ This is where the real expertise lives. Don't just list generic gear — tailor 
 
 #### Alpine Climbing
 - Helmet is non-negotiable on any route with rockfall exposure
-- Glacier travel requires rope, harness, crevasse rescue kit (prussiks, pulleys, pickets) — even on "easy" glaciers
 - Layer system: moisture-wicking base → fleece/grid mid → puffy (summit) → hardshell (wind/precip). No cotton.
 - Approach shoes vs. mountaineering boots — depends on whether there's sustained snow/ice
 - Double boots for anything above ~12k ft in cold conditions or winter alpine
 - Bivy gear (emergency sack minimum) even for day objectives — weather turns fast in the Cascades
 
-#### Ski Mountaineering
-- Avalanche safety is THE category: beacon + shovel + probe, non-negotiable, for every member of the party
+#### Glacier Travel & Crevasse Rescue
+Every member of a glacier rope team carries their own crevasse rescue kit. This is non-negotiable — even on "easy" glaciers. The bare-minimum kit per person:
+
+- **Rope** — team carries one. Common options: 30m 6mm static (e.g., Petzl RAD Line) for skilled teams of 3-4; 40-50m 7-8mm half/twin dynamic for two-person teams or less experienced groups
+- **Harness** — lightweight mountaineering harness with opening leg loops (e.g., Petzl Tour) so you can put it on over crampons or skis
+- **6 locking carabiners** — 1 Clepsydra-style (auto-lock, can't crossload) for clipping to the rope; 1 oval for devices; 1 large HMS for Munter hitches; 3 D-lockers for connections. One extra locker sounds like overkill until you need it mid-rescue
+- **1 small non-locking carabiner** — for racking a screw or non-critical connections like the tractor in a Z-drag
+- **Progress-capture pulley** (Petzl Micro/Nano Traxion) — the modern standard; doubles as an ascender and pulley in hauling systems
+- **Ascender** (Petzl Tibloc) — lightweight rope grab for ascending or building mechanical advantage
+- **1 ice screw** (≥16 cm, e.g., Petzl Laser Speed Light 17cm) — if you fall in, place it and clip yourself off to unweight the rope; on top, it's a bombproof anchor on ice
+- **~3m of 5-6mm high-strength cord** (e.g., Sterling V-TX 5.4mm) — replaces the old bulky 7mm cordelette; used for equalizing anchors, ascending, or self-rescue tie-offs
+- **1 short friction hitch** (spliced eye 5-6mm cord or Sterling Hollowblock) — for ascending the rope and as a tractor in hauling systems
+- **1 120cm sling** — for two-person teams; anchor extension, equalization, or improvised connections
+- **Snow picket** (OPTIONAL, e.g., SMC Pro Picket) — makes snow anchors faster and lets you keep your ice axe free. Get one with a permanent cable on the center hole for full-strength vertical or horizontal placements. Without one, you can bury your axe, skis, or pack as a deadman
+
+**What you don't need:** a separate belay device (Munter hitch on the HMS works), dedicated waist/leg prusik loops (the cord + friction hitch above covers it), or extra "just in case" pulleys (borrow your partner's Traxion for the second sheave in a 6:1).
+
+**Racking:** Keep rope-ascending gear on your harness, not buried in your pack — if you fall in, you need the friction hitch, Tibloc, oval locker, and Traxion immediately. Ice screw goes on the harness too. The rest can go in your pack lid.
+
+#### Ski Mountaineering / Ski Touring
+- Avalanche safety is THE category: beacon (worn, not in pack) + shovel + probe (≥300cm), non-negotiable, for every member of the party
 - Skins + skin wax (especially spring — pollen and wet snow glop skins immediately)
 - Ski crampons for firm traverses
 - Boot crampons + ice axe for bootpacking above ski line
-- Transition kit: extra gloves for transitions, thermos for hot drink, scraper for bases
-- Goggles AND sunglasses (goggles for storm/wind, glasses for skinning up)
-- Whippet or axe — depends on exposure and conditions
+- **Repair kit** — binding-specific screws, zip ties, hose clamps, Voilé strap, multi-tool with pliers (e.g., Leatherman). A binding failure 8 miles in can end your day or become an emergency. Carry a dedicated backcountry ski repair kit (e.g., Traverse Equipment) or build your own
+- **Rescue sled/bivy** (e.g., Alpine Threadworks) — lightweight emergency toboggan doubles as a bivy; lets you evacuate an injured partner on snow. Worth the ~12 oz for anything beyond mellow terrain
+- **Snow saw** — for snow study, cutting blocks for wind shelter, and some can cut wood in an emergency
+- Transition kit: extra gloves (warm, dry pair for transitions and descents), thermos for hot water/tea, scraper for bases
+- Goggles AND sunglasses (goggles for storm/wind/descent, glasses for skinning up)
+- Whippet or ice axe — depends on exposure and conditions
+- **Layering for high output + cold stops**: merino base, breathable softshell or anorak for wind (not a full hardshell unless precip expected), puffy in the pack for stops and emergency. Bibs over pants for snow protection on the descent
+- Helmet — for anything with exposure, couloirs, or trees. Should fit inside or strap to the pack when skinning
+- Sunscreen + lip balm — spring sun on snow is brutal, reapply at transitions
+- Satellite communicator (InReach/SPOT) — standard carry for any backcountry ski day
+- Cordelette + double-length sling + a couple carabiners for improvised rescue, rappelling rollover terrain, or partner assist
 
 #### Backpacking
 - Shelter math: 1 tent per 2 people is standard. Solo = bivy or ultralight 1P

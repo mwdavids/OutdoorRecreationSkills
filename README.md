@@ -14,6 +14,11 @@ Generates peak-specific mountain trip briefings by gathering trip details and fe
 
 **Triggers:** plan a trip to a specific mountain, check conditions for a peak, go/no-go assessment, summit attempt planning, SNOTEL, specific Bulger peak
 
+### [packing-list](skills/packing-list/SKILL.md)
+Generates tailored outdoor trip packing lists from natural language trip descriptions, informed by a personal gear library and deep knowledge of PNW outdoor activities. Covers alpine climbing, ski touring, backpacking, rafting, snow camping, day hiking, trail running, and more — with season-specific adjustments, trip-type intelligence, and export-friendly output.
+
+**Triggers:** packing list, what should I bring, gear list, kit list, load-out, packing for an outdoor trip
+
 ## Reference Data
 
 > **Note:** These files are personalized to the repo owner's climbing history and objectives. If you're using these skills for yourself, update them with your own peak list, completion status, and home location (North Bend, WA is the default).
@@ -27,6 +32,7 @@ To use these skills with GitHub Copilot in VS Code, copy the skill folders into 
 ```bash
 cp -r skills/cascade-mountain-weather ~/.agents/skills/
 cp -r skills/trip-briefing ~/.agents/skills/
+cp -r skills/packing-list ~/.agents/skills/
 ```
 
 ## Home Base
@@ -51,3 +57,9 @@ North Bend, WA — all drive times and weather defaults are calibrated from here
 - *"Which unclimbed Bulgers are accessible right now given current road closures?"*
 - *"What are my closest unclimbed Bulgers that would make good day trips?"*
 - *"Show me all the unclimbed peaks I could combine into a multi-day trip in the Entiat area."*
+
+### Packing Lists
+- *"Generate a packing list for a ski mountaineering day trip on Mount Adams this Saturday."*
+- *"What should I bring for a 3-day backpacking trip in the Enchantments in August?"*
+- *"Make me an ultralight packing list for a winter day hike to Snow Lake."*
+- *"I'm rafting the Wenatchee this weekend with 4 people — what do we need?"*
