@@ -14,6 +14,11 @@ Generates peak-specific mountain trip briefings by gathering trip details and fe
 
 **Triggers:** plan a trip to a specific mountain, check conditions for a peak, go/no-go assessment, summit attempt planning, SNOTEL, specific Bulger peak
 
+### [bulger-knowledge](skills/bulger-knowledge/SKILL.md)
+Personal knowledge base for the Washington Bulger list (top 100 peaks): summit/attempt log, per-peak route beta, vetted trip-report links, and access notes. Supplements `trip-briefing` with personal context — past turnarounds, alternate routes, and beta that isn't in any public trip report. Other skills stay generic; this one is the opinionated personal layer.
+
+**Triggers:** specific Bulger peak planning, "have I climbed X?", "what's left on the Bulger list?", peak-specific beta or trip-report requests
+
 ### [packing-list](skills/packing-list/SKILL.md)
 Generates tailored outdoor trip packing lists from natural language trip descriptions, informed by a personal gear library and deep knowledge of PNW outdoor activities. Covers alpine climbing, ski touring, backpacking, rafting, snow camping, day hiking, trail running, and more — with season-specific adjustments, trip-type intelligence, and export-friendly output.
 
@@ -32,6 +37,7 @@ To use these skills with GitHub Copilot in VS Code, copy the skill folders into 
 ```bash
 cp -r skills/cascade-mountain-weather ~/.agents/skills/
 cp -r skills/trip-briefing ~/.agents/skills/
+cp -r skills/bulger-knowledge ~/.agents/skills/
 cp -r skills/packing-list ~/.agents/skills/
 ```
 
