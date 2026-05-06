@@ -62,6 +62,13 @@ Read `references/bulger-peaks.json` and find the peak. Each entry has:
 
 If the peak isn't in the list, ask the user for coordinates or help them find the peak. The USGS GNIS API can search by name: `https://geonames.usgs.gov/api/features?featureName=PEAK_NAME&featureClass=Summit&limit=10`
 
+**Personal Bulger knowledge layer:** If the peak is on the Bulger list, also check the `bulger-knowledge` skill for personal context before generating the briefing:
+- Read `skills/bulger-knowledge/data/peaks/{slug}.md` if it exists — it contains personal route beta, vetted trip-report links, access overrides, and crux notes that supplement (and sometimes correct) public sources and the JSON record.
+- Read `skills/bulger-knowledge/data/summit-log.md` to check for prior attempts on this peak — past turnarounds often contain the most relevant beta for the current attempt.
+- Surface this material inline in the briefing, clearly attributed (e.g., "**Personal note (2026-05-04 attempt):** …"). If the peak file flags an alternate route or a crux not in public reports, escalate it to the briefing's Hazards or Route notes section.
+
+Slug convention: lowercase, hyphenated, drop "Mount/Mt" (`Mount Buckner` → `buckner.md`). Absence of a peak file is normal — only researched peaks have one.
+
 ### 2b. NOAA Weather Forecast
 
 Fetch the hourly forecast for the peak's coordinates via the NWS API. This is a two-step process:
@@ -148,6 +155,18 @@ This returns the last 14 days of: SWE (in), SWE % median, Snow Depth (in), Avg A
 - **14-day SWE delta:** `SWE_today − SWE_14_days_ago` (negative = melting; positive = still accumulating)
 - **14-day melt rate:** delta / 14 in inches SWE/day. A rate of >0.4 in/day SWE is **rapid melt** — snow line moves up fast.
 - **Recent overnight low temp:** flags whether the snowpack is refreezing each night (key for spring trips)
+- **Calendar-offset translation (the "snowpack age" reading):** Translate `% of median` into a date offset so the user knows where on the seasonal curve they actually are. The intuition: 80% of median in spring means today's snowpack matches what a typical year had ~2 weeks later (because melt has run ahead of schedule); 120% means today matches a typical year ~2 weeks earlier (snowpack is "behind" the melt curve). Compute and report this for each alpine-relevant station.
+
+  **Method:** Fetch the same station's **historical median SWE curve** (the 1991–2020 daily median series) using the report generator with `WTEQ::median_1991`. Find the date in that median series whose median SWE most closely matches today's actual SWE, and report the offset in days.
+
+  Quick rule-of-thumb mapping for spring melt season (April–June, when the median curve is dropping ~0.3–0.6 in SWE/day at most stations):
+  - **120% median** → snowpack ≈ 10–14 days *earlier* than calendar date
+  - **100% median** → on schedule
+  - **80% median** → snowpack ≈ 10–14 days *later* than calendar date
+  - **60% median** → snowpack ≈ 3–4 weeks *later* than calendar date
+  - **<40% median** → essentially "summer" conditions for that station
+
+  Always state it in plain English in the briefing, e.g.: *"Lyman Lake is at 66% of median for April 29 — that's roughly the snowpack a typical year would have around May 17. Translation: you're getting late-May conditions two and a half weeks early."* This is far more actionable than a raw percentage and frames route-choice decisions (snow line, melt-out timing, gate openings) in terms the user already has intuition for.
 
 **Step 4 — Output as a panel:**
 
@@ -357,6 +376,54 @@ If they're marginal, say what the specific concern is. If it's a no-go, be clear
 ### Resource Links
 - [PeakBagger](url) | [CalTopo](url) | [SpotWX](url) | [NWAC](url) | [Sentinel-2](url)
 ```
+
+## Step 4: Save as HTML
+
+After presenting the briefing in chat (markdown), **always also save an HTML version** to `tmp/` for sharing via email. The HTML file retains tables, colors, links, and callout boxes when copy-pasted into Gmail or other email clients.
+
+**Filename convention:** `tmp/{peak-slug}-briefing-{trip-date}.html` (e.g., `tmp/adams-briefing-2026-05-10.html`)
+
+**HTML template:** Use this styling skeleton. Map each markdown section to the corresponding HTML element — tables stay as `<table>`, bullet lists as `<ul>`, etc.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: Arial, sans-serif; font-size: 14px; color: #222; max-width: 720px; margin: 20px auto; line-height: 1.5; }
+  h2 { color: #1a5276; border-bottom: 2px solid #1a5276; padding-bottom: 4px; }
+  h3 { color: #2e86c1; margin-top: 24px; }
+  table { border-collapse: collapse; margin: 10px 0; width: 100%; }
+  th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; font-size: 13px; }
+  th { background: #eaf2f8; font-weight: bold; }
+  .summary { background: #eafaf1; border-left: 4px solid #27ae60; padding: 12px 16px; margin: 12px 0; }
+  .warning { background: #fef9e7; border-left: 4px solid #f39c12; padding: 10px 14px; margin: 10px 0; }
+  .go { color: #27ae60; font-weight: bold; }
+  .caution { color: #e67e22; font-weight: bold; }
+  .nogo { color: #e74c3c; font-weight: bold; }
+  a { color: #2e86c1; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 20px 0; }
+  ul, ol { margin: 6px 0; padding-left: 22px; }
+  li { margin-bottom: 4px; }
+  .meta { color: #666; font-size: 13px; }
+</style>
+</head>
+<body>
+<!-- Map the briefing sections here -->
+</body>
+</html>
+```
+
+**Section mapping:**
+- **Summary go/no-go** → `<div class="summary">` with `<span class="go">` / `<span class="caution">` / `<span class="nogo">` for the verdict
+- **Weather tables** → `<table>` with `<th>` headers
+- **Corn cycle / avy assessment callouts** → `<div class="summary">` for positive, `<div class="warning">` for cautions
+- **Route steps** → `<ol>`
+- **Pikers Face / crux warnings** → `<div class="warning">`
+- **Resource links** → `<a href="...">` in a `<p>`
+
+After saving, tell the user: *"Saved to `tmp/{filename}.html` — open in browser, Ctrl+A → Ctrl+C, paste into Gmail."*
 
 ## Interpretation Guidelines
 
