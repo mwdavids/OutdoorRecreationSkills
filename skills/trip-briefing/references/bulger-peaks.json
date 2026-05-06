@@ -1528,10 +1528,10 @@
   },
   {
     "name": "Horseshoe Peak",
-    "lat": 48.494064,
-    "lon": -121.008092,
+    "lat": 48.493875,
+    "lon": -121.008515,
     "elevation_ft": 8480,
-    "nwac_zone_slug": "cascade-east-central",
+    "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 60,
     "best_seasons": [
@@ -1542,11 +1542,11 @@
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
-      "notes": "Horseshoe Glacier area has moderate terrain; approach via Phelps Creek or Chiwawa River"
+      "notes": "Subsidiary peak ~0.4 mi WSW of Mount Buckner at the head of Horseshoe Basin. Approach via Cascade River Rd to Cascade Pass, then Sahale Arm and drop into Horseshoe Basin (or traverse from Buckner). Often combined with a Buckner ascent."
     },
     "larch_scenery": {
-      "quality": "good",
-      "notes": "Phelps Creek / Chiwawa approach with larch; Horseshoe basin has scattered alpine larch"
+      "quality": "poor",
+      "notes": "West-side Cascade crest above Horseshoe Basin; little to no larch (hemlock/heather/glacier terrain)"
     },
     "climbed": false,
     "prom_ft": 280
