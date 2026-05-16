@@ -1,0 +1,35 @@
+# Pre-commit hooks for OutdoorRecreationSkills.
+#
+# Install once per clone:
+#     pip install pre-commit
+#     pre-commit install
+#
+# Run manually against everything:
+#     pre-commit run --all-files
+#
+# Both hooks are stdlib-only Python — no extra dependencies required.
+
+repos:
+  - repo: local
+    hooks:
+      - id: check-skills
+        name: Layer 1 — skill / data integrity
+        entry: python scripts/check_skills.py
+        language: system
+        pass_filenames: false
+        always_run: true
+        # Catches: broken SKILL.md frontmatter, broken intra-skill links,
+        # bulger-peaks.json schema drift, duplicate / missing bulger_rank,
+        # peak-knowledge files unmatched to the JSON, gear-library schema.
+
+      - id: check-triggers
+        name: Layer 2 — trigger routing lint (warn-only)
+        entry: python scripts/check_triggers.py
+        language: system
+        pass_filenames: false
+        always_run: true
+        # Surfaces fixtures where keyword-based routing would pick the wrong
+        # skill given current SKILL.md descriptions. Exits 0 unless there's
+        # a structural problem; routing mismatches print loudly but don't
+        # block. Use `python scripts/check_triggers.py --strict` in CI once
+        # descriptions are sharp.

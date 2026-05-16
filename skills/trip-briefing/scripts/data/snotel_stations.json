@@ -1,0 +1,38 @@
+{
+  "_comment": "Verified Cascade SNOTEL stations. Triplets verified against NRCS active list 2026-05-08. Ported from beta-bot/app/briefing/snowpack.py. Do NOT invent triplets — look up at https://nwcc-apps.sc.egov.usda.gov/imap/ or https://wcc.sc.egov.usda.gov/nwcc/yearcount?network=sntl&counttype=statelist&state=WA and verify they return data before adding.",
+  "stations": {
+    "788:WA:SNTL": {"name": "Stampede Pass",        "elev_ft": 3850, "lat": 47.27, "lon": -121.34, "region": "I-90 corridor west"},
+    "911:WA:SNTL": {"name": "Rex River",            "elev_ft": 3810, "lat": 47.30, "lon": -121.60, "region": "Central west-side low"},
+    "478:WA:SNTL": {"name": "Fish Lake",            "elev_ft": 3440, "lat": 47.54, "lon": -121.09, "region": "Cle Elum / I-90"},
+    "734:WA:SNTL": {"name": "Sasse Ridge",          "elev_ft": 4340, "lat": 47.38, "lon": -121.06, "region": "I-90 corridor"},
+    "791:WA:SNTL": {"name": "Stevens Pass",         "elev_ft": 3940, "lat": 47.75, "lon": -121.09, "region": "US 2 corridor"},
+    "352:WA:SNTL": {"name": "Blewett Pass",         "elev_ft": 4240, "lat": 47.35, "lon": -120.68, "region": "Stuart south / US 97"},
+    "679:WA:SNTL": {"name": "Paradise",             "elev_ft": 5150, "lat": 46.78, "lon": -121.75, "region": "Mt Rainier south side"},
+    "1085:WA:SNTL": {"name": "Cayuse Pass",         "elev_ft": 5260, "lat": 46.87, "lon": -121.53, "region": "Mt Rainier east"},
+    "804:WA:SNTL": {"name": "Surprise Lakes",       "elev_ft": 4280, "lat": 46.09, "lon": -121.76, "region": "South Cascades / Adams"},
+    "909:WA:SNTL": {"name": "Wells Creek",          "elev_ft": 4040, "lat": 48.87, "lon": -121.79, "region": "Baker / Shuksan"},
+    "1011:WA:SNTL": {"name": "MF Nooksack",         "elev_ft": 4940, "lat": 48.82, "lon": -121.93, "region": "Baker / Shuksan high"},
+    "990:WA:SNTL": {"name": "Beaver Pass",          "elev_ft": 3630, "lat": 48.88, "lon": -121.26, "region": "Pickets / Ross Lake"},
+    "1080:WA:SNTL": {"name": "Brown Top",           "elev_ft": 5850, "lat": 48.93, "lon": -121.20, "region": "Pickets high"},
+    "817:WA:SNTL": {"name": "Thunder Basin",        "elev_ft": 4310, "lat": 48.53, "lon": -120.99, "region": "SR 20 / N Cascades west"},
+    "711:WA:SNTL": {"name": "Rainy Pass",           "elev_ft": 4880, "lat": 48.52, "lon": -120.74, "region": "SR 20 alpine"},
+    "998:WA:SNTL": {"name": "Easy Pass",            "elev_ft": 5280, "lat": 48.86, "lon": -121.44, "region": "SR 20 east / Mesahchie-Katsuk"},
+    "975:WA:SNTL": {"name": "Swamp Creek",          "elev_ft": 3930, "lat": 48.57, "lon": -120.78, "region": "SR 20 / Methow border"},
+    "681:WA:SNTL": {"name": "Park Creek Ridge",     "elev_ft": 4610, "lat": 48.44, "lon": -120.92, "region": "Stehekin / Park Creek Pass (Buckner alt)"},
+    "606:WA:SNTL": {"name": "Lyman Lake",           "elev_ft": 5990, "lat": 48.20, "lon": -120.92, "region": "Glacier Peak / Bonanza"},
+    "1171:WA:SNTL": {"name": "Trinity",             "elev_ft": 2890, "lat": 48.07, "lon": -120.85, "region": "Phelps Creek / Maude / 7FJ"},
+    "699:WA:SNTL": {"name": "Pope Ridge",           "elev_ft": 3590, "lat": 47.99, "lon": -120.57, "region": "Entiat / Lago"},
+    "515:WA:SNTL": {"name": "Harts Pass",           "elev_ft": 6490, "lat": 48.72, "lon": -120.66, "region": "Pasayten / Methow"},
+    "728:WA:SNTL": {"name": "Salmon Meadows",       "elev_ft": 4460, "lat": 48.66, "lon": -119.84, "region": "Pasayten east"},
+    "651:OR:SNTL": {"name": "Mt Hood Test Site",    "elev_ft": 5380, "lat": 45.32, "lon": -121.72, "region": "Mt Hood (reference only)"}
+  },
+  "bad_triplets": [
+    "540:WA:SNTL",
+    "698:WA:SNTL",
+    "680:WA:SNTL",
+    "737:WA:SNTL",
+    "717:WA:SNTL",
+    "794:WA:SNTL",
+    "1008:WA:SNTL"
+  ]
+}

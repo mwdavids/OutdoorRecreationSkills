@@ -1,0 +1,54 @@
+{
+  "skill_name": "packing-list",
+  "_comment": "Evals for the personalized packing-list skill. Schema follows c:\\Users\\midavids\\.agents\\skills\\skill-creator\\references\\schemas.md. Expectations focus on: (a) does the skill consult the personal gear library, (b) does the list reflect the trip type's real constraints, (c) does it adjust for season and PNW-specific gotchas.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate a packing list for a ski mountaineering day trip on Mount Adams this Saturday.",
+      "expected_output": "Weight-conscious ski-mountaineering day kit for a volcano route.",
+      "expectations": [
+        "Output reads skills/packing-list/references/gear-library.json",
+        "Output includes ski crampons and boot crampons explicitly",
+        "Output includes glacier travel gear (harness, picket, rope) since Adams has glaciated terrain",
+        "Output addresses sun protection (volcano = high reflection)",
+        "Output is structured as a day-trip list (no overnight gear)"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "What should I bring for a 3-day backpacking trip in the Enchantments in August?",
+      "expected_output": "Summer 3-day backpacking list with WA-specific gotchas.",
+      "expectations": [
+        "Output reads skills/packing-list/references/gear-library.json",
+        "Output covers 3 days of food and water plan",
+        "Output addresses mosquitos / bug protection (Enchantments in August)",
+        "Output addresses bear-resistant food storage (canister or hang)",
+        "Output addresses the permit requirement for the Enchantments core zone OR notes a non-permit camp option"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Make me an ultralight winter day hike kit for Snow Lake.",
+      "expected_output": "Winter day-hike packing list with weight emphasis.",
+      "expectations": [
+        "Output reads skills/packing-list/references/gear-library.json",
+        "Output is explicitly day-trip (no shelter beyond emergency bivy)",
+        "Output includes microspikes or snowshoes (Snow Lake in winter = snow-packed)",
+        "Output includes the ten essentials adapted to winter (extra insulation, headlamp, etc.)",
+        "Output applies an ultralight bias (calls out item weights or substitutions)"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "I'm rafting the Wenatchee this weekend with 4 people — what do we need?",
+      "expected_output": "Group raft trip list with personal vs group gear split.",
+      "expectations": [
+        "Output reads skills/packing-list/references/gear-library.json",
+        "Output separates personal gear from group / boat gear",
+        "Output addresses river safety gear (PFD, helmet, throw bag, whistle)",
+        "Output scales food / dry-bag capacity for 4 people",
+        "Output is rafting-specific (not a generic water-sports list)"
+      ]
+    }
+  ]
+}

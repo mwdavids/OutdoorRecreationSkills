@@ -1,0 +1,53 @@
+{
+  "skill_name": "trip-briefing",
+  "_comment": "Evals for the peak-specific trip briefing skill. Schema follows c:\\Users\\midavids\\.agents\\skills\\skill-creator\\references\\schemas.md. Trip briefings depend on live data (NWS, NWAC, SNOTEL) — for offline eval runs, expectations focus on the inputs the skill must consult and the structure of its output, not on specific numbers.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate a trip briefing for Mount Daniels this Sunday. We're thinking a ski tour.",
+      "expected_output": "A go/no-go briefing covering weather, snowpack, avalanche, drive time, and route plan for Mt Daniels.",
+      "expectations": [
+        "Output reads skills/trip-briefing/references/bulger-peaks.json to look up Daniels' coordinates / SNOTEL / NWAC zone",
+        "Output fetches an NWS point forecast for the peak",
+        "Output fetches the NWAC avalanche forecast for Daniels' zone",
+        "Output fetches at least one nearby SNOTEL reading",
+        "Output gives an explicit go / no-go / conditional recommendation",
+        "Output includes drive time from North Bend, WA"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Plan a go/no-go for Forbidden Peak West Ridge this Saturday.",
+      "expected_output": "Peak-specific briefing biased to a technical alpine rock objective.",
+      "expectations": [
+        "Output identifies Forbidden Peak via the bulger-peaks.json record",
+        "Output addresses West Ridge route specifically (not the East Ridge or NW Face)",
+        "Output considers freezing levels / approach snow conditions appropriate to season",
+        "Output flags Cascade River Road access status",
+        "Output cross-references skills/bulger-knowledge/data/peaks/forbidden.md if it exists"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Trip briefing for Jack Mountain via the Nohokomeen Headwall on June 8th.",
+      "expected_output": "Briefing that consults personal route beta (cached in bulger-knowledge) plus live weather.",
+      "expectations": [
+        "Output consults bulger-knowledge cached beta on Jack/Nohokomeen (the bergschrund window)",
+        "Output reports an explicit assessment of whether the bergschrund is likely passable on the given date",
+        "Output gives the Ross Dam → East Bank Trail → May Creek approach",
+        "Output addresses the multi-day vs single-day overnight question"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Quick conditions check on Mount Adams this weekend — corn cycle window?",
+      "expected_output": "Briefing biased to a volcanic ski-mountaineering objective.",
+      "expectations": [
+        "Output identifies Mount Adams via bulger-peaks.json",
+        "Output addresses corn-snow conditions (freeze-thaw cycle, overnight low, aspect, elevation)",
+        "Output considers South Climb route as the default ski-mountaineering line",
+        "Output gives a recommended departure time from North Bend or trailhead"
+      ]
+    }
+  ]
+}

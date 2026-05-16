@@ -69,3 +69,70 @@ North Bend, WA — all drive times and weather defaults are calibrated from here
 - *"What should I bring for a 3-day backpacking trip in the Enchantments in August?"*
 - *"Make me an ultralight packing list for a winter day hike to Snow Lake."*
 - *"I'm rafting the Wenatchee this weekend with 4 people — what do we need?"*
+
+## Development
+
+This repo has a three-layer testing strategy. Layers 1 and 2 are fast, deterministic, and run in pre-commit. Layer 3 is LLM-in-the-loop and runs out of band.
+
+### Layer 1 — static integrity (`scripts/check_skills.py`)
+
+Validates `SKILL.md` frontmatter, intra-skill markdown links, `bulger-peaks.json`, and `gear-library.json`. Stdlib-only.
+
+```bash
+python scripts/check_skills.py
+```
+
+Exits non-zero on schema breakage or broken cross-references.
+
+### Layer 2 — trigger routing lint (`scripts/check_triggers.py`)
+
+Lints whether the four `SKILL.md` descriptions actually distinguish themselves on a fixed set of routing prompts (`tests/trigger_fixtures.json`). Uses a smoothed IDF scorer over the description vocabularies — no LLM, no network. Stdlib-only.
+
+```bash
+python scripts/check_triggers.py            # warn-only (default)
+python scripts/check_triggers.py --strict   # promote mismatches to fatal (CI mode)
+CHECK_TRIGGERS_STRICT=1 python scripts/check_triggers.py  # same, via env
+```
+
+In default mode, routing mismatches print as `MISMATCH` lines but the script exits 0. This is intentional: descriptions evolve, and the lint is a visibility tool, not a hard gate.
+
+### Pre-commit wiring
+
+Both checks run on every commit via [pre-commit](https://pre-commit.com/):
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+See [`.pre-commit-config.yaml`](.pre-commit-config.yaml). Run manually against the whole tree:
+
+```bash
+pre-commit run --all-files
+```
+
+### Layer 3 — LLM-in-the-loop evals (out of band)
+
+Each skill has an `evals/evals.json` file conforming to the [skill-creator schema](https://github.com/anthropics/skills) (`{skill_name, evals: [{id, prompt, expected_output, expectations}]}`). These define semantic acceptance criteria that require the live model to evaluate — they are *not* run in pre-commit.
+
+To run them, use the [skill-creator](https://github.com/anthropics/skills) executor + grader pipeline (requires the Claude Code CLI). From a workspace where skill-creator is invokable:
+
+```text
+Use the skill-creator skill to run evals against skills/<skill-name>/evals/evals.json
+```
+
+Eval files live at:
+
+- [`skills/bulger-knowledge/evals/evals.json`](skills/bulger-knowledge/evals/evals.json)
+- [`skills/trip-briefing/evals/evals.json`](skills/trip-briefing/evals/evals.json)
+- [`skills/cascade-mountain-weather/evals/evals.json`](skills/cascade-mountain-weather/evals/evals.json)
+- [`skills/packing-list/evals/evals.json`](skills/packing-list/evals/evals.json)
+
+### Repo layout
+
+```text
+scripts/   # versioned executables (Python stdlib only)
+tests/     # fixtures consumed by scripts/
+skills/    # the skills themselves; each has SKILL.md + references/ + evals/
+tmp/       # gitignored throwaway / experiment scripts
+```

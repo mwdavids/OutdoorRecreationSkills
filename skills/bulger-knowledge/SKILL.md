@@ -35,7 +35,12 @@ data/
   peaks/
     README.md                # Conventions for per-peak files + template
     {peak-slug}.md           # One file per peak with personal beta, links, access notes
+    {peak-slug}/             # Optional subdir: per-trip files + cached reference TRs
+  areas/
+    {area-slug}.md           # Multi-peak regional / tour knowledge (e.g., birthday-tour, stuart)
 ```
+
+Consult `data/areas/{slug}.md` when the user's plan is a multi-peak tour or a regional outing rather than a single-summit objective (e.g., "Birthday Tour", "Stuart Range traverse", "Shuksan area conditions").
 
 **Slug convention:** lowercase, hyphenated, drop "Mount/Mt": `mount-buckner` → `buckner.md`, `seven-fingered-jack` → `seven-fingered-jack.md`, `north-gardner` → `north-gardner.md`. Match the `name` field in `bulger-peaks.json`, normalized.
 

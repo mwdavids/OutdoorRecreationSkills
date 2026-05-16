@@ -7,13 +7,20 @@
     "nwac_zone_slug": "cascade-west-south",
     "nearest_snotel": "679:WA:SNTL",
     "bulger_rank": 1,
+    "trailhead": {
+      "name": "Paradise (DC/Fuhrer Finger)",
+      "lat": 46.786,
+      "lon": -121.7353,
+      "elev_ft": 5400
+    },
     "ski_mountaineering": {
       "viable": true,
       "quality": "classic",
-      "notes": "Muir Snowfield, Emmons Glacier, Fuhrer Finger — premier PNW ski mountaineering with 9,000+ ft descents"
+      "notes": "Muir Snowfield, Emmons Glacier, Fuhrer Finger \u2014 premier PNW ski mountaineering with 9,000+ ft descents"
     },
     "climbed": true,
-    "prom_ft": 13246
+    "prom_ft": 13246,
+    "peakbagger_pid": 2296
   },
   {
     "name": "Mount Adams",
@@ -23,13 +30,20 @@
     "nwac_zone_slug": "cascade-west-south",
     "nearest_snotel": "804:WA:SNTL",
     "bulger_rank": 2,
+    "trailhead": {
+      "name": "Cold Springs (South Climb)",
+      "lat": 46.2607,
+      "lon": -121.4945,
+      "elev_ft": 5600
+    },
     "ski_mountaineering": {
       "viable": true,
       "quality": "classic",
       "notes": "South Climb / SW Chutes are among the best ski descents in WA; mellow angle, huge vertical"
     },
     "climbed": true,
-    "prom_ft": 8116
+    "prom_ft": 8116,
+    "peakbagger_pid": 2365
   },
   {
     "name": "Little Tahoma",
@@ -45,7 +59,8 @@
       "notes": "Fryingpan Glacier and east face offer big ski lines on WA's third highest peak; steep and committing"
     },
     "climbed": true,
-    "prom_ft": 818
+    "prom_ft": 818,
+    "peakbagger_pid": 2297
   },
   {
     "name": "Mount Baker",
@@ -53,15 +68,22 @@
     "lon": -121.8145,
     "elevation_ft": 10781,
     "nwac_zone_slug": "cascade-west-north-baker",
+    "trailhead": {
+      "name": "Heliotrope Ridge (Coleman-Deming)",
+      "lat": 48.792,
+      "lon": -121.855,
+      "elev_ft": 3700
+    },
     "nearest_snotel": "909:WA:SNTL",
     "bulger_rank": 4,
     "ski_mountaineering": {
       "viable": true,
       "quality": "classic",
-      "notes": "Easton Glacier, Coleman-Deming, Roman Wall — deep snowpack, long season, accessible for spring ski tours"
+      "notes": "Easton Glacier, Coleman-Deming, Roman Wall \u2014 deep snowpack, long season, accessible for spring ski tours"
     },
     "climbed": true,
-    "prom_ft": 8812
+    "prom_ft": 8812,
+    "peakbagger_pid": 1633
   },
   {
     "name": "Glacier Peak",
@@ -77,7 +99,8 @@
       "notes": "Sitkum, Chocolate, Cool glaciers all ski well; long approach (20+ mi) limits popularity"
     },
     "climbed": true,
-    "prom_ft": 7498
+    "prom_ft": 7498,
+    "peakbagger_pid": 1972
   },
   {
     "name": "Bonanza Peak",
@@ -87,6 +110,15 @@
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
     "bulger_rank": 6,
+    "trailhead": {
+      "name": "Holden Village (via Lucerne ferry)",
+      "lat": 48.205,
+      "lon": -120.747,
+      "elev_ft": 3220,
+      "notes": "Access via Lake Chelan ferry to Lucerne then bus; standard Bonanza/Martin approach",
+      "accessible_months": [5, 6, 7, 8, 9, 10],
+      "road_notes": "Lake Chelan ferry to Lucerne + Holden bus runs ~May-Oct (off-season schedule sparse)"
+    },
     "best_seasons": [
       "summer"
     ],
@@ -97,12 +129,19 @@
       "notes": "Mary Green Glacier offers moderate ski terrain; long approach via Holden Village or Railroad Creek"
     },
     "climbed": false,
-    "prom_ft": 3711
+    "prom_ft": 3711,
+    "peakbagger_pid": 1909
   },
   {
     "name": "Mount Stuart",
     "lat": 47.4751,
     "lon": -120.9024,
+    "trailhead": {
+      "name": "Ingalls Creek TH (Cascadian Couloir)",
+      "lat": 47.5382,
+      "lon": -120.7218,
+      "elev_ft": 2600
+    },
     "elevation_ft": 9415,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "734:WA:SNTL",
@@ -117,7 +156,8 @@
       "notes": "Ingalls Lake approach has scattered larch groves; Ingalls Creek drainage has larch at higher elevations"
     },
     "climbed": true,
-    "prom_ft": 5354
+    "prom_ft": 5354,
+    "peakbagger_pid": 2182
   },
   {
     "name": "Mount Fernow",
@@ -142,7 +182,17 @@
       "notes": "Phelps Creek approach through Spider Meadow larch; fall colors along the entire valley"
     },
     "climbed": false,
-    "prom_ft": 2811
+    "prom_ft": 2811,
+    "peakbagger_pid": 2012,
+    "trailhead": {
+      "name": "Phelps Creek TH (Trinity)",
+      "lat": 48.08287,
+      "lon": -120.83498,
+      "elev_ft": 2790,
+      "notes": "Off Chiwawa River Rd; gate may close ~3 mi short in shoulder season",
+      "accessible_months": [6, 7, 8, 9, 10],
+      "road_notes": "Chiwawa River Rd / Phelps gate often closed into early June; snowpack + downed trees possible May-June"
+    }
   },
   {
     "name": "Mount Shuksan",
@@ -158,7 +208,8 @@
       "notes": "Sulphide Glacier and White Salmon Glacier are premier spring ski tours; summit pyramid requires boot/crampon"
     },
     "climbed": true,
-    "prom_ft": 4411
+    "prom_ft": 4411,
+    "peakbagger_pid": 1630
   },
   {
     "name": "Mount Buckner",
@@ -168,6 +219,15 @@
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 11,
+    "trailhead": {
+      "name": "Eldorado TH / Cascade Pass (gated at MP 20)",
+      "lat": 48.4764,
+      "lon": -121.069,
+      "elev_ft": 2200,
+      "notes": "Cascade River Rd closed at MP 20; +2-3 mi bike to Cascade Pass / Boston Basin THs",
+      "accessible_months": [4, 5, 6, 7, 8, 9, 10, 11],
+      "road_notes": "Cascade River Rd typically gated near MP 20 in shoulder season; live NOCA alerts override"
+    },
     "best_seasons": [
       "spring"
     ],
@@ -178,7 +238,8 @@
       "notes": "North face has excellent steep skiing; approach via Cascade Pass / Boston Basin or Horseshoe Basin"
     },
     "climbed": false,
-    "prom_ft": 3034
+    "prom_ft": 3034,
+    "peakbagger_pid": 1852
   },
   {
     "name": "Jack Mountain",
@@ -188,6 +249,13 @@
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "515:WA:SNTL",
     "bulger_rank": 14,
+    "trailhead": {
+      "name": "Ross Dam TH (SR 20)",
+      "lat": 48.7308,
+      "lon": -121.0667,
+      "elev_ft": 2100,
+      "notes": "West of SR 20 closure \u2014 accessible year-round from west"
+    },
     "best_seasons": [
       "spring"
     ],
@@ -198,7 +266,8 @@
       "notes": "Nohokomeen Glacier offers moderate ski terrain; very remote, requires SR 20 to be open"
     },
     "climbed": false,
-    "prom_ft": 4211
+    "prom_ft": 4211,
+    "peakbagger_pid": 1699
   },
   {
     "name": "Mount Logan",
@@ -209,7 +278,7 @@
     "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 13,
     "best_seasons": [
-      "spring"
+      "summer"
     ],
     "dog_friendly": false,
     "ski_mountaineering": {
@@ -218,7 +287,15 @@
       "notes": "Douglas Glacier and Banded Glacier have skiable terrain; extremely remote, multi-day approach"
     },
     "climbed": false,
-    "prom_ft": 1487
+    "prom_ft": 1487,
+    "peakbagger_pid": 1828,
+    "trailhead": {
+      "name": "Colonial Creek Campground (SR 20 MP 130)",
+      "lat": 48.6896,
+      "lon": -121.0944,
+      "elev_ft": 1200,
+      "notes": "Standard TH for Fremont Glacier route via Thunder Creek Trail (~20 mi to Park Creek Pass). Banded Glacier route also starts here (via Fisher Creek Trail). Easy Pass TH (MP 151) is the alternate for Douglas Glacier variation. SR 20 closed Silver Star\u2192Ross Dam late-Nov to ~late-May, but Colonial Creek is west of the closure and accessible year-round."
+    }
   },
   {
     "name": "Mount Goode",
@@ -234,13 +311,14 @@
       "notes": "NE couloir holds steep snow into summer; remote approach via Lake Chelan and Company Creek"
     },
     "climbed": true,
-    "prom_ft": 3808
+    "prom_ft": 3808,
+    "peakbagger_pid": 1836
   },
   {
     "name": "North Gardner Mountain",
     "lat": 48.515206,
     "lon": -120.501679,
-    "elevation_ft": 8956,
+    "elevation_ft": 8963,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
     "bulger_rank": 20,
@@ -256,7 +334,15 @@
       "notes": "Dry east-side scramble peak; snow melts early, terrain is mostly talus and heather"
     },
     "climbed": false,
-    "prom_ft": 3996
+    "prom_ft": 4020,
+    "peakbagger_pid": 1926,
+    "trailhead": {
+      "name": "Wolf Creek TH (Methow Valley)",
+      "lat": 48.5469,
+      "lon": -120.2403,
+      "elev_ft": 2400,
+      "notes": "Year-round low-elevation TH"
+    }
   },
   {
     "name": "Copper Peak",
@@ -281,7 +367,17 @@
       "notes": "Phelps Creek drainage has larch on approach; often combined with Fernow/Maude larch circuit"
     },
     "climbed": false,
-    "prom_ft": 484
+    "prom_ft": 484,
+    "peakbagger_pid": 2009,
+    "trailhead": {
+      "name": "Phelps Creek TH (Trinity)",
+      "lat": 48.08287,
+      "lon": -120.83498,
+      "elev_ft": 2790,
+      "notes": "Off Chiwawa River Rd; gate may close ~3 mi short in shoulder season",
+      "accessible_months": [6, 7, 8, 9, 10],
+      "road_notes": "Chiwawa River Rd / Phelps gate often closed into early June; snowpack + downed trees possible May-June"
+    }
   },
   {
     "name": "Mount Spickard",
@@ -291,6 +387,15 @@
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "909:WA:SNTL",
     "bulger_rank": 16,
+    "trailhead": {
+      "name": "Depot Creek TH (Chilliwack Lake Rd, BC)",
+      "lat": 49.0223,
+      "lon": -121.4225,
+      "elev_ft": 2000,
+      "notes": "BC approach; border crossing + rough logging road; brushy bushwhack",
+      "accessible_months": [6, 7, 8, 9, 10],
+      "road_notes": "Chilliwack Lake Rd FSR snowbound + brushed-in until early summer; verify with BC Recreation Sites"
+    },
     "best_seasons": [
       "spring",
       "summer"
@@ -302,7 +407,8 @@
       "notes": "Silver Glacier has skiable terrain; extremely remote multi-day trip via Depot Creek or Chilliwack River"
     },
     "climbed": false,
-    "prom_ft": 4779
+    "prom_ft": 4779,
+    "peakbagger_pid": 1610
   },
   {
     "name": "Seven Fingered Jack",
@@ -326,7 +432,17 @@
       "notes": "Phelps Creek / Spider Meadow larch corridor on approach; combines alpine climbing with peak fall color"
     },
     "climbed": false,
-    "prom_ft": 380
+    "prom_ft": 380,
+    "peakbagger_pid": 2013,
+    "trailhead": {
+      "name": "Phelps Creek TH (Trinity)",
+      "lat": 48.08287,
+      "lon": -120.83498,
+      "elev_ft": 2790,
+      "notes": "Off Chiwawa River Rd; gate may close ~3 mi short in shoulder season",
+      "accessible_months": [6, 7, 8, 9, 10],
+      "road_notes": "Chiwawa River Rd / Phelps gate often closed into early June; snowpack + downed trees possible May-June"
+    }
   },
   {
     "name": "Black Peak",
@@ -346,7 +462,8 @@
       "notes": "Blue Lake / Heather-Maple Pass larch are legendary; approach from Wing Lake or Rainy Pass through prime larch"
     },
     "climbed": true,
-    "prom_ft": 3450
+    "prom_ft": 3450,
+    "peakbagger_pid": 1830
   },
   {
     "name": "Mount Maude",
@@ -370,7 +487,17 @@
       "notes": "Phelps Creek / Spider Meadow approach passes prime larch groves; Ice Cliff Glacier framed by golden larch"
     },
     "climbed": false,
-    "prom_ft": 882
+    "prom_ft": 882,
+    "peakbagger_pid": 2015,
+    "trailhead": {
+      "name": "Phelps Creek TH (Trinity)",
+      "lat": 48.08287,
+      "lon": -120.83498,
+      "elev_ft": 2790,
+      "notes": "Off Chiwawa River Rd; gate may close ~3 mi short in shoulder season",
+      "accessible_months": [6, 7, 8, 9, 10],
+      "road_notes": "Chiwawa River Rd / Phelps gate often closed into early June; snowpack + downed trees possible May-June"
+    }
   },
   {
     "name": "Mount Redoubt",
@@ -388,10 +515,20 @@
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
-      "notes": "Redoubt Glacier offers moderate terrain; extremely remote — typically combined with Spickard as a multi-day"
+      "notes": "Redoubt Glacier offers moderate terrain; extremely remote \u2014 typically combined with Spickard as a multi-day"
     },
     "climbed": false,
-    "prom_ft": 1649
+    "prom_ft": 1649,
+    "peakbagger_pid": 1613,
+    "trailhead": {
+      "name": "Depot Creek TH (Chilliwack Lake Rd, BC)",
+      "lat": 49.0223,
+      "lon": -121.4225,
+      "elev_ft": 2000,
+      "notes": "BC approach; border crossing + rough logging road; brushy bushwhack",
+      "accessible_months": [6, 7, 8, 9, 10],
+      "road_notes": "Chilliwack Lake Rd FSR snowbound + brushed-in until early summer; verify with BC Recreation Sites"
+    }
   },
   {
     "name": "Dome Peak",
@@ -411,7 +548,15 @@
       "notes": "Dome Glacier has excellent moderate-angle skiing; very long approach via Downey Creek or Bachelor Creek"
     },
     "climbed": false,
-    "prom_ft": 3040
+    "prom_ft": 3040,
+    "peakbagger_pid": 1886,
+    "trailhead": {
+      "name": "Downey Creek TH (Suiattle River Rd)",
+      "lat": 48.2515,
+      "lon": -121.1858,
+      "elev_ft": 1450,
+      "notes": "Suiattle River Rd from Darrington; long valley to Cub Lake / Itswoot Ridge"
+    }
   },
   {
     "name": "Eldorado Peak",
@@ -424,10 +569,11 @@
     "ski_mountaineering": {
       "viable": true,
       "quality": "classic",
-      "notes": "Eldorado Glacier is an early-season classic — accessible from Cascade River Rd, moderate angle, great corn skiing"
+      "notes": "Eldorado Glacier is an early-season classic \u2014 accessible from Cascade River Rd, moderate angle, great corn skiing"
     },
     "climbed": true,
-    "prom_ft": 2188
+    "prom_ft": 2188,
+    "peakbagger_pid": 1846
   },
   {
     "name": "Forbidden Peak",
@@ -437,6 +583,15 @@
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
     "bulger_rank": 27,
+    "trailhead": {
+      "name": "Eldorado TH / Cascade Pass (gated at MP 20)",
+      "lat": 48.4764,
+      "lon": -121.069,
+      "elev_ft": 2200,
+      "notes": "Cascade River Rd closed at MP 20; +2-3 mi bike to Cascade Pass / Boston Basin THs",
+      "accessible_months": [4, 5, 6, 7, 8, 9, 10, 11],
+      "road_notes": "Cascade River Rd typically gated near MP 20 in shoulder season; live NOCA alerts override"
+    },
     "best_seasons": [
       "summer"
     ],
@@ -447,7 +602,8 @@
       "notes": "Technical rock summit; approach couloirs can be skied but the peak itself is a rock climb"
     },
     "climbed": false,
-    "prom_ft": 1055
+    "prom_ft": 1055,
+    "peakbagger_pid": 1849
   },
   {
     "name": "Dragontail Peak",
@@ -472,7 +628,8 @@
       "notes": "Colchuck Lake / Aasgard Pass larch groves visible on approach; classic fall photo destination"
     },
     "climbed": true,
-    "prom_ft": 1760
+    "prom_ft": 1760,
+    "peakbagger_pid": 2179
   },
   {
     "name": "Mount Challenger",
@@ -484,8 +641,9 @@
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
-      "notes": "Challenger Glacier has moderate terrain; extremely remote Picket Range — multi-day commitment"
-    }
+      "notes": "Challenger Glacier has moderate terrain; extremely remote Picket Range \u2014 multi-day commitment"
+    },
+    "climbed": false
   },
   {
     "name": "Colchuck Peak",
@@ -505,7 +663,8 @@
       "notes": "Aasgard Pass and lower Enchantments larch on approach; Colchuck Lake + golden larch backdrop"
     },
     "climbed": true,
-    "prom_ft": 665
+    "prom_ft": 665,
+    "peakbagger_pid": 2180
   },
   {
     "name": "Clark Mountain",
@@ -530,7 +689,17 @@
       "notes": "Phelps Creek / Larch Lakes area; extensive larch groves on approach from multiple directions"
     },
     "climbed": false,
-    "prom_ft": 1522
+    "prom_ft": 1522,
+    "peakbagger_pid": 1979,
+    "trailhead": {
+      "name": "White River TH (Boulder Pass)",
+      "lat": 47.9631,
+      "lon": -120.94524,
+      "elev_ft": 2300,
+      "notes": "Off US 2 via Lake Wenatchee + White River Rd; long approach via Boulder Pass to Napeequa / White River drainage",
+      "accessible_months": [6, 7, 8, 9, 10],
+      "road_notes": "White River Rd snow-covered with downed trees into late spring (user confirmed early-season blocked); Boulder Pass holds snow into summer"
+    }
   },
   {
     "name": "Cannon Mountain",
@@ -546,7 +715,8 @@
       "notes": "Dry east-side scramble; mostly talus and heather slopes, snow melts early"
     },
     "climbed": true,
-    "prom_ft": 838
+    "prom_ft": 838,
+    "peakbagger_pid": 2174
   },
   {
     "name": "Mount Fury",
@@ -559,12 +729,13 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Extremely remote Picket Range; technical rock and glacier, not a practical ski objective"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Mesahchie Peak",
-    "lat": 48.5511,
-    "lon": -120.9222,
+    "lat": 48.57874,
+    "lon": -120.88039,
     "elevation_ft": 8795,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -580,7 +751,15 @@
       "notes": "Small glaciers and couloirs on north side hold snow; remote approach requires SR 20"
     },
     "climbed": false,
-    "prom_ft": 2731
+    "prom_ft": 2731,
+    "peakbagger_pid": 1822,
+    "trailhead": {
+      "name": "Easy Pass TH (SR 20)",
+      "lat": 48.6044,
+      "lon": -120.7464,
+      "elev_ft": 3700,
+      "notes": "SR 20 closed Silver Star\u2192Ross Dam late-Nov to ~late-May"
+    }
   },
   {
     "name": "Big Four Mountain",
@@ -593,7 +772,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Extremely avalanche-prone north face; ice caves area below is a known hazard zone, not a safe ski objective"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Mount Olympus",
@@ -602,12 +782,13 @@
     "elevation_ft": 7980,
     "nwac_zone_slug": "olympics",
     "nearest_snotel": "911:WA:SNTL",
-    "nearest_snotel_note": "No verified Olympics SNOTEL; using Paradise (5150') as rough proxy — interpret with caution for this west-side peak",
+    "nearest_snotel_note": "No verified Olympics SNOTEL; using Paradise (5150') as rough proxy \u2014 interpret with caution for this west-side peak",
     "ski_mountaineering": {
       "viable": true,
       "quality": "good",
       "notes": "Blue Glacier and Snow Dome ski well; long 18-mi approach via Hoh River trail, multi-day trip"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Silver Star Mountain",
@@ -627,12 +808,13 @@
       "notes": "Washington Pass / Blue Lake area larch visible on approaches; Cedar Creek has scattered larch"
     },
     "climbed": true,
-    "prom_ft": 2436
+    "prom_ft": 2436,
+    "peakbagger_pid": 1914
   },
   {
     "name": "Sahale Peak",
-    "lat": 48.5094,
-    "lon": -121.0431,
+    "lat": 48.4911,
+    "lon": -121.03853,
     "elevation_ft": 8680,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -643,7 +825,8 @@
       "notes": "Sahale Glacier and Who-Me Couloir are popular ski lines; accessible via Cascade Pass when road opens"
     },
     "climbed": true,
-    "prom_ft": 80
+    "prom_ft": 80,
+    "peakbagger_pid": 1854
   },
   {
     "name": "Mount Triumph",
@@ -656,7 +839,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock peak with heavily bushed approach; not a ski objective"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Mount Formidable",
@@ -674,10 +858,18 @@
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
-      "notes": "Middle Cascade Glacier approach offers moderate skiing; remote — accessed from Cascade Pass or Downey Creek"
+      "notes": "Middle Cascade Glacier approach offers moderate skiing; remote \u2014 accessed from Cascade Pass or Downey Creek"
     },
     "climbed": false,
-    "prom_ft": 1885
+    "prom_ft": 1885,
+    "peakbagger_pid": 1872,
+    "trailhead": {
+      "name": "Eldorado TH / Cascade Pass (gated at MP 20)",
+      "lat": 48.4764,
+      "lon": -121.069,
+      "elev_ft": 2200,
+      "notes": "Cascade River Rd closed at MP 20; +2-3 mi bike to Cascade Pass / Boston Basin THs"
+    }
   },
   {
     "name": "Snowfield Peak",
@@ -693,7 +885,8 @@
       "notes": "Colonial/Neve Glacier system provides ski access; approach via Colonial Creek when Diablo Dam road open"
     },
     "climbed": true,
-    "prom_ft": 2907
+    "prom_ft": 2907,
+    "peakbagger_pid": 1840
   },
   {
     "name": "Lincoln Peak",
@@ -706,12 +899,13 @@
       "viable": true,
       "quality": "good",
       "notes": "Roosevelt and Coleman glaciers give good skiing on the Baker massif; combine with Baker summit trips"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Sinister Peak",
-    "lat": 48.3119,
-    "lon": -121.0625,
+    "lat": 48.29997,
+    "lon": -121.0097,
     "elevation_ft": 8440,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -726,7 +920,15 @@
       "notes": "Dana Glacier approach has moderate ski terrain; very remote, usually combined with Dome Peak trips"
     },
     "climbed": false,
-    "prom_ft": 840
+    "prom_ft": 840,
+    "peakbagger_pid": 1887,
+    "trailhead": {
+      "name": "Downey Creek TH (Suiattle River Rd)",
+      "lat": 48.2515,
+      "lon": -121.1858,
+      "elev_ft": 1450,
+      "notes": "Suiattle River Rd from Darrington; long valley to Cub Lake / Itswoot Ridge"
+    }
   },
   {
     "name": "Primus Peak",
@@ -751,7 +953,15 @@
       "notes": "Entiat River drainage; scattered larch at treeline elevations"
     },
     "climbed": false,
-    "prom_ft": 828
+    "prom_ft": 828,
+    "peakbagger_pid": 1841,
+    "trailhead": {
+      "name": "Colonial Creek / Thunder Creek TH (SR 20)",
+      "lat": 48.6883,
+      "lon": -121.0586,
+      "elev_ft": 1200,
+      "notes": "Year-round (west of SR 20 closure); long valley approach"
+    }
   },
   {
     "name": "Argonaut Peak",
@@ -767,7 +977,8 @@
       "notes": "South-face couloirs hold snow in spring; steep and committing, approach via Mountaineer Creek"
     },
     "climbed": true,
-    "prom_ft": 733
+    "prom_ft": 733,
+    "peakbagger_pid": 2185
   },
   {
     "name": "Sherpa Peak",
@@ -792,7 +1003,8 @@
       "notes": "Enchantments / Stuart Range; larch visible from Sherpa Glacier approach in fall"
     },
     "climbed": true,
-    "prom_ft": 405
+    "prom_ft": 405,
+    "peakbagger_pid": 2184
   },
   {
     "name": "Star Peak",
@@ -812,7 +1024,8 @@
       "notes": "Entiat drainage approach has larch at higher elevations"
     },
     "climbed": true,
-    "prom_ft": 1170
+    "prom_ft": 1170,
+    "peakbagger_pid": 1959
   },
   {
     "name": "Enchantment Peak",
@@ -829,10 +1042,11 @@
     },
     "larch_scenery": {
       "quality": "iconic",
-      "notes": "Upper Enchantments — world-famous golden larch groves in Oct, one of the best larch displays in WA"
+      "notes": "Upper Enchantments \u2014 world-famous golden larch groves in Oct, one of the best larch displays in WA"
     },
     "climbed": true,
-    "prom_ft": 480
+    "prom_ft": 480,
+    "peakbagger_pid": 2177
   },
   {
     "name": "McClellan Peak",
@@ -852,12 +1066,13 @@
       "notes": "Upper Enchantments larch basins; peak-larch views from all angles in early-mid Oct"
     },
     "climbed": true,
-    "prom_ft": 1244
+    "prom_ft": 1244,
+    "peakbagger_pid": 2186
   },
   {
     "name": "Luahna Peak",
-    "lat": 48.1467,
-    "lon": -120.6517,
+    "lat": 48.06067,
+    "lon": -120.98497,
     "elevation_ft": 8441,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -877,7 +1092,17 @@
       "notes": "Phelps Creek approach passes through larch; often combined with 7FJ/Maude larch trips"
     },
     "climbed": false,
-    "prom_ft": 1880
+    "prom_ft": 1880,
+    "peakbagger_pid": 1978,
+    "trailhead": {
+      "name": "White River TH (Boulder Pass)",
+      "lat": 47.9631,
+      "lon": -120.94524,
+      "elev_ft": 2300,
+      "notes": "Off US 2 via Lake Wenatchee + White River Rd; long approach via Boulder Pass to Napeequa / White River drainage",
+      "accessible_months": [6, 7, 8, 9, 10],
+      "road_notes": "White River Rd snow-covered with downed trees into late spring (user confirmed early-season blocked); Boulder Pass holds snow into summer"
+    }
   },
   {
     "name": "Fortress Mountain",
@@ -897,7 +1122,8 @@
       "notes": "Spider Meadow / Phelps Creek approach through dense larch groves; golden valley views"
     },
     "climbed": true,
-    "prom_ft": 1680
+    "prom_ft": 1680,
+    "peakbagger_pid": 1981
   },
   {
     "name": "Chiwawa Mountain",
@@ -917,7 +1143,8 @@
       "notes": "Larch Lakes and Spider Meadow approaches pass through extensive larch groves"
     },
     "climbed": true,
-    "prom_ft": 1219
+    "prom_ft": 1219,
+    "peakbagger_pid": 1980
   },
   {
     "name": "Dumbell Mountain",
@@ -937,7 +1164,8 @@
       "notes": "Entiat River / Phelps Creek approaches pass through larch groves at treeline"
     },
     "climbed": true,
-    "prom_ft": 1261
+    "prom_ft": 1261,
+    "peakbagger_pid": 2008
   },
   {
     "name": "Oval Peak",
@@ -953,7 +1181,8 @@
       "notes": "East-side scramble; mostly heather, talus, and dry ridge walking"
     },
     "climbed": true,
-    "prom_ft": 2731
+    "prom_ft": 2731,
+    "peakbagger_pid": 1953
   },
   {
     "name": "Cardinal Peak",
@@ -978,7 +1207,15 @@
       "notes": "Lake Chelan-Sawtooth area has scattered larch; fall color on approach from Entiat side"
     },
     "climbed": false,
-    "prom_ft": 2070
+    "prom_ft": 2070,
+    "peakbagger_pid": 2028,
+    "trailhead": {
+      "name": "N Fork Entiat River TH",
+      "lat": 48.0112,
+      "lon": -120.57221,
+      "elev_ft": 3100,
+      "notes": "Standard approach for Cardinal/Saska/Emerald/Pinnacle from Entiat River Rd"
+    }
   },
   {
     "name": "Klawatti Peak",
@@ -994,7 +1231,8 @@
       "notes": "Klawatti Glacier is a well-known ski descent; pair with Austera for a glacier traverse"
     },
     "climbed": true,
-    "prom_ft": 685
+    "prom_ft": 685,
+    "peakbagger_pid": 1844
   },
   {
     "name": "Reynolds Peak",
@@ -1010,7 +1248,8 @@
       "notes": "East-side scramble peak; mostly dry talus and heather, not a ski objective"
     },
     "climbed": true,
-    "prom_ft": 2032
+    "prom_ft": 2032,
+    "peakbagger_pid": 1945
   },
   {
     "name": "Devore Peak",
@@ -1034,12 +1273,20 @@
       "notes": "Entiat River drainage has larch at treeline; combined with other Entiat peaks in fall"
     },
     "climbed": false,
-    "prom_ft": 1722
+    "prom_ft": 1722,
+    "peakbagger_pid": 1900,
+    "trailhead": {
+      "name": "Stehekin Landing (Lake Chelan ferry)",
+      "lat": 48.3127,
+      "lon": -120.6603,
+      "elev_ft": 1100,
+      "notes": "Ferry-only access via Lady of the Lake; shuttle to upper valley THs"
+    }
   },
   {
     "name": "Martin Peak",
-    "lat": 48.241679,
-    "lon": -120.815844,
+    "lat": 48.18861,
+    "lon": -120.35101,
     "elevation_ft": 8511,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -1057,8 +1304,16 @@
       "quality": "good",
       "notes": "Phelps Creek / Chiwawa River approach passes through larch zones at higher elevations"
     },
-    "climbed": false,
-    "prom_ft": 2111
+    "climbed": true,
+    "prom_ft": 2111,
+    "peakbagger_pid": 1966,
+    "trailhead": {
+      "name": "Holden Village (via Lucerne ferry)",
+      "lat": 48.205,
+      "lon": -120.747,
+      "elev_ft": 3220,
+      "notes": "Access via Lake Chelan ferry to Lucerne then bus; standard Bonanza/Martin approach"
+    }
   },
   {
     "name": "Emerald Peak",
@@ -1082,12 +1337,20 @@
       "notes": "Phelps Creek approach has larch; glacier cirque between Emerald and 7FJ with scattered larch below"
     },
     "climbed": false,
-    "prom_ft": 742
+    "prom_ft": 742,
+    "peakbagger_pid": 2026,
+    "trailhead": {
+      "name": "N Fork Entiat River TH",
+      "lat": 48.0112,
+      "lon": -120.57221,
+      "elev_ft": 3100,
+      "notes": "Standard approach for Cardinal/Saska/Emerald/Pinnacle from Entiat River Rd"
+    }
   },
   {
     "name": "Spectacle Buttes",
-    "lat": 48.1019,
-    "lon": -120.7033,
+    "lat": 48.12663,
+    "lon": -120.75995,
     "elevation_ft": 8392,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -1102,7 +1365,8 @@
       "notes": "Entiat / Phelps Creek approach with larch at higher elevations"
     },
     "climbed": true,
-    "prom_ft": 1072
+    "prom_ft": 1072,
+    "peakbagger_pid": 2017
   },
   {
     "name": "Mount Lago",
@@ -1118,7 +1382,8 @@
       "notes": "Dry east-side scramble; mostly talus, snow melts early on this Pasayten peak"
     },
     "climbed": true,
-    "prom_ft": 3268
+    "prom_ft": 3268,
+    "peakbagger_pid": 1732
   },
   {
     "name": "Pinnacle Peak",
@@ -1131,7 +1396,9 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Short rock scramble near Rainier's Tatoosh Range; too small and rocky for ski mountaineering"
-    }
+    },
+    "peakbagger_pid": 2025,
+    "climbed": false
   },
   {
     "name": "Mount St. Helens",
@@ -1147,7 +1414,8 @@
       "notes": "Monitor Ridge and Worm Flows are PNW spring ski classics; permits required May 15 - Oct 31, smooth volcanic terrain"
     },
     "climbed": true,
-    "prom_ft": 4573
+    "prom_ft": 4573,
+    "peakbagger_pid": 2353
   },
   {
     "name": "Mount Hood",
@@ -1159,8 +1427,9 @@
     "ski_mountaineering": {
       "viable": true,
       "quality": "classic",
-      "notes": "South side, Sandy Glacier Headwall, Cooper Spur — year-round skiing potential, PNW classic"
-    }
+      "notes": "South side, Sandy Glacier Headwall, Cooper Spur \u2014 year-round skiing potential, PNW classic"
+    },
+    "climbed": false
   },
   {
     "name": "Sloan Peak",
@@ -1173,7 +1442,8 @@
       "viable": true,
       "quality": "fair",
       "notes": "Sloan Glacier offers moderate skiing on the west side; Corkscrew route approach, Mtn Loop Hwy access limited in spring"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Whitehorse Mountain",
@@ -1186,7 +1456,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Steep, brushy approach with technical rock; not a practical ski objective"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Three Fingers",
@@ -1199,7 +1470,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Rocky summit with lookout; long trail approach, no sustained ski terrain"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Mount Shasta",
@@ -1211,8 +1483,9 @@
     "ski_mountaineering": {
       "viable": true,
       "quality": "classic",
-      "notes": "Avalanche Gulch, Hotlum-Bolam, Casaval Ridge — massive volcanic ski descents, 7,000+ ft runs"
-    }
+      "notes": "Avalanche Gulch, Hotlum-Bolam, Casaval Ridge \u2014 massive volcanic ski descents, 7,000+ ft runs"
+    },
+    "climbed": false
   },
   {
     "name": "Mount Index",
@@ -1225,7 +1498,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock climbing peak; brushy approach, no skiable terrain"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Johannesburg Mountain",
@@ -1238,7 +1512,8 @@
       "viable": true,
       "quality": "fair",
       "notes": "Steep couloirs on south face hold snow; approached from Cascade Pass area, committing terrain"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Austera Peak",
@@ -1259,7 +1534,15 @@
       "notes": "McAllister Glacier approach; often paired with Klawatti for a glacier ski traverse"
     },
     "climbed": false,
-    "prom_ft": 414
+    "prom_ft": 414,
+    "peakbagger_pid": 1843,
+    "trailhead": {
+      "name": "Colonial Creek / Thunder Creek TH (SR 20)",
+      "lat": 48.6883,
+      "lon": -121.0586,
+      "elev_ft": 1200,
+      "notes": "Year-round (west of SR 20 closure); long valley approach"
+    }
   },
   {
     "name": "Bear Mountain",
@@ -1272,7 +1555,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Remote bushwhack peak; no significant ski terrain"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Hozomeen Mountain",
@@ -1285,7 +1569,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock peak; remote, accessed via Hozomeen Lake, not a ski objective"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Colonial Peak",
@@ -1298,7 +1583,8 @@
       "viable": true,
       "quality": "good",
       "notes": "Colonial Glacier is a pleasant ski run; accessible from Colonial Creek campground when road open"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Goat Mountain",
@@ -1311,7 +1597,8 @@
       "viable": true,
       "quality": "fair",
       "notes": "North side glacial terrain; remote approach, often climbed as part of Ptarmigan Traverse"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Custer Peak",
@@ -1328,15 +1615,23 @@
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
-      "notes": "North-side glaciers hold snow; extremely remote, multi-day trip — often combined with Spickard/Redoubt"
+      "notes": "North-side glaciers hold snow; extremely remote, multi-day trip \u2014 often combined with Spickard/Redoubt"
     },
     "climbed": false,
-    "prom_ft": 1230
+    "prom_ft": 1230,
+    "peakbagger_pid": 1608,
+    "trailhead": {
+      "name": "Depot Creek TH (Chilliwack Lake Rd, BC)",
+      "lat": 49.0223,
+      "lon": -121.4225,
+      "elev_ft": 2000,
+      "notes": "BC approach; border crossing + rough logging road; brushy bushwhack"
+    }
   },
   {
     "name": "Rahm Peak",
-    "lat": 48.9392,
-    "lon": -121.2403,
+    "lat": 48.99707,
+    "lon": -121.22874,
     "elevation_ft": 8504,
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "909:WA:SNTL",
@@ -1351,7 +1646,15 @@
       "notes": "Adjacent to Custer; glacial terrain on approach, same remote multi-day access"
     },
     "climbed": false,
-    "prom_ft": 280
+    "prom_ft": 280,
+    "peakbagger_pid": 1606,
+    "trailhead": {
+      "name": "Hannegan Pass TH (Mt Baker Hwy)",
+      "lat": 48.9094,
+      "lon": -121.5933,
+      "elev_ft": 3100,
+      "notes": "Off Mt Baker Hwy; FS-32 may add gate miles before late May"
+    }
   },
   {
     "name": "Tenpeak Mountain",
@@ -1364,7 +1667,8 @@
       "viable": true,
       "quality": "fair",
       "notes": "Buck Creek Glacier area offers moderate terrain; long approach via Buck Creek trail"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Kimtah Peak",
@@ -1385,7 +1689,15 @@
       "notes": "Kimtah and surrounding glaciers offer moderate terrain; accessed via SR 20 corridor"
     },
     "climbed": false,
-    "prom_ft": 1040
+    "prom_ft": 1040,
+    "peakbagger_pid": 1820,
+    "trailhead": {
+      "name": "Easy Pass TH (SR 20)",
+      "lat": 48.6044,
+      "lon": -120.7464,
+      "elev_ft": 3700,
+      "notes": "SR 20 closed Silver Star\u2192Ross Dam late-Nov to ~late-May"
+    }
   },
   {
     "name": "Mixup Peak",
@@ -1398,7 +1710,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock climbing peak; no practical ski terrain on the peak itself"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Whittier Peak",
@@ -1411,7 +1724,8 @@
       "viable": true,
       "quality": "fair",
       "notes": "North-side neve and glacier terrain; accessed from Neve Glacier/Colonial area"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Castle Peak",
@@ -1424,7 +1738,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side peak; scramble terrain, snow melts early"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Raven Ridge",
@@ -1445,7 +1760,15 @@
       "notes": "Remote ridge traverse; technical terrain, not suited for skiing"
     },
     "climbed": false,
-    "prom_ft": 1092
+    "prom_ft": 1092,
+    "peakbagger_pid": 28897,
+    "trailhead": {
+      "name": "Crater Creek Campground",
+      "lat": 48.22011,
+      "lon": -120.26815,
+      "elev_ft": 3100,
+      "notes": "Methow/Sawtooths approach via Crater Creek Rd off Twisp River Rd"
+    }
   },
   {
     "name": "South Gardner Mountain",
@@ -1458,7 +1781,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side scramble; mostly talus and heather, similar to N Gardner"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Stiletto Peak",
@@ -1471,7 +1795,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock spire; no skiable terrain"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Ptarmigan Peak",
@@ -1487,7 +1812,8 @@
       "notes": "Glaciated approach on Ptarmigan Traverse; south-side snowfields offer moderate skiing"
     },
     "climbed": true,
-    "prom_ft": 894
+    "prom_ft": 894,
+    "peakbagger_pid": 1725
   },
   {
     "name": "Crater Mountain",
@@ -1500,12 +1826,13 @@
       "viable": true,
       "quality": "fair",
       "notes": "North-side Jerry Glacier has moderate terrain; remote access requires SR 20"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Azurite Peak",
-    "lat": 48.5917,
-    "lon": -120.5592,
+    "lat": 48.65723,
+    "lon": -120.75208,
     "elevation_ft": 8400,
     "nwac_zone_slug": "cascade-east-north",
     "nearest_snotel": "515:WA:SNTL",
@@ -1524,7 +1851,15 @@
       "notes": "Harts Pass area has scattered larch; accessible in fall when road is open"
     },
     "climbed": false,
-    "prom_ft": 1880
+    "prom_ft": 1880,
+    "peakbagger_pid": 1709,
+    "trailhead": {
+      "name": "Hart's Pass / Slate Pk TH",
+      "lat": 48.7195,
+      "lon": -120.6724,
+      "elev_ft": 6800,
+      "notes": "Hart's Pass Rd typically opens late-June to mid-October only"
+    }
   },
   {
     "name": "Horseshoe Peak",
@@ -1549,7 +1884,15 @@
       "notes": "West-side Cascade crest above Horseshoe Basin; little to no larch (hemlock/heather/glacier terrain)"
     },
     "climbed": false,
-    "prom_ft": 280
+    "prom_ft": 280,
+    "peakbagger_pid": 1853,
+    "trailhead": {
+      "name": "Eldorado TH / Cascade Pass (gated at MP 20)",
+      "lat": 48.4764,
+      "lon": -121.069,
+      "elev_ft": 2200,
+      "notes": "Cascade River Rd closed at MP 20; +2-3 mi bike to Cascade Pass / Boston Basin THs"
+    }
   },
   {
     "name": "Mount Despair",
@@ -1562,12 +1905,20 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock peak with difficult approach; not a ski objective"
+    },
+    "climbed": false,
+    "trailhead": {
+      "name": "Big Beaver / Ross Lake water-taxi",
+      "lat": 48.816,
+      "lon": -121.056,
+      "elev_ft": 1600,
+      "notes": "Water taxi from Ross Lake Resort, or long trail from Ross Dam"
     }
   },
   {
     "name": "Mox Peaks - Twin Spires",
-    "lat": 48.8253,
-    "lon": -121.1994,
+    "lat": 48.94709,
+    "lon": -121.257,
     "elevation_ft": 8504,
     "nwac_zone_slug": "cascade-west-north-baker",
     "nearest_snotel": "817:WA:SNTL",
@@ -1582,7 +1933,15 @@
       "notes": "Remote technical rock spires; extremely committing approach, not a ski objective"
     },
     "climbed": false,
-    "prom_ft": 904
+    "prom_ft": 904,
+    "peakbagger_pid": 1616,
+    "trailhead": {
+      "name": "Depot Creek TH (Chilliwack Lake Rd, BC)",
+      "lat": 49.0223,
+      "lon": -121.4225,
+      "elev_ft": 2000,
+      "notes": "BC approach; border crossing + rough logging road; brushy bushwhack"
+    }
   },
   {
     "name": "Mount Terror",
@@ -1595,12 +1954,13 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Remote Picket Range; technical rock climbing required, not suited for skiing"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Katsuk Peak",
-    "lat": 48.4911,
-    "lon": -121.03853,
+    "lat": 48.57847,
+    "lon": -120.88844,
     "elevation_ft": 8680,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -1616,7 +1976,15 @@
       "notes": "Katsuk Glacier has moderate terrain; remote access via Fisher Creek when SR 20 is open"
     },
     "climbed": false,
-    "prom_ft": 80
+    "prom_ft": 80,
+    "peakbagger_pid": 1823,
+    "trailhead": {
+      "name": "Easy Pass TH (SR 20)",
+      "lat": 48.6044,
+      "lon": -120.7464,
+      "elev_ft": 3700,
+      "notes": "SR 20 closed Silver Star\u2192Ross Dam late-Nov to ~late-May"
+    }
   },
   {
     "name": "Remmel Mountain",
@@ -1637,7 +2005,15 @@
       "notes": "Dry Pasayten Wilderness peak; gentle heather slopes, snow melts very early"
     },
     "climbed": false,
-    "prom_ft": 4365
+    "prom_ft": 4365,
+    "peakbagger_pid": 1773,
+    "trailhead": {
+      "name": "Iron Gate TH (Cathedral / Boundary Trail)",
+      "lat": 48.912,
+      "lon": -119.95,
+      "elev_ft": 6200,
+      "notes": "Long FS-rd approach from Loomis; typically July-Oct only"
+    }
   },
   {
     "name": "Lake Mountain",
@@ -1662,12 +2038,13 @@
       "notes": "Entiat River drainage; larch groves at treeline on approach"
     },
     "climbed": true,
-    "prom_ft": 811
+    "prom_ft": 811,
+    "peakbagger_pid": 1743
   },
   {
     "name": "Pinnacle Mountain",
-    "lat": 48.060669,
-    "lon": -120.984974,
+    "lat": 48.13207,
+    "lon": -120.67048,
     "elevation_ft": 8402,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -1686,7 +2063,15 @@
       "notes": "SR 20 corridor; scattered larch in the area accessible when highway is open in fall"
     },
     "climbed": false,
-    "prom_ft": 1880
+    "prom_ft": 1880,
+    "peakbagger_pid": 2025,
+    "trailhead": {
+      "name": "N Fork Entiat River TH",
+      "lat": 48.0112,
+      "lon": -120.57221,
+      "elev_ft": 3100,
+      "notes": "Standard approach for Cardinal/Saska/Emerald/Pinnacle from Entiat River Rd"
+    }
   },
   {
     "name": "Mount Carru",
@@ -1706,7 +2091,8 @@
       "notes": "Entiat River approach has larch at upper elevations"
     },
     "climbed": true,
-    "prom_ft": 955
+    "prom_ft": 955,
+    "peakbagger_pid": 1730
   },
   {
     "name": "Painted Mountain",
@@ -1719,7 +2105,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Mostly dry ridge scramble; limited snowpack on this east-side peak"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Napeequa Peak",
@@ -1736,7 +2123,8 @@
     "larch_scenery": {
       "quality": "good",
       "notes": "Napeequa Valley has scattered larch at upper elevations; remote but rewarding fall scenery"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "McGregor Mountain",
@@ -1749,7 +2137,8 @@
       "viable": true,
       "quality": "fair",
       "notes": "Sandalee Glacier area has some skiing; long trail approach from Stehekin or High Bridge"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Mount Torment",
@@ -1762,12 +2151,13 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock climbing peak adjacent to Forbidden; not a ski objective"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Tupshin Peak",
-    "lat": 48.3886,
-    "lon": -120.8081,
+    "lat": 48.29701,
+    "lon": -120.75068,
     "elevation_ft": 8321,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "817:WA:SNTL",
@@ -1786,7 +2176,15 @@
       "notes": "Company Creek / Lake Chelan approach has scattered larch at treeline"
     },
     "climbed": false,
-    "prom_ft": 1800
+    "prom_ft": 1800,
+    "peakbagger_pid": 1896,
+    "trailhead": {
+      "name": "Stehekin Landing (Lake Chelan ferry)",
+      "lat": 48.3127,
+      "lon": -120.6603,
+      "elev_ft": 1100,
+      "notes": "Ferry-only access via Lady of the Lake; shuttle to upper valley THs"
+    }
   },
   {
     "name": "Witches Tower",
@@ -1799,7 +2197,8 @@
       "viable": false,
       "quality": "not viable",
       "notes": "Technical rock spire in the Stuart Range; no skiable terrain on the peak"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Booker Mountain",
@@ -1812,13 +2211,14 @@
       "viable": true,
       "quality": "fair",
       "notes": "Glaciated approach near Boston Basin; moderate terrain, accessed from Cascade River Rd"
-    }
+    },
+    "climbed": false
   },
   {
     "name": "Gardner Mountain",
     "lat": 48.506947,
     "lon": -120.488139,
-    "elevation_ft": 8897,
+    "elevation_ft": 8902,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
     "bulger_rank": 22,
@@ -1834,7 +2234,15 @@
       "notes": "Dry east-side scramble; mostly talus and heather, snow melts early similar to N Gardner"
     },
     "climbed": false,
-    "prom_ft": 698
+    "prom_ft": 716,
+    "peakbagger_pid": 1928,
+    "trailhead": {
+      "name": "Wolf Creek TH (Methow Valley)",
+      "lat": 48.5469,
+      "lon": -120.2403,
+      "elev_ft": 2400,
+      "notes": "Year-round low-elevation TH"
+    }
   },
   {
     "name": "Boston Peak",
@@ -1855,7 +2263,15 @@
       "notes": "Boston Glacier and NE couloir offer excellent skiing; accessed via Boston Basin from Cascade River Rd"
     },
     "climbed": false,
-    "prom_ft": 854
+    "prom_ft": 854,
+    "peakbagger_pid": 1851,
+    "trailhead": {
+      "name": "Eldorado TH / Cascade Pass (gated at MP 20)",
+      "lat": 48.4764,
+      "lon": -121.069,
+      "elev_ft": 2200,
+      "notes": "Cascade River Rd closed at MP 20; +2-3 mi bike to Cascade Pass / Boston Basin THs"
+    }
   },
   {
     "name": "Robinson Mountain",
@@ -1871,7 +2287,15 @@
       "notes": "Gentle east-side scramble; mostly heather and talus, snow melts early"
     },
     "climbed": true,
-    "prom_ft": 1686
+    "prom_ft": 1686,
+    "peakbagger_pid": 1756,
+    "trailhead": {
+      "name": "Robinson Creek TH (Methow)",
+      "lat": 48.5731,
+      "lon": -120.5489,
+      "elev_ft": 2500,
+      "notes": "Off Lost River Rd; year-round low-elevation TH"
+    }
   },
   {
     "name": "Cathedral Peak",
@@ -1892,7 +2316,15 @@
       "notes": "Dry Pasayten Wilderness scramble; mostly talus and heather, minimal snow retention"
     },
     "climbed": false,
-    "prom_ft": 989
+    "prom_ft": 989,
+    "peakbagger_pid": 1766,
+    "trailhead": {
+      "name": "Iron Gate TH (Cathedral / Boundary Trail)",
+      "lat": 48.912,
+      "lon": -119.95,
+      "elev_ft": 6200,
+      "notes": "Long FS-rd approach from Loomis; typically July-Oct only"
+    }
   },
   {
     "name": "Monument Peak",
@@ -1913,7 +2345,8 @@
       "notes": "Dry east-side scramble peak; exposed terrain, snow melts early"
     },
     "climbed": true,
-    "prom_ft": 1072
+    "prom_ft": 1072,
+    "peakbagger_pid": 1742
   },
   {
     "name": "Mount Osceola",
@@ -1929,7 +2362,8 @@
       "notes": "East-side scramble; talus and heather terrain, snow melts early"
     },
     "climbed": true,
-    "prom_ft": 1147
+    "prom_ft": 1147,
+    "peakbagger_pid": 1731
   },
   {
     "name": "Buck Mountain",
@@ -1945,15 +2379,16 @@
       "notes": "East-side scramble; mostly dry ridge walking and talus"
     },
     "climbed": true,
-    "prom_ft": 1888
+    "prom_ft": 1888,
+    "peakbagger_pid": 1985
   },
   {
     "name": "Storm King Mountain",
-    "lat": 47.48918,
-    "lon": -120.8027,
+    "lat": 48.49151,
+    "lon": -120.92272,
     "elevation_ft": 8520,
-    "nwac_zone_slug": "cascade-east-north",
-    "nearest_snotel": "734:WA:SNTL",
+    "nwac_zone_slug": "cascade-west-central",
+    "nearest_snotel": "788:WA:SNTL",
     "bulger_rank": 51,
     "best_seasons": [
       "summer"
@@ -1962,10 +2397,18 @@
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
-      "notes": "East-side Pasayten scramble; dry terrain, minimal snow"
+      "notes": "Talus-and-ledge rock peak in the Goode-Logan-Black area (NOCA); SW Route is endless talus with a Class 4 / low Class 5 summit finish. Not a ski objective."
     },
     "climbed": false,
-    "prom_ft": 480
+    "prom_ft": 480,
+    "peakbagger_pid": 1833,
+    "trailhead": {
+      "name": "Cascade Pass TH (end of Cascade River Rd)",
+      "lat": 48.4744,
+      "lon": -121.0750,
+      "elev_ft": 3660,
+      "notes": "Standard west-side ground approach: Cascade Pass \u2192 Pelton Basin \u2192 Stehekin River \u2192 Cottonwood Camp \u2192 Park Creek Camp \u2192 Park Creek Trail \u2192 SW basin boot path. ~14 mi to Park Creek Camp. Cascade River Rd typically open late June through October. Alternative: Stehekin Landing via Lady of the Lake ferry, then 11 mi to High Bridge, then 7.5 mi to Park Creek Camp on foot/bike. NOCA backcountry permit required."
+    }
   },
   {
     "name": "Dark Peak",
@@ -1989,7 +2432,15 @@
       "notes": "Entiat drainage with larch at treeline; remote fall color"
     },
     "climbed": false,
-    "prom_ft": 904
+    "prom_ft": 904,
+    "peakbagger_pid": 1904,
+    "trailhead": {
+      "name": "Stehekin Landing (Lake Chelan ferry)",
+      "lat": 48.3127,
+      "lon": -120.6603,
+      "elev_ft": 1100,
+      "notes": "Ferry-only access via Lady of the Lake; shuttle to upper valley THs"
+    }
   },
   {
     "name": "Cashmere Mountain",
@@ -2009,7 +2460,8 @@
       "notes": "Enchantments / Icicle Creek area; some larch visible at higher elevations"
     },
     "climbed": true,
-    "prom_ft": 1581
+    "prom_ft": 1581,
+    "peakbagger_pid": 2172
   },
   {
     "name": "Mox Peak NW",
@@ -2029,7 +2481,15 @@
       "notes": "Remote technical rock spire; extremely committing approach, not a ski objective"
     },
     "climbed": false,
-    "prom_ft": 527
+    "prom_ft": 527,
+    "peakbagger_pid": 1615,
+    "trailhead": {
+      "name": "Depot Creek TH (Chilliwack Lake Rd, BC)",
+      "lat": 49.0223,
+      "lon": -121.4225,
+      "elev_ft": 2000,
+      "notes": "BC approach; border crossing + rough logging road; brushy bushwhack"
+    }
   },
   {
     "name": "Big Craggy Peak",
@@ -2045,12 +2505,13 @@
       "notes": "East-side Pasayten scramble; mostly talus and dry slopes"
     },
     "climbed": true,
-    "prom_ft": 3070
+    "prom_ft": 3070,
+    "peakbagger_pid": 1748
   },
   {
     "name": "Lost Peak",
-    "lat": 48.0292,
-    "lon": -120.7667,
+    "lat": 48.81287,
+    "lon": -120.45826,
     "elevation_ft": 8464,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -2065,12 +2526,13 @@
       "notes": "Entiat / Chiwawa area has larch at higher elevations on approach"
     },
     "climbed": true,
-    "prom_ft": 1624
+    "prom_ft": 1624,
+    "peakbagger_pid": 1736
   },
   {
     "name": "Hoodoo Peak",
-    "lat": 48.81287,
-    "lon": -120.458255,
+    "lat": 48.25181,
+    "lon": -120.34259,
     "elevation_ft": 8464,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "515:WA:SNTL",
@@ -2090,7 +2552,15 @@
       "notes": "Larch Lakes basin is one of WA's premier larch destinations; golden alpine larch surround the approach"
     },
     "climbed": false,
-    "prom_ft": 1624
+    "prom_ft": 1624,
+    "peakbagger_pid": 1958,
+    "trailhead": {
+      "name": "Eagle Lakes TH (Twisp River Rd)",
+      "lat": 48.4225,
+      "lon": -120.3658,
+      "elev_ft": 4200,
+      "notes": "Off Twisp River Rd / Crater Creek Rd; high-clearance recommended"
+    }
   },
   {
     "name": "Tower Mountain",
@@ -2111,12 +2581,20 @@
       "notes": "Dry east-side Pasayten peak; scramble terrain, minimal snow retention"
     },
     "climbed": false,
-    "prom_ft": 2884
+    "prom_ft": 2884,
+    "peakbagger_pid": 1717,
+    "trailhead": {
+      "name": "Hart's Pass / Slate Pk TH",
+      "lat": 48.7195,
+      "lon": -120.6724,
+      "elev_ft": 6800,
+      "notes": "Hart's Pass Rd typically opens late-June to mid-October only"
+    }
   },
   {
     "name": "Mount Bigelow",
-    "lat": 48.0944,
-    "lon": -120.7889,
+    "lat": 48.21836,
+    "lon": -120.3541,
     "elevation_ft": 8440,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -2136,12 +2614,20 @@
       "notes": "Chiwawa / Phelps Creek drainage larch on approach; treeline larch groves"
     },
     "climbed": false,
-    "prom_ft": 840
+    "prom_ft": 840,
+    "peakbagger_pid": 1963,
+    "trailhead": {
+      "name": "Eagle Lakes TH (Twisp River Rd)",
+      "lat": 48.4225,
+      "lon": -120.3658,
+      "elev_ft": 4200,
+      "notes": "Off Twisp River Rd / Crater Creek Rd; high-clearance recommended"
+    }
   },
   {
     "name": "Little Annapurna",
-    "lat": 47.4764,
-    "lon": -120.8042,
+    "lat": 47.46817,
+    "lon": -120.81453,
     "elevation_ft": 8440,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "734:WA:SNTL",
@@ -2156,12 +2642,13 @@
       "notes": "Enchantments basin larches surround the approach; stunning golden alpine scenery in Oct"
     },
     "climbed": true,
-    "prom_ft": 840
+    "prom_ft": 840,
+    "peakbagger_pid": 2187
   },
   {
     "name": "Dorado Needle",
-    "lat": 47.46817,
-    "lon": -120.81453,
+    "lat": 48.54972,
+    "lon": -121.13861,
     "elevation_ft": 8440,
     "nwac_zone_slug": "cascade-west-central",
     "nearest_snotel": "734:WA:SNTL",
@@ -2172,7 +2659,8 @@
       "notes": "Technical rock spire near Eldorado; glaciated approach but summit is rock climbing"
     },
     "climbed": true,
-    "prom_ft": 840
+    "prom_ft": 840,
+    "peakbagger_pid": 1845
   },
   {
     "name": "Greenwood Mountain",
@@ -2188,7 +2676,8 @@
       "notes": "Rocky scramble peak near Stuart Range; no significant ski terrain"
     },
     "climbed": true,
-    "prom_ft": 655
+    "prom_ft": 655,
+    "peakbagger_pid": 2007
   },
   {
     "name": "Saska Peak",
@@ -2212,7 +2701,15 @@
       "notes": "Chiwawa drainage larch groves on approach; combines with Entiat peak trips in larch season"
     },
     "climbed": false,
-    "prom_ft": 644
+    "prom_ft": 644,
+    "peakbagger_pid": 2027,
+    "trailhead": {
+      "name": "N Fork Entiat River TH",
+      "lat": 48.0112,
+      "lon": -120.57221,
+      "elev_ft": 3100,
+      "notes": "Standard approach for Cardinal/Saska/Emerald/Pinnacle from Entiat River Rd"
+    }
   },
   {
     "name": "Blackcap Mountain",
@@ -2233,12 +2730,13 @@
       "notes": "East-side scramble; dry terrain, snow melts early"
     },
     "climbed": true,
-    "prom_ft": 397
+    "prom_ft": 397,
+    "peakbagger_pid": 1739
   },
   {
     "name": "Golden Horn",
-    "lat": 48.6667,
-    "lon": -120.5917,
+    "lat": 48.60358,
+    "lon": -120.7326,
     "elevation_ft": 8366,
     "nwac_zone_slug": "cascade-east-north",
     "nearest_snotel": "515:WA:SNTL",
@@ -2258,7 +2756,15 @@
       "notes": "Cutthroat Pass and Swamp Creek have stunning larch; one of the best SR 20 corridor larch hikes"
     },
     "climbed": false,
-    "prom_ft": 1126
+    "prom_ft": 1126,
+    "peakbagger_pid": 1714,
+    "trailhead": {
+      "name": "Hart's Pass / Slate Pk TH",
+      "lat": 48.7195,
+      "lon": -120.6724,
+      "elev_ft": 6800,
+      "notes": "Hart's Pass Rd typically opens late-June to mid-October only"
+    }
   },
   {
     "name": "West Craggy Peak",
@@ -2273,8 +2779,16 @@
       "quality": "not viable",
       "notes": "East-side Pasayten scramble; mostly dry talus"
     },
-    "climbed": false,
-    "prom_ft": 1126
+    "climbed": true,
+    "prom_ft": 1126,
+    "peakbagger_pid": 1749,
+    "trailhead": {
+      "name": "Iron Gate TH (Cathedral / Boundary Trail)",
+      "lat": 48.912,
+      "lon": -119.95,
+      "elev_ft": 6200,
+      "notes": "Long FS-rd approach from Loomis; typically July-Oct only"
+    }
   },
   {
     "name": "Amphitheater Mountain",
@@ -2294,7 +2808,15 @@
       "notes": "Dry Pasayten Wilderness peak; gentle slopes, snow melts very early"
     },
     "climbed": false,
-    "prom_ft": 758
+    "prom_ft": 758,
+    "peakbagger_pid": 1769,
+    "trailhead": {
+      "name": "Iron Gate TH (Cathedral / Boundary Trail)",
+      "lat": 48.912,
+      "lon": -119.95,
+      "elev_ft": 6200,
+      "notes": "Long FS-rd approach from Loomis; typically July-Oct only"
+    }
   },
   {
     "name": "Windy Peak",
@@ -2315,7 +2837,15 @@
       "notes": "Dry Pasayten scramble; gentle terrain, minimal snow"
     },
     "climbed": false,
-    "prom_ft": 4573
+    "prom_ft": 4573,
+    "peakbagger_pid": 1778,
+    "trailhead": {
+      "name": "Iron Gate TH (Cathedral / Boundary Trail)",
+      "lat": 48.912,
+      "lon": -119.95,
+      "elev_ft": 6200,
+      "notes": "Long FS-rd approach from Loomis; typically July-Oct only"
+    }
   },
   {
     "name": "Cosho Peak",
@@ -2333,10 +2863,18 @@
     "ski_mountaineering": {
       "viable": true,
       "quality": "fair",
-      "notes": "Glaciated north side; remote approach near Forbidden/Boston Basin area"
+      "notes": "Westernmost Bulger on Ragged Ridge; standard ski tag at end of 3-glacier N-side traverse (Mesahchie/Katsuk/Kimtah Glaciers) from Easy Pass TH on SR 20. Camp at Cosho saddle, skin/walk last few hundred ft. Window: SR 20 reopen through ~mid-May."
     },
     "climbed": false,
-    "prom_ft": 492
+    "prom_ft": 492,
+    "peakbagger_pid": 1819,
+    "trailhead": {
+      "name": "Easy Pass TH (SR 20)",
+      "lat": 48.6044,
+      "lon": -120.7464,
+      "elev_ft": 3700,
+      "notes": "SR 20 closed Silver Star\u2192Ross Dam late-Nov to ~late-May"
+    }
   },
   {
     "name": "Big Snagtooth",
@@ -2357,12 +2895,20 @@
       "notes": "North-side glacier terrain near Mesahchie; remote, requires SR 20 access"
     },
     "climbed": false,
-    "prom_ft": 570
+    "prom_ft": 570,
+    "peakbagger_pid": 1916,
+    "trailhead": {
+      "name": "Cutthroat Pass / Rainy Pass TH (SR 20)",
+      "lat": 48.5253,
+      "lon": -120.735,
+      "elev_ft": 4860,
+      "notes": "SR 20 closure Dec-late May"
+    }
   },
   {
     "name": "Switchback Peak",
-    "lat": 47.4667,
-    "lon": -120.9333,
+    "lat": 48.17576,
+    "lon": -120.35806,
     "elevation_ft": 8321,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "734:WA:SNTL",
@@ -2373,12 +2919,13 @@
       "notes": "Rocky scramble in Stuart Range; no sustained ski terrain"
     },
     "climbed": true,
-    "prom_ft": 801
+    "prom_ft": 801,
+    "peakbagger_pid": 1967
   },
   {
     "name": "Abernathy Peak",
-    "lat": 48.17576,
-    "lon": -120.35806,
+    "lat": 48.47768,
+    "lon": -120.52457,
     "elevation_ft": 8321,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -2393,12 +2940,13 @@
       "notes": "Entiat area with larch at upper elevations on approach"
     },
     "climbed": true,
-    "prom_ft": 801
+    "prom_ft": 801,
+    "peakbagger_pid": 1931
   },
   {
     "name": "Flora Mountain",
-    "lat": 48.29701,
-    "lon": -120.750681,
+    "lat": 48.243,
+    "lon": -120.69563,
     "elevation_ft": 8320,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -2417,12 +2965,20 @@
       "notes": "Stehekin / Lake Chelan approach has larch at upper elevations"
     },
     "climbed": false,
-    "prom_ft": 1800
+    "prom_ft": 1800,
+    "peakbagger_pid": 1907,
+    "trailhead": {
+      "name": "Stehekin Landing (Lake Chelan ferry)",
+      "lat": 48.3127,
+      "lon": -120.6603,
+      "elev_ft": 1100,
+      "notes": "Ferry-only access via Lady of the Lake; shuttle to upper valley THs"
+    }
   },
   {
     "name": "Courtney Peak",
-    "lat": 48.12663,
-    "lon": -120.75995,
+    "lat": 48.26073,
+    "lon": -120.44369,
     "elevation_ft": 8392,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -2433,12 +2989,13 @@
       "notes": "Dry east-side scramble; mostly talus and heather"
     },
     "climbed": true,
-    "prom_ft": 1072
+    "prom_ft": 1072,
+    "peakbagger_pid": 1957
   },
   {
     "name": "Martin Peak (Methow)",
-    "lat": 48.18861,
-    "lon": -120.35101,
+    "lat": 48.24168,
+    "lon": -120.81584,
     "elevation_ft": 8375,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
@@ -2448,7 +3005,7 @@
       "quality": "not viable",
       "notes": "Dry east-side Methow scramble; mostly talus and heather"
     },
-    "climbed": true,
+    "climbed": false,
     "prom_ft": 855
   }
 ]

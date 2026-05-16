@@ -1,0 +1,28 @@
+{
+  "_comment": "Trigger routing fixtures. Each entry: a representative user prompt and the skill that should fire for it. Used by scripts/check_triggers.py to detect drift in SKILL.md `description` fields that would route prompts to the wrong skill. Add ambiguous prompts only after the description trigger language is sharpened.",
+  "fixtures": [
+    { "id": 1,  "expected_skill": "trip-briefing",            "prompt": "Generate a trip briefing for Mount Daniels on Sunday." },
+    { "id": 2,  "expected_skill": "trip-briefing",            "prompt": "Plan a go/no-go for Forbidden Peak Saturday." },
+    { "id": 3,  "expected_skill": "trip-briefing",            "prompt": "What are conditions like on Bonanza Peak this weekend?" },
+    { "id": 4,  "expected_skill": "trip-briefing",            "prompt": "Trip briefing for Jack Mountain via the Nohokomeen Headwall." },
+    { "id": 5,  "expected_skill": "trip-briefing",            "prompt": "Check the SNOTEL near Stuart and give me a briefing." },
+
+    { "id": 6,  "expected_skill": "bulger-knowledge",         "prompt": "What's left on my Bulger list?" },
+    { "id": 7,  "expected_skill": "bulger-knowledge",         "prompt": "Have I climbed Buckner?" },
+    { "id": 8,  "expected_skill": "bulger-knowledge",         "prompt": "What happened on my Buckner attempt?" },
+    { "id": 9,  "expected_skill": "bulger-knowledge",         "prompt": "Show me my Bulger progress." },
+    { "id": 10, "expected_skill": "bulger-knowledge",         "prompt": "Which unclimbed Bulgers would make good day trips for me right now?" },
+
+    { "id": 11, "expected_skill": "cascade-mountain-weather", "prompt": "What should I do this weekend?" },
+    { "id": 12, "expected_skill": "cascade-mountain-weather", "prompt": "Is there a weather window this weekend for the Cascades?" },
+    { "id": 13, "expected_skill": "cascade-mountain-weather", "prompt": "What's the NWAC avalanche forecast for Stevens Pass?" },
+    { "id": 14, "expected_skill": "cascade-mountain-weather", "prompt": "Give me a weekend mountain weather overview." },
+    { "id": 15, "expected_skill": "cascade-mountain-weather", "prompt": "Compare conditions across the Cascades this weekend." },
+
+    { "id": 16, "expected_skill": "packing-list",             "prompt": "Generate a packing list for a ski mountaineering day trip on Mount Adams." },
+    { "id": 17, "expected_skill": "packing-list",             "prompt": "What should I bring for a 3-day backpacking trip in the Enchantments in August?" },
+    { "id": 18, "expected_skill": "packing-list",             "prompt": "Make me an ultralight winter day hike kit for Snow Lake." },
+    { "id": 19, "expected_skill": "packing-list",             "prompt": "Gear list for rafting the Wenatchee with 4 people." },
+    { "id": 20, "expected_skill": "packing-list",             "prompt": "What load-out do I need for a snow camping trip?" }
+  ]
+}

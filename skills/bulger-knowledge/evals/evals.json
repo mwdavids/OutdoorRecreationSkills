@@ -1,0 +1,61 @@
+{
+  "skill_name": "bulger-knowledge",
+  "_comment": "Evals for the personal Bulger-list knowledge skill. Schema follows c:\\Users\\midavids\\.agents\\skills\\skill-creator\\references\\schemas.md. Run with skill-creator's scripts\\run_eval.py (requires Claude Code CLI). Expectations should be verifiable assertions about the model's output — facts it must surface, files it must read, structure it must follow.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "What's left on my Bulger list? How many do I have to go?",
+      "expected_output": "A summary of unclimbed Bulger peaks (count + list) sourced from the summit log and bulger-peaks.json.",
+      "expectations": [
+        "Output reports 51 unclimbed peaks (or whatever is current; must match summit-log.md and bulger-peaks.json `climbed: false`)",
+        "Output reports 49 climbed peaks (must match memory and JSON)",
+        "Output cites or reads skills/bulger-knowledge/data/summit-log.md OR skills/trip-briefing/references/bulger-peaks.json",
+        "Output does not invent peaks not in bulger-peaks.json"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Have I climbed Buckner? What happened on my attempt?",
+      "expected_output": "Surfaces the 2026-05-04 attempt and the Sahale-Boston Col turnaround note.",
+      "expectations": [
+        "Output says Buckner is unclimbed",
+        "Output surfaces the 2026-05-04 attempt (date or month/year)",
+        "Output mentions the Sahale-Boston Col turnaround",
+        "Output reads skills/bulger-knowledge/data/peaks/buckner/2026-05-04-attempt.md or the equivalent peak file"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "What's the route beta on Jack Mountain via the Nohokomeen Headwall?",
+      "expected_output": "Pulls cached route knowledge: ~50° snow, bergschrund crux, sweet spot late May–mid June, Ross Dam approach.",
+      "expectations": [
+        "Output reads skills/bulger-knowledge/data/peaks/jack.md or jack/references/*",
+        "Output mentions the bergschrund as the season-limiting crux",
+        "Output gives a seasonal window roughly late May through mid-June",
+        "Output mentions Ross Dam trailhead as the approach"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Recommend a Bulger peak I could try this weekend as a day trip from North Bend.",
+      "expected_output": "Cross-references unclimbed list, late-season access notes, and day-trip viability.",
+      "expectations": [
+        "Output only recommends peaks marked unclimbed in bulger-peaks.json",
+        "Output considers drive time from North Bend",
+        "Output considers current-season access (e.g. road closures)",
+        "Output does not recommend peaks that require multi-day approaches without flagging the overnight"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Which Bulgers have I climbed in the Wenatchee range?",
+      "expected_output": "Filters the climbed list to peaks in the Wenatchee Mountains subset.",
+      "expectations": [
+        "Output reads the summit log or bulger-peaks.json",
+        "Output lists only peaks marked climbed: true",
+        "Output's list is restricted to Wenatchee Mountains range peaks",
+        "Output does not include peaks from other ranges (e.g. Skagit, Pasayten)"
+      ]
+    }
+  ]
+}

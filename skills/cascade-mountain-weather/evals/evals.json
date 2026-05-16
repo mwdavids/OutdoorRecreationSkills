@@ -1,0 +1,50 @@
+{
+  "skill_name": "cascade-mountain-weather",
+  "_comment": "Evals for the multi-objective weekend mountain weather skill. Schema follows c:\\Users\\midavids\\.agents\\skills\\skill-creator\\references\\schemas.md. This skill is distinct from trip-briefing in that the user has NOT picked a peak yet — the skill ranks activities/locations against current conditions.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "What should I do this weekend? I'm open to anything — peak bagging, skiing, trail running.",
+      "expected_output": "Ranked activity recommendations for the weekend across the Cascades.",
+      "expectations": [
+        "Output fetches NWS forecasts for multiple Cascade locations (not a single peak)",
+        "Output fetches the current NWAC avalanche forecast (relevant zones)",
+        "Output ranks activities from best to worst given conditions",
+        "Output does not produce a single peak-specific go/no-go (that's trip-briefing's job)"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "What's the NWAC avalanche forecast for the Stevens Pass zone?",
+      "expected_output": "Concise summary of Stevens Pass NWAC forecast: danger rose, problem types, key takeaways.",
+      "expectations": [
+        "Output fetches the NWAC forecast for Stevens Pass specifically",
+        "Output reports a danger rating (Low / Moderate / Considerable / High / Extreme) per elevation band",
+        "Output names the active avalanche problem types",
+        "Output cites the NWAC forecast URL or the publish/expire date"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Is there a weather window this weekend for a big Cascade objective?",
+      "expected_output": "Synoptic-level forecast read across the Cascades, picking out the best day if any.",
+      "expectations": [
+        "Output fetches a synoptic forecast (NWS area discussion or similar) plus point forecasts",
+        "Output identifies which day(s) are best",
+        "Output addresses freezing level and precipitation in the recommendation",
+        "Output considers multiple Cascade locations (not just one peak)"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Compare conditions for Gardner and Remmel this weekend — which is the better day trip?",
+      "expected_output": "Side-by-side comparison of two peaks; honest pick.",
+      "expectations": [
+        "Output fetches conditions for both peaks (NWS, NWAC, SNOTEL or proxy)",
+        "Output gives a side-by-side comparison structure (table or two-section format)",
+        "Output picks one as the better option and justifies it",
+        "Output considers drive time from North Bend, WA for both"
+      ]
+    }
+  ]
+}
