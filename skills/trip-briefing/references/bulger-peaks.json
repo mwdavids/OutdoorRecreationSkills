@@ -1284,13 +1284,13 @@
     }
   },
   {
-    "name": "Martin Peak",
+    "name": "Martin Peak (Methow)",
     "lat": 48.18861,
     "lon": -120.35101,
-    "elevation_ft": 8511,
+    "elevation_ft": 8377,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
-    "bulger_rank": 54,
+    "bulger_rank": 86,
     "best_seasons": [
       "summer"
     ],
@@ -1305,15 +1305,8 @@
       "notes": "Phelps Creek / Chiwawa River approach passes through larch zones at higher elevations"
     },
     "climbed": true,
-    "prom_ft": 2111,
-    "peakbagger_pid": 1966,
-    "trailhead": {
-      "name": "Holden Village (via Lucerne ferry)",
-      "lat": 48.205,
-      "lon": -120.747,
-      "elev_ft": 3220,
-      "notes": "Access via Lake Chelan ferry to Lucerne then bus; standard Bonanza/Martin approach"
-    }
+    "prom_ft": 906,
+    "peakbagger_pid": 1966
   },
   {
     "name": "Emerald Peak",
@@ -2993,19 +2986,27 @@
     "peakbagger_pid": 1957
   },
   {
-    "name": "Martin Peak (Methow)",
+    "name": "Martin Peak (CNC)",
     "lat": 48.24168,
     "lon": -120.81584,
-    "elevation_ft": 8375,
+    "elevation_ft": 8509,
     "nwac_zone_slug": "cascade-east-central",
     "nearest_snotel": "606:WA:SNTL",
-    "bulger_rank": 83,
+    "bulger_rank": 56,
     "ski_mountaineering": {
       "viable": false,
       "quality": "not viable",
       "notes": "Dry east-side Methow scramble; mostly talus and heather"
     },
     "climbed": false,
-    "prom_ft": 855
+    "prom_ft": 2152,
+    "peakbagger_pid": 1908,
+    "trailhead": {
+      "name": "Holden Village (via Lucerne ferry)",
+      "lat": 48.205,
+      "lon": -120.747,
+      "elev_ft": 3220,
+      "notes": "Access via Lake Chelan ferry to Lucerne then bus; standard Bonanza/Martin approach"
+    }
   }
 ]

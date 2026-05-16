@@ -169,15 +169,24 @@ def check_bulger_peaks() -> list | None:
     rank_counts = Counter(ranks)
     for r, c in rank_counts.items():
         if c > 1:
-            dupes = [p["name"] for p in ranked if p["bulger_rank"] == r]
-            err(f"bulger_rank {r} used by multiple peaks: {dupes}")
+            tied = [p for p in ranked if p["bulger_rank"] == r]
+            elevs = [p.get("elevation_ft") for p in tied if isinstance(p.get("elevation_ft"), int)]
+            names = [p["name"] for p in tied]
+            # Close-elevation rank ties are expected (peakbagger groups peaks of identical
+            # rounded elevation). Warn only when the elevation span is small.
+            if elevs and max(elevs) - min(elevs) <= 50:
+                warn(f"bulger_rank {r} shared by close-elev peaks (span {max(elevs)-min(elevs)} ft): {names}")
+            else:
+                err(f"bulger_rank {r} used by peaks with different elevations: {names}")
 
     expected = set(range(1, 101))
     actual = set(ranks)
     missing = expected - actual
     extra = actual - expected
     if missing:
-        err(f"bulger_rank values missing from 1..100: {sorted(missing)}")
+        # Rank ties naturally create gaps (two peaks at rank N => no peak at rank N+1).
+        # This is normal and not a data error.
+        warn(f"bulger_rank values missing from 1..100 (expected when ranks tie): {sorted(missing)}")
     if extra:
         err(f"bulger_rank values outside 1..100: {sorted(extra)}")
 

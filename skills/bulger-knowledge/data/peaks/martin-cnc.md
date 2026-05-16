@@ -1,9 +1,9 @@
-# Martin Peak
+# Martin Peak (CNC)
 
-**Bulger #54 · 8511 ft · Prom 2111 ft**
+**Bulger #56 · 8509 ft · Prom 2152 ft**
 
 ## Status
-Climbed (as of May 2026).
+Unclimbed (as of May 2026).
 
 ## Personal Context
 *To be filled in: trip timing, approach feasibility, weather window, seasonal considerations, user's interest level, any prior attempts.*
@@ -11,12 +11,12 @@ Climbed (as of May 2026).
 ## Summary
 *To be filled in: brief description of the peak, standard route difficulty, notable features, views, why it's on the Bulger list, etc.*
 
-**Elevation:** 8511 ft. **Prominence:** 2111 ft. **Coordinates:** 48.1886 N, -120.3510 W.
+**Elevation:** 8509 ft. **Prominence:** 2152 ft. **Coordinates:** 48.2417 N, -120.8158 W.
 
-**PeakBagger link:** https://www.peakbagger.com/peak.aspx?pid=1966
+**PeakBagger link:** https://www.peakbagger.com/peak.aspx?pid=1908
 
 ## Best-Season Window
-*To be filled in: optimal climbing window(s), seasonal considerations, access constraints, weather patterns.*
+Mid-summer through early October is the typical window. CNC Martin sits in Glacier Peak Wilderness adjacent to Bonanza Peak; access is via the Lake Chelan ferry to Lucerne, then Holden Village.
 
 Candidate seasons: summer
 
@@ -47,10 +47,10 @@ Candidate seasons: summer
 **Dog-friendly:** No
 
 ## Statistics
-- **Elevation:** 8511 ft
-- **Prominence:** 2111 ft
-- **Coordinates:** 48.1886 N, -120.3510 W
-- **Bulger rank:** #54
+- **Elevation:** 8375 ft
+- **Prominence:** 855 ft
+- **Coordinates:** 48.2417 N, -120.8158 W
+- **Bulger rank:** #83
 - **NWAC zone:** cascade-east-central
 - **Nearest SNOTEL:** 606:WA:SNTL
 
@@ -61,10 +61,12 @@ Candidate seasons: summer
 *To be filled in: other nearby peaks, recommended combinations, longer traverse options, multi-day itineraries.*
 
 ## Reference TRs Cached
-- **Country Highpoints (2018-7-18):** https://www.countryhighpoints.com/dark-peak-bonanza-peak-and-martin-peak/
+- **Country Highpoints (2018-9-15):** https://www.countryhighpoints.com/hoodoo-raven-ridge-martin-bigelow-switchback-in-an-day/
+- **Country Highpoints (2016-3-28):** https://www.countryhighpoints.com/sawtooth-slam/
+- **Country Highpoints (2020-1-19):** https://www.countryhighpoints.com/bigelow-switchback-martin-winter-ascents/
 *To be filled in: links to known trip reports, guidebook references, online resources.*
 
-- **PeakBagger:** https://www.peakbagger.com/peak.aspx?pid=1966
+- **PeakBagger:** https://www.peakbagger.com/peak.aspx?pid=None
 
 ## Beta Gaps
 - Recent (2024–2026) trip reports not yet fetched

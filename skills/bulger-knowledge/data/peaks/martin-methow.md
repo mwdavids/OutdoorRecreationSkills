@@ -1,9 +1,9 @@
 # Martin Peak (Methow)
 
-**Bulger #83 · 8375 ft · Prom 855 ft**
+**Bulger #86 · 8377 ft · Prom 906 ft**
 
 ## Status
-Unclimbed (as of May 2026).
+Climbed (as of May 2026).
 
 ## Personal Context
 *To be filled in: trip timing, approach feasibility, weather window, seasonal considerations, user's interest level, any prior attempts.*
@@ -11,21 +11,20 @@ Unclimbed (as of May 2026).
 ## Summary
 *To be filled in: brief description of the peak, standard route difficulty, notable features, views, why it's on the Bulger list, etc.*
 
-**Elevation:** 8375 ft. **Prominence:** 855 ft. **Coordinates:** 48.2417 N, -120.8158 W.
+**Elevation:** 8377 ft. **Prominence:** 906 ft. **Coordinates:** 48.1886 N, -120.3510 W.
 
-**PeakBagger link:** https://www.peakbagger.com/peak.aspx?pid=None
+**PeakBagger link:** https://www.peakbagger.com/peak.aspx?pid=1966
 
 ## Best-Season Window
-Late summer through early October is usually the most straightforward dry-season window. In the Sawtooths, late September and early October can be especially beautiful when the larches turn, provided early storms have not arrived.
+*To be filled in: optimal climbing window(s), seasonal considerations, access constraints, weather patterns.*
 
-Candidate seasons: varies
+Candidate seasons: summer
 
 ## Standard Route
 *To be filled in: approach, standard/recommended route, route description by pitch/section, descent, difficulty rating (Class 1–5), distance, elevation gain, time estimate.*
 
 ### Approach
 *Details on trailhead access, road condition, parking, permits, and trail to base camp or staging area.*
-
 
 ### Summit Route
 *Step-by-step route description, technical crux, exposure, protection, variations.*
@@ -47,10 +46,10 @@ Candidate seasons: varies
 **Dog-friendly:** No
 
 ## Statistics
-- **Elevation:** 8375 ft
-- **Prominence:** 855 ft
-- **Coordinates:** 48.2417 N, -120.8158 W
-- **Bulger rank:** #83
+- **Elevation:** 8511 ft
+- **Prominence:** 2111 ft
+- **Coordinates:** 48.1886 N, -120.3510 W
+- **Bulger rank:** #54
 - **NWAC zone:** cascade-east-central
 - **Nearest SNOTEL:** 606:WA:SNTL
 
@@ -61,12 +60,10 @@ Candidate seasons: varies
 *To be filled in: other nearby peaks, recommended combinations, longer traverse options, multi-day itineraries.*
 
 ## Reference TRs Cached
-- **Country Highpoints (2018-9-15):** https://www.countryhighpoints.com/hoodoo-raven-ridge-martin-bigelow-switchback-in-an-day/
-- **Country Highpoints (2016-3-28):** https://www.countryhighpoints.com/sawtooth-slam/
-- **Country Highpoints (2020-1-19):** https://www.countryhighpoints.com/bigelow-switchback-martin-winter-ascents/
+- **Country Highpoints (2018-7-18):** https://www.countryhighpoints.com/dark-peak-bonanza-peak-and-martin-peak/
 *To be filled in: links to known trip reports, guidebook references, online resources.*
 
-- **PeakBagger:** https://www.peakbagger.com/peak.aspx?pid=None
+- **PeakBagger:** https://www.peakbagger.com/peak.aspx?pid=1966
 
 ## Beta Gaps
 - Recent (2024–2026) trip reports not yet fetched
