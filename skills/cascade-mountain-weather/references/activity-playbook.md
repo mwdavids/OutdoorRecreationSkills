@@ -25,10 +25,12 @@ For trip-specific gear thinking, see the trip-briefing skill's [trip-style-playb
 - Season: Apr–Jun (corn), into Jul on volcanoes.
 - Corn cycle is the centerpiece — read [../../trip-briefing/references/corn-cycle.md](../../trip-briefing/references/corn-cycle.md).
 - Departure timing driven by corn timing, not sunrise.
+- **Off-season / no snow = NO, not N/A.** Late summer and fall the volcano routes are dry and broken with no skiable snowpack — verdict is **NO** (conditions rule it out), not "N/A" or "off-season." Don't rank a snowless ski line above any activity that's actually workable.
 
 ## 3. Backcountry skiing
 
 - **Hard rule: NWAC High or Extreme = no.** Considerable = flag prominently, user's call.
+- **No skiable snowpack = NO.** Once the snow has melted out at ski elevation (typical late summer / early fall in the core zones), there's nothing to ski — verdict is **NO**, not MARGINAL.
 - Powder shelf-life check before recommending "powder" days — see [../../trip-briefing/references/powder-shelf-life.md](../../trip-briefing/references/powder-shelf-life.md). If any above-freezing temps intervened at ski elevation between storm and trip date, it's no longer powder.
 - Core zones (winter): Snoqualmie (Alpental sidecountry, Chair Peak, Snow Lake), Stevens (Cowboy Mtn, Big Chief), Crystal sidecountry, Baker (Heather Meadows, Table Mtn, Herman Saddle, Artist Point).
 
@@ -64,6 +66,8 @@ Always sanity-check with toorainy.com for rock dryness — see [data-sources.md]
 - **Skykomish** — user has interest but less experience. USGS `12134500` (Gold Bar). Rain-fed and snowmelt.
 
 When a warm spell is driving rapid melt in spring → call out the Wenatchee.
+
+**Flow too low = NO, not MARGINAL.** Check the gauge before ranking. When flow is below the runnable minimum for a run — e.g., late-August low water on the Middle Fork after snowmelt is spent — the verdict is **NO**, not "MARGINAL / late-season low." A river that's too bony to run is a hard no, and it ranks below any activity that's actually workable.
 
 Real-time flow: `https://waterdata.usgs.gov/nwis/uv?site_no={GAUGE}`.
 

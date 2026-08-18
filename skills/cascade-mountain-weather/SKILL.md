@@ -56,7 +56,9 @@ Cross-reference these supporting refs as conditions demand:
 
 Render per [references/weekend-briefing-template.md](references/weekend-briefing-template.md). Required sections: Pattern Overview · If I Had This Weekend · Ranked Activities (table) · Trail Running Conditions · Road Access & Logistics · Heads Up · The Baseline. Add Regional Notes only when west/east or N/S diverge meaningfully.
 
-Verdict semantics: **GO** (conditions align), **MARGINAL** (workable but compromised), **NO** (hard no — NWAC High/Extreme, summit wind >50 mph, road closed, lightning on exposed rock).
+Verdict semantics: **GO** (conditions align), **MARGINAL** (workable but compromised), **NO** (hard no). A **NO** is a hard no — NWAC High/Extreme, summit wind >50 mph, road closed, lightning on exposed rock, **flow below runnable minimum (rivers too low), or no skiable snowpack (off-season / melted out)**. Do not use "N/A" for a seasonally-dead activity — if there's no snow to ski or no water to run, that's a **NO**.
+
+**Ranking rule — verdict tier first, desire order second.** Sort the table by verdict quality: all **GO** rows, then all **MARGINAL** rows, then all **NO** rows. A NO can never outrank a GO or MARGINAL, regardless of how much the user prefers that activity. *Within* a verdict tier, order by the user's desire/priority order (peak bagging → ski mountaineering → backcountry skiing → rock → whitewater). This means a MARGINAL peak-bagging day ranks above a NO on east-side rock, even though rock sits lower in raw priority.
 
 ## Tone
 

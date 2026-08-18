@@ -47,7 +47,19 @@ Acknowledge honestly — don't force a marginal outdoor recommendation.]
 
 - **GO** = conditions align with the activity's needs; recommended.
 - **MARGINAL** = workable but compromised (powder gone wet, ridgeline wind borderline, single dry day for Index, etc.). Caller decides.
-- **NO** = hard no (NWAC High/Extreme for BC ski, summit winds >50 mph for alpine, road closed below objective, lightning forecast on exposed rock).
+- **NO** = hard no (NWAC High/Extreme for BC ski, summit winds >50 mph for alpine, road closed below objective, lightning forecast on exposed rock, flow below runnable minimum / rivers too low, or no skiable snowpack — off-season or melted out).
+
+Don't invent an "N/A" tier for a seasonally-dead activity. If there's no snow to ski or no water to run, the verdict is **NO** — the conditions actively rule it out.
+
+## Ranking rule
+
+Sort the Ranked Activities table by **verdict tier first, desire order second**:
+
+1. All **GO** rows, then all **MARGINAL** rows, then all **NO** rows.
+2. A **NO** never outranks a **GO** or **MARGINAL**, no matter how much the user prefers that activity.
+3. *Within* a tier, order by the user's desire/priority order (peak bagging → ski mountaineering → backcountry skiing → rock → whitewater).
+
+Example: a MARGINAL Saturday peak/rock day ranks **above** a NO on east-side rock, because MARGINAL beats NO even though rock is a lower-priority activity than the marginal option.
 
 ## Voice
 

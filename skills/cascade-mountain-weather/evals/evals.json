@@ -45,6 +45,17 @@
         "Output picks one as the better option and justifies it",
         "Output considers drive time from North Bend, WA for both"
       ]
+    },
+    {
+      "id": 5,
+      "prompt": "It's late August after a hot, dry stretch. What should I do this weekend — peak bagging, skiing, rock, or a river run?",
+      "expected_output": "Ranked weekend briefing where seasonally-dead activities are hard NOs and the table is ordered by verdict tier.",
+      "expectations": [
+        "Whitewater on the Middle Fork is a NO (flow too low / snowmelt spent), not MARGINAL",
+        "Ski mountaineering / backcountry skiing is a NO (no skiable snowpack), not N/A or off-season",
+        "The ranked table orders all GO and MARGINAL rows above every NO row",
+        "A MARGINAL option is never ranked below a NO option, even when the NO activity is higher in raw priority order"
+      ]
     }
   ]
 }
