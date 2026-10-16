@@ -45,6 +45,50 @@
         "Output picks one as the better option and justifies it",
         "Output considers drive time from North Bend, WA for both"
       ]
+    },
+    {
+      "id": 7,
+      "prompt": "It's March and I'm running near North Bend and Snoqualmie Pass this weekend. No usable local trip reports are available. Available snowpack data and weather history show an established pack with recent thaw/refreeze. At what elevations should I expect snow on shaded versus sunny trails?",
+      "expected_output": "A weather/model-inferred snow-coverage assessment that works without local reports and distinguishes the foothills from the pass.",
+      "expectations": [
+        "Output uses available representative station and/or regional snowpack model evidence with weather history and forecast rather than refusing because WTA reports are absent",
+        "Output distinguishes first consequential patches, sustained coverage, and surface/ice conditions; reports supported elevation ranges or explicitly identifies why a particular band cannot be quantified",
+        "Output separates North Bend foothills from Snoqualmie Pass and treats shade, canopy, and slope aspect without a universal elevation offset",
+        "Output labels inference, cites evidence dates and sources, explains uncertainty, and does not equate forecast snow level or freezing level with existing snow coverage",
+        "Output does not infer snow-free trails from missing reports, zero modeled snow, or a bare remote station"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "What snow elevations should I expect for runs on Mount Si, Mailbox, and around Snoqualmie Pass this spring? Recent WTA reports describe snow transitions on the actual routes, but the regional snow model disagrees in some places.",
+      "expected_output": "A route-aware assessment that prioritizes dated WTA observations for the traveled sections while explaining differences from regional modeled coverage.",
+      "expectations": [
+        "Output uses WTA.org as the preferred local observation source for Mount Si, Mailbox, and Snoqualmie Pass",
+        "Output records outing dates, route variants, traveled extent, and coverage or surface observations rather than relying only on posting dates or snow tags",
+        "Output uses representative route observations to refine or challenge the baseline for the observed sections and explains coarse model conflicts",
+        "Output checks intervening and forecast weather, preserves uncertainty outside reported sections, and does not interpret silence about snow as snow-free",
+        "Output distinguishes patches, sustained coverage, and compacted trail ice with evidence dates and confidence"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "Yesterday's WTA report says the Mailbox trail was snow-free to the summit. A cold storm is forecast to bring accumulating snow well below the summit before my run tomorrow. Can I use yesterday's report as the snowline?",
+      "expected_output": "An updated assessment that treats the report as a pre-storm baseline, not clearance for tomorrow's run.",
+      "expectations": [
+        "Output identifies the intervening storm as invalidating the report as a direct description of tomorrow's coverage",
+        "Output considers forecast snowfall elevation, accumulation, persistence, and refreeze without treating forecast snowfall elevation as a guaranteed on-trail coverage boundary",
+        "Output separates the observed pre-storm state from the inferred outing conditions, widens uncertainty, and does not call the route snow-free based on report recency"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "Estimate shaded and sunny trail snow elevations this spring. WTA is inaccessible, representative station and snow model data are unavailable, satellite imagery is cloud-obscured, and only today's high freezing level is known.",
+      "expected_output": "A useful qualitative assessment with explicit data limitations, without fabricating numerical snowline bands.",
+      "expectations": [
+        "Output explains that current freezing level alone cannot establish remaining snow coverage or a defensible numerical elevation range",
+        "Output still gives supported qualitative retention and ice considerations and a conservative planning implication rather than stopping at missing WTA reports",
+        "Output identifies unavailable snowpack evidence, labels low confidence, and does not interpret cloud-obscured imagery as bare ground or invent local observations"
+      ]
     }
   ]
 }

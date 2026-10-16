@@ -22,6 +22,7 @@ Minimum fetch set for every briefing:
 6. **WSDOT passes** — access gating
 
 Add as conditions warrant:
+- **On-trail snow coverage** — in winter/spring, whenever residual or fresh snow could affect running, or when asked about snow encounter elevation: follow [references/data-sources.md](references/data-sources.md#on-trail-snow-coverage-not-forecast-snow-level). Build an estimate from available snowpack measurements/models, weather history, forecast, and terrain even without local reports. Check **WTA.org first for local observations**, especially Mount Si, Mailbox, and Snoqualmie Pass; reports refine the estimate but are not a prerequisite. Distinguish first consequential patches, sustained coverage, and surface/ice conditions; give elevation ranges by relevant exposure with evidence dates and confidence.
 - **toorainy.com** — any time rock climbing is plausible (gives 48 h rain accum + crag-specific humidity)
 - **UW WRF time-height** — when summit-window timing is ambiguous
 - **NWS observed freezing levels** — spring/early-summer ski mountaineering or anytime FZL drives the decision

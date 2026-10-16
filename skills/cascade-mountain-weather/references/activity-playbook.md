@@ -37,6 +37,7 @@ For trip-specific gear thinking, see the trip-briefing skill's [trip-style-playb
 - Done **4–6 days/week regardless of weather**. Do NOT phrase as a recommendation.
 - Home base North Bend → Middle Fork Snoqualmie trail system, Mailbox, Si, Teneriffe.
 - Note relevant conditions instead: "Expect steady rain and 38 °F in North Bend — dress for wet/cool on Middle Fork."
+- When snow may affect running, follow [data-sources.md](data-sources.md#on-trail-snow-coverage-not-forecast-snow-level): estimate on-trail coverage from available snowpack evidence, weather history/forecast, and terrain **even without local reports**. Prefer **WTA.org** for optional route observations, especially Mount Si, Mailbox, and Snoqualmie Pass. Distinguish first consequential patches, sustained coverage, and packed snow/ice; provide supported exposure-specific elevation ranges, evidence dates, and confidence. Do not substitute forecast snow level for existing coverage or treat missing reports as snow-free.
 - Genuinely hazardous: flag ice storms, extreme heat, AQI >150.
 
 ## 5. Rock climbing

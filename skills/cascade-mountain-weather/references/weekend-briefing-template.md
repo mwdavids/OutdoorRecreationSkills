@@ -29,7 +29,13 @@ For activities with regional variability, call out the best zone.]
 hammered — Vantage looks great even though Snoqualmie is dumping."]
 
 ### Trail Running Conditions
-[Brief — it's happening regardless. Temp, precip, traction, AQI.]
+[Brief — it's happening regardless. Temp, precip, traction, AQI. When snow is relevant,
+separate North Bend foothills from Snoqualmie Pass and relevant shaded/sunny exposures:
+first consequential patches and sustained coverage (elevation ranges in ft), surface/ice,
+and changes through the outing. Cite evidence dates/URLs and confidence; label report-supported
+vs. weather/model-inferred. Prefer WTA for local reports, but still assess without them.
+Do not equate forecast snow level with existing coverage. If no numerical range is defensible,
+state the data gap and supported qualitative assessment rather than inventing a cutoff.]
 
 ### Road Access & Logistics
 [SR 20 status, pass conditions, chain requirements, closures affecting recommendations.]
